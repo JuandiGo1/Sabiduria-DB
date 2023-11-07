@@ -74,16 +74,20 @@ export class Handler {
 
 const usuarioHandler = new Handler(db, 'Usuario')
 const aspiranteHandler = new Handler(db, 'Aspirante')
+const direccionHandler = new Handler(db, 'Direccion')
+const telefonoHandler = new Handler(db, 'Telefono')
 
 // Initialize the handler
 ;(async () => {
     try {
         await usuarioHandler.init()
         await aspiranteHandler.init()
+        await direccionHandler.init()
+        await telefonoHandler.init()
         // You can now use usuarioHandler
     } catch (error) {
         console.error(error)
     }
 })()
 
-export { usuarioHandler, aspiranteHandler }
+export { usuarioHandler, aspiranteHandler, direccionHandler, telefonoHandler }
