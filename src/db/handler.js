@@ -76,6 +76,11 @@ const usuarioHandler = new Handler(db, 'Usuario')
 const aspiranteHandler = new Handler(db, 'Aspirante')
 const direccionHandler = new Handler(db, 'Direccion')
 const telefonoHandler = new Handler(db, 'Telefono')
+const programaHandler = new Handler(db, 'Programa')
+const areaHandler = new Handler(db, 'Area')
+const asignaturaHandler = new Handler(db, 'Asignatura')
+const requisitosHandler = new Handler(db, 'Requisitos')
+const pagoHandler = new Handler(db, 'Pago')
 
 // Initialize the handler
 ;(async () => {
@@ -84,10 +89,25 @@ const telefonoHandler = new Handler(db, 'Telefono')
         await aspiranteHandler.init()
         await direccionHandler.init()
         await telefonoHandler.init()
+        await programaHandler.init()
+        await areaHandler.init()
+        await asignaturaHandler.init()
+        await requisitosHandler.init()
+        await pagoHandler.init()
         // You can now use usuarioHandler
     } catch (error) {
         console.error(error)
     }
 })()
 
-export { usuarioHandler, aspiranteHandler, direccionHandler, telefonoHandler }
+export {
+    usuarioHandler,
+    aspiranteHandler,
+    direccionHandler,
+    telefonoHandler,
+    programaHandler,
+    areaHandler,
+    asignaturaHandler,
+    requisitosHandler,
+    pagoHandler
+}
