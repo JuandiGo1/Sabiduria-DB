@@ -1,29 +1,36 @@
 import db from '../db/index.js'
+import { aspiranteHandler } from '../db/handler.js'
 
-export function getAspirantes(req, res) {
-    db.all('SELECT * FROM Aspirante', [], (err, rows) => {
-        if (err) {
-            res.status(400).json({
-                error: 'Se produjo un error al obtener los aspirantes'
-            })
+export async function getAspirantes(req, res) {
+    try {
+        const rows = await aspiranteHandler.getAll()
+        const response = {
+            message: 'Aspirantes obtenidos correctamente',
+            data: rows
         }
-        res.json(rows)
-    })
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: 'Se produjo un error al obtener los aspirantes',
+            error: true
+        })
+    }
 }
 
-export function getAspiranteById(req, res) {
-    db.get(
-        'SELECT * FROM Aspirante WHERE num_doc = ?',
-        [req.params.id],
-        (err, row) => {
-            if (err) {
-                res.status(400).json({
-                    error: `se produjo un error al obtener el aspirante con id: ${req.params.id}`
-                })
-            }
-            res.json(row)
+export async function getAspiranteById(req, res) {
+    try {
+        const rows = await aspiranteHandler.getById(req.params.id)
+        const response = {
+            message: `Aspirante con id: ${req.params.id} obtenido correctamente`,
+            data: rows
         }
-    )
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: `se produjo un error al obtener el aspirante con id: ${req.params.id}`,
+            error: true
+        })
+    }
 }
 
 export function insertAspiranteToDB(req, res) {
