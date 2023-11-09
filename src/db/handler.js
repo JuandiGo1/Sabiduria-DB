@@ -44,7 +44,7 @@ export class Handler {
                 `SELECT * FROM ${this.table} WHERE correo = ?;`,
                 [id]
             )
-            return rows
+            return rows[0]
         } catch (error) {
             throw error
         }
