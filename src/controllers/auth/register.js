@@ -14,11 +14,12 @@ export const register = async (req, res) => {
     const usuario = await usuarioHandler.getById(user)
 
     if (usuario) {
+        console.log(usuario)
         return res.status(400).json({ error: 'Usuario ya existe' })
     }
 
     const newUser = {
-        usuario: user,
+        correo: user,
         contrasena: pass
     }
 
@@ -27,6 +28,7 @@ export const register = async (req, res) => {
 
         res.status(200).json({ message: 'Usuario creado' })
     } catch (error) {
+        console.log(error)
         res.status(400).json({ error: 'Error al crear usuario' })
     }
 }

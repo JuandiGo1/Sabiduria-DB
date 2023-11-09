@@ -2,6 +2,7 @@ import { usuarioHandler } from 'db/handler.js'
 
 export const login = async (req, res) => {
     const { user, pass } = req.body
+    console.log(user, pass)
 
     if (!validateUser(user)) {
         return res.status(400).json({ error: 'Usuario inválido' })
@@ -12,12 +13,14 @@ export const login = async (req, res) => {
     }
 
     const usuario = await usuarioHandler.getById(user)
+    console.log(usuario)
 
     if (!usuario) {
         return res.status(400).json({ error: 'Usuario no encontrado' })
     }
 
     if (usuario.contrasena !== pass) {
+        console.log(usuario.contrasena, pass)
         return res.status(400).json({ error: 'Contraseña incorrecta' })
     }
 
