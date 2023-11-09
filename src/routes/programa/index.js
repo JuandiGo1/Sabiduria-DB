@@ -4,7 +4,7 @@ import {
     getProgramaById,
     getProgramas,
     insertProgramaToDB
-} from '../../controllers/programa/programa.js'
+} from 'controllers/programa/programa.js'
 
 import areaRouter from './area/index.js'
 import requisitosRouter from './requisitos/index.js'

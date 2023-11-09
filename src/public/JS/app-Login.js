@@ -4,7 +4,7 @@ function Ingresar() {
 
     console.log(user)
     console.log(pass)
-    fetch('auth//login/send', {
+    fetch('auth/login/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -13,6 +13,10 @@ function Ingresar() {
     })
         .then((response) => response.json())
         .then((data) => {
+            if (data.error) {
+                alert(data.error)
+                return
+            }
             alert(data.message)
             Limpiar()
         })

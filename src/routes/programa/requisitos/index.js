@@ -4,7 +4,7 @@ import {
     getRequisitoById,
     getRequisitos,
     insertRequisitoToDB
-} from '../../../controllers/programa/requisitos.js'
+} from 'controllers/programa/requisitos.js'
 
 const router = new Router()
 

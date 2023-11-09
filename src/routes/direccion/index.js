@@ -1,10 +1,9 @@
 import { Router } from 'express'
-
 import {
     getDireccionById,
     getDirecciones,
     insertDireccionToDB
-} from '../../controllers/direccion.js'
+} from 'controllers/direccion.js'
 
 const router = new Router()
 

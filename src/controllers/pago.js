@@ -1,6 +1,5 @@
-// import db from '../db/index.js'
-
-import { pagoHandler } from '../db/handler.js'
+// import db from 'db/index.js';
+import { pagoHandler } from 'db/handler.js'
 
 export async function getPagos(req, res) {
     try {

@@ -1,9 +1,5 @@
 import { Router } from 'express'
-import {
-    getPagos,
-    getPagoById,
-    insertPagoToDB
-} from '../../controllers/pago.js'
+import { getPagos, getPagoById, insertPagoToDB } from 'controllers/pago.js'
 
 const router = new Router()
 

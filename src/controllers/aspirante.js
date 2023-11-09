@@ -1,5 +1,5 @@
-import db from '../db/index.js'
-import { aspiranteHandler } from '../db/handler.js'
+import db from 'db/index.js'
+import { aspiranteHandler } from 'db/handler.js'
 
 export async function getAspirantes(req, res) {
     try {

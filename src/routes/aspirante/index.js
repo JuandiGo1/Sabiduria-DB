@@ -3,7 +3,7 @@ import {
     getAspiranteById,
     getAspirantes,
     insertAspiranteToDB
-} from '../../controllers/aspirante.js'
+} from 'controllers/aspirante.js'
 
 const router = new Router()
 

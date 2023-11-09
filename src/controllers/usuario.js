@@ -1,5 +1,5 @@
-import db from '../db/index.js'
-import { usuarioHandler } from '../db/handler.js'
+import db from 'db/index.js'
+import { usuarioHandler } from 'db/handler.js'
 
 const table = 'Usuario'
 

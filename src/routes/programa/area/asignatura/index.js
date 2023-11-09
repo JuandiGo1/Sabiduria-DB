@@ -4,7 +4,7 @@ import {
     getAsignaturaById,
     getAsignaturas,
     insertAsignaturaToDB
-} from '../../../../controllers/programa/asignatura.js'
+} from 'controllers/programa/asignatura.js'
 
 const router = new Router()
 

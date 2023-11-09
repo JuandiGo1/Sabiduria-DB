@@ -1,5 +1,5 @@
-// import db from '../db/index.js'
-import { direccionHandler } from '../db/handler.js'
+// import db from 'db/index.js';
+import { direccionHandler } from 'db/handler.js'
 
 export async function getDirecciones(req, res) {
     try {

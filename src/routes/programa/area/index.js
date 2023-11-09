@@ -4,7 +4,7 @@ import {
     getAreaById,
     getAreas,
     insertAreaToDB
-} from '../../../controllers/programa/area.js'
+} from 'controllers/programa/area.js'
 
 import asignaturaRouter from './asignatura/index.js'
 

@@ -4,7 +4,7 @@ import {
     getTelefonoById,
     getTelefonos,
     insertTelefonoToDB
-} from '../../controllers/telefono.js'
+} from 'controllers/telefono.js'
 
 const router = new Router()
 

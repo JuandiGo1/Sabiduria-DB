@@ -41,7 +41,8 @@ export class Handler {
     async getById(id) {
         try {
             const rows = await db.all(
-                `SELECT * FROM ${this.table} WHERE id = ${id};`
+                `SELECT * FROM ${this.table} WHERE correo = ?;`,
+                [id]
             )
             return rows
         } catch (error) {

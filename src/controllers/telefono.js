@@ -1,6 +1,5 @@
-// import db from '../db/index.js'
-
-import { telefonoHandler } from '../db/handler.js'
+// import db from 'db/index.js';
+import { telefonoHandler } from 'db/handler.js'
 
 export async function getTelefonos(req, res) {
     try {

@@ -6,7 +6,7 @@ import {
     insertUserToDB,
     setNumDocById,
     updateUserById
-} from '../../controllers/usuario.js'
+} from 'controllers/usuario.js'
 
 const router = new Router()
 
