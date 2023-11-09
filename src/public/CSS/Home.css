@@ -1,0 +1,25 @@
+#form {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 4px 4px 15px #000;
+    border-radius: 10px;
+}
+
+#slc {
+    width: 30%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#slc:focus {
+    outline: none;
+}
+
+#cont_info {
+    display: none;
+}

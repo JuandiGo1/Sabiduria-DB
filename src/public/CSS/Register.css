@@ -1,0 +1,75 @@
+#form {
+    background-color: white;
+    box-shadow: 4px 4px 15px #000;
+}
+
+#lb_form {
+    font-size: 15px;
+    font-weight: 400;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#bt_form {
+    display: block;
+    width:110px;
+    color: white;
+    background-color: var(--color2);
+    font-weight: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 8px auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#bt_form:hover {
+    background-color: var(--color1);
+}
+
+#bt_form:active {
+    background-color: #030707;
+}
+
+
+#rec_form {
+    display: block;
+    color: #aaa;
+    text-align: center;
+    font-weight: 50;
+    font-size: 10px;
+    margin: 20px auto;
+}
+
+#rec_form a,
+#rec_form a:visited {
+    color: #aaa;
+}
+
+#a_volver,
+#a_volver:visited {
+    display: block;
+    color: white;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.input_form {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    outline: none;
+    width: 180px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    margin: 30px 40px;
+}
+
+.input_form:focus {
+    border-bottom: 1px solid #444;
+}

@@ -1,0 +1,57 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cabecera {
+    background-color: var(--color2);
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.img_fondo {
+    /* background-color: #72EFE9; */
+    /* background-color: var(--color3); */
+    background-image: url(../Images/University.jpg);
+    background-size: cover;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font: bold;
+    color: white;
+    padding: 10px;
+}
+
+.logo__cabecera {
+    display: inline;
+}
+
+.opc_menu,
+.opc_menu:visited {
+    display: flex;
+    color: white;
+    width: auto;
+    text-decoration: none;
+    height: 100%;
+    margin: 0;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.opc_menu:hover {
+    background-color: var(--color5);
+    color: var(--color1);
+}

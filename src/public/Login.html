@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Variables.css">
+    <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <script src="JS/app-Login.js"></script>
+    <div id="cabecera">
+        <div class="logo logo__cabecera">Logo</div>
+        <div id="menu">
+            <a class="opc_menu" href="index.html">Inicio</a>
+        </div>
+    </div>
+    <div id="cuerpo" class="img_fondo">
+        <div id="form">
+            <h3 id="lb_form">Iniciar sesion</h3>
+            <input id="input_user" type="text" placeholder="Usuario" class="input_form" onkeyup="pulsar(event)">
+            <input id="input_pass" type="password" placeholder="Contraseña" class="input_form" onkeyup="pulsar(event)">
+            <a id="reg_form" href="Register.html">Registrarse</a>
+            <button id="bt_form" onclick="Ingresar()">Ingresar</button>
+            <div id="rec_form">
+                ¿Haz olvidado tu contraseña?
+                <a href="">Click aqui</a>
+            </div>
+            <a id="a_volver" href="index.html">Volver</a>
+        </div>
+    </div>
+    <!-- <div id="pie"></div> -->
+</body>
+</html>
