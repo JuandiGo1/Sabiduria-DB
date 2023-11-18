@@ -31,7 +31,7 @@ async function Ingresar() {
     }
 
     alert(data.message)
-    window.location.href = '/auth/login'
+    window.location.href = '/login.html'
 }
 
 const button = document.getElementById('bt_form')

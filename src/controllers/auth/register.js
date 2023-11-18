@@ -1,7 +1,9 @@
 import { usuarioHandler } from 'db/handler.js'
+import bcrypt from 'bcrypt'
 
 export const register = async (req, res) => {
     const { user, pass } = req.body
+    console.log(user, pass)
 
     if (!validateUser(user)) {
         return res.status(400).json({ error: 'Usuario inválido' })
@@ -17,10 +19,15 @@ export const register = async (req, res) => {
         console.log(usuario)
         return res.status(400).json({ error: 'Usuario ya existe' })
     }
+    // console.log(pass)
+
+    const salt = await bcrypt.genSalt(10)
+    const hash = await bcrypt.hash(pass, salt)
+    console.log(hash)
 
     const newUser = {
         correo: user,
-        contrasena: pass
+        contrasena: hash
     }
 
     try {
@@ -37,6 +44,6 @@ function validateUser(user) {
     return true // Aquí debes implementar la lógica de validación del usuario
 }
 
-function validatePassword(pass) {
+async function validatePassword(pass) {
     return true // Aquí debes implementar la lógica de validación de la contraseña
 }
