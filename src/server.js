@@ -9,6 +9,7 @@ import telefonoRouter from 'routes/telefono/index.js'
 import programaRouter from 'routes/programa/index.js'
 import pagoRouter from 'routes/pago/index.js'
 import authRouter from 'routes/auth/index.js'
+import publicRouter from 'routes/public/index.js'
 
 const app = express()
 const port = 3000
@@ -22,13 +23,14 @@ app.use(morgan('dev'))
 app.use(express.static('src/public'))
 
 // Configuración de las rutas
-app.use('/usuario', userRouter)
-app.use('/aspirante', aspiranteRouter)
-app.use('/direccion', direccionRouter)
-app.use('/telefono', telefonoRouter)
-app.use('/programa', programaRouter)
-app.use('/pago', pagoRouter)
-app.use('/auth', authRouter)
+app.use('/', publicRouter)
+app.use('/api/usuario', userRouter)
+app.use('/api/aspirante', aspiranteRouter)
+app.use('/api/direccion', direccionRouter)
+app.use('/api/telefono', telefonoRouter)
+app.use('/api/programa', programaRouter)
+app.use('/api/pago', pagoRouter)
+app.use('/api/auth', authRouter)
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)

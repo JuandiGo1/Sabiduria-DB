@@ -4,8 +4,7 @@ import Cookies from 'js-cookie'
 import { v4 as uuid } from 'uuid'
 
 const cookieOptions = {
-    maxAge: 1000 * 60 * 60 * 60 * 24, // 7 days
-    httpOnly: true
+    maxAge: 1000 * 60 * 60 * 60 * 24 // 7 days
 }
 
 export const login = async (req, res) => {

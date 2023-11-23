@@ -1,0 +1,181 @@
+#entry {
+    margin-bottom: 2vh; /* Margen inferior relativo a la altura del viewport */
+    color: white;
+    padding: 2vw; /* Padding relativo al ancho del viewport */
+    padding-top: 12vw; /* Padding relativo al ancho del viewport */
+
+    /* Fondo con aspect-ratio y tamaño cover para mantener la proporción */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url(../images/programa.jpg);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 13 / 8; /* Ajusta esto a la proporción original de tu imagen */
+
+    /* Añade estas propiedades */
+    width: 100%; /* Ancho del contenedor al 100% */
+    height: auto; /* Altura automática para mantener la proporción */
+    box-sizing: border-box; /* Incluir el padding y el borde en el tamaño total */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#entry p {
+    font-size: 1.5vw; /* Tamaño de fuente relativo al ancho del viewport */
+}
+
+p {
+    text-align: center;
+    text-wrap: wrap;
+
+    max-width: 80vw; /* Ancho máximo relativo al ancho del viewport */
+    margin: 0 auto; /* Centrar el párrafo */
+    padding: 2vw; /* Padding relativo al ancho del viewport */
+
+    font-size: 1.5vw; /* Tamaño de fuente relativo al ancho del viewport */
+}
+
+h1 {
+    font-size: 3vw; /* Tamaño de fuente relativo al ancho del viewport */
+    text-align: center;
+}
+
+#entry h1 {
+    margin-bottom: 2vh; /* Margen inferior relativo a la altura del viewport */
+    font-size: 5vw; /* Tamaño de fuente relativo al ancho del viewport */
+}
+
+#info h1 {
+    text-align: center;
+}
+
+.u-btn {
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #fff;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.u-btn:hover {
+    background: #7799f8;
+    border-bottom: solid 4px #668ad8;
+    color: #627295;
+}
+
+#targets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#targets_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.target_item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2vw; */
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 1vw;
+
+    width: auto;
+
+    height: auto;
+
+    min-height: auto;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+
+    border: #627295 1px solid;
+}
+.target_item .content {
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.icon {
+    display: grid;
+    height: 65px;
+    width: 65px;
+    /* margin: 0 auto 0 0; */
+    padding: 1vw;
+    background-color: #e68387;
+    border-radius: 50%;
+    text-align: center;
+    place-content: center;
+    /* centra verticalemente el texto */
+
+    /* line-height: 65px; */
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
+}
+
+#areas_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* max-width: 75vw; */
+    align-items: space-around;
+    padding: 0 10vw;
+}
+
+#areas_items p {
+    max-width: 400px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+#areas_items p span {
+    font-weight: bold;
+}
+
+#content_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* max-width: 75vw; */
+    align-items: space-around;
+    padding: 0 10vw;
+}
+
+#content_items p {
+    max-width: 400px;
+    text-align: justify;
+    font-weight: 100;
+    padding: 3px 2vw;
+}
+
+.content_item {
+    margin-bottom: 2vw;
+}
+
+.content_item ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.content_item ul li {
+    padding-left: 2rem;
+    background-image: url(../Images/mas.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
