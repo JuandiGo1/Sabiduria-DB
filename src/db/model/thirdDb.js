@@ -1,4 +1,5 @@
 import db from '../index.js'
+import { seed } from '../seeds/seed.js'
 
 const createTable = async (tableName, sql) => {
     try {
@@ -61,7 +62,8 @@ const createTables = async () => {
       nom_pro TEXT,
       descri_pro TEXT,
       obj_pro TEXT,
-      costo_pro INTEGER
+      costo_pro INTEGER,
+      svg_icon TEXT
     )
     `
     )
@@ -177,7 +179,7 @@ const createTables = async () => {
         'Area',
         `
     CREATE TABLE IF NOT EXISTS Area (
-      iid_area INTEGER PRIMARY KEY,
+      id_area INTEGER PRIMARY KEY,
       id_pro INTEGER,
       nom_area TEXT,
       desc_area TEXT,
@@ -191,10 +193,10 @@ const createTables = async () => {
         `
     CREATE TABLE IF NOT EXISTS Asignatura (
       id_asig INTEGER PRIMARY KEY,
-      iid_area INTEGER,
+      id_area INTEGER,
       nom_asig TEXT,
       desc_asig TEXT,
-      FOREIGN KEY (iid_area) REFERENCES Area(iid_area) ON DELETE CASCADE ON UPDATE CASCADE
+      FOREIGN KEY (id_area) REFERENCES Area(id_area) ON DELETE CASCADE ON UPDATE CASCADE
     )
   `
     )
@@ -205,6 +207,7 @@ const createTables = async () => {
 export const init = async () => {
     await dropDatabase() // Call the function to drop the database
     await createTables() // Call the function to create the tables
+    await seed() // Call the seed function
 }
 
 init() // Call the init function

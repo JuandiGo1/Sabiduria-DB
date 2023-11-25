@@ -125,7 +125,7 @@ const createTables = async () => {
         'Area',
         `
     CREATE TABLE IF NOT EXISTS Area (
-      id_area INTEGER PRIMARY KEY,
+      iid_area INTEGER PRIMARY KEY,
       id_pro INTEGER,
       nom_area TEXT,
       FOREIGN KEY (id_pro) REFERENCES Programa(id_pro) ON DELETE SET NULL ON UPDATE CASCADE
@@ -138,9 +138,9 @@ const createTables = async () => {
         `
     CREATE TABLE IF NOT EXISTS Asignatura (
       id_asig INTEGER PRIMARY KEY,
-      id_area INTEGER,
+      iid_area INTEGER,
       nom_asig TEXT,
-      FOREIGN KEY (id_area) REFERENCES Area(id_area) ON DELETE CASCADE ON UPDATE CASCADE
+      FOREIGN KEY (iid_area) REFERENCES Area(iid_area) ON DELETE CASCADE ON UPDATE CASCADE
     )
   `
     )
