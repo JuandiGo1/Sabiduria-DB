@@ -3,7 +3,8 @@ import { Router } from 'express'
 import {
     getProgramaById,
     getProgramas,
-    insertProgramaToDB
+    insertProgramaToDB,
+    getProgramaBySlug
 } from 'controllers/programa/programa.js'
 
 import areaRouter from './area/index.js'
@@ -17,5 +18,6 @@ router.use('/requisitos', requisitosRouter)
 router.get('/', getProgramas)
 router.get('/:id', getProgramaById)
 router.post('/insert', insertProgramaToDB)
+router.get('/slug/:slug', getProgramaBySlug)
 
 export default router

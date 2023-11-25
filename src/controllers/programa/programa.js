@@ -1,5 +1,5 @@
 // import db from "../db/index.js";
-import { programaHandler } from '../../db/handler.js'
+import { programaHandler, areaHandler } from '../../db/handler.js'
 
 // const table = 'Programa'
 
@@ -30,6 +30,26 @@ export async function getProgramaById(req, res) {
     } catch (error) {
         res.status(400).json({
             message: `se produjo un error al obtener el programa con id: ${req.params.id}`,
+            error: true
+        })
+    }
+}
+
+export async function getProgramaBySlug(req, res) {
+    try {
+        const rows = await programaHandler.getByColumn('slug', req.params.slug)
+        const areas = await areaHandler.getByColumn('id_pro', rows[0].id_pro)
+        const response = {
+            message: `Programa con slug: ${req.params.slug} obtenido correctamente`,
+            data: {
+                ...rows[0],
+                areas
+            }
+        }
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: `se produjo un error al obtener el programa con slug: ${req.params.slug}`,
             error: true
         })
     }
