@@ -50,6 +50,18 @@ export class Handler {
         }
     }
 
+    async getByColumn(column, value) {
+        try {
+            const rows = await db.all(
+                `SELECT * FROM ${this.table} WHERE ${column} = ?;`,
+                [value]
+            )
+            return rows
+        } catch (error) {
+            throw error
+        }
+    }
+
     async insert(data) {
         const columns = Object.keys(data).join(', ')
         const values = columns
