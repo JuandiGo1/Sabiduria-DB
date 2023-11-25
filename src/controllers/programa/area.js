@@ -34,6 +34,22 @@ export async function getAreaById(req, res) {
     }
 }
 
+export async function getAreaById_pro(req, res) {
+    try {
+        const rows = await areaHandler.getByColumn('id_pro', req.params.id_pro)
+        const response = {
+            message: `Area con id_pro: ${req.params.id_pro} obtenido correctamente`,
+            data: rows
+        }
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: `se produjo un error al obtener el area con id_pro: ${req.params.id_pro}`,
+            error: true
+        })
+    }
+}
+
 export async function insertAreaToDB(req, res) {
     const data = req.body
 
