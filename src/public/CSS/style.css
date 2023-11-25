@@ -61,3 +61,42 @@
     background-color: var(--color5);
     color: var(--color1);
 }
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+}
+
+h1 {
+    view-timeline-name: --title;
+    view-timeline-axis: block;
+
+    animation-timeline: --title;
+    animation-name: show;
+}
+
+.animate {
+    view-timeline-name: --content;
+    view-timeline-axis: block;
+
+    animation-timeline: --content;
+    animation-name: show;
+
+    /* animation-duration: 1.5s; */
+    animation-range: entry 25% 50% exit;
+    animation-fill-mode: both;
+}
