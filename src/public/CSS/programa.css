@@ -140,7 +140,7 @@ h1 {
 
 #areas_items p {
     max-width: 400px;
-    text-align: justify;
+    text-align: -webkit-auto;
     font-weight: 100;
 }
 
