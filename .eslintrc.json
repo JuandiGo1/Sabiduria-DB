@@ -8,9 +8,20 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "ignorePatterns": [
+        "**/*.json",
+        "**/*.html",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl"
+    ],
     "rules": {
         // use 4 spaces indent
         "indent": ["error", 4],
+        // use tabs for indent
+        "no-tabs": "off",
         "space-before-function-paren": [
             "error",
             {
