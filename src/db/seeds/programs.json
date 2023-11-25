@@ -1,0 +1,245 @@
+[
+  {
+    "id_pro": 1,
+    "nom_pro": "Computer Science",
+    "descri_pro": "Study of computer systems and software development",
+    "obj_pro": "To prepare students for careers in technology and software engineering",
+    "costo_pro": 10000,
+    "svg_icon": "laptop-code",
+    "slug": "computerscience"
+  },
+  {
+    "id_pro": 2,
+    "nom_pro": "Electrical Engineering",
+    "descri_pro": "Study of electrical systems and power generation",
+    "obj_pro": "To prepare students for careers in electrical engineering and renewable energy",
+    "costo_pro": 12000,
+    "svg_icon": "bolt",
+    "slug": "electricalengineering"
+  },
+  {
+    "id_pro": 3,
+    "nom_pro": "Business Administration",
+    "descri_pro": "Study of business management and organizational leadership",
+    "obj_pro": "To prepare students for careers in business and entrepreneurship",
+    "costo_pro": 15000,
+    "svg_icon": "suitcase",
+    "slug": "businessadministration"
+  },
+  {
+    "id_pro": 4,
+    "nom_pro": "Mechanical Engineering",
+    "descri_pro": "Study of mechanical systems and design principles",
+    "obj_pro": "To prepare students for careers in mechanical engineering and manufacturing",
+    "costo_pro": 13000,
+    "svg_icon": "cogs",
+    "slug": "mechanicalengineering"
+  },
+  {
+    "id_pro": 5,
+    "nom_pro": "Psychology",
+    "descri_pro": "Study of human behavior and mental processes",
+    "obj_pro": "To prepare students for careers in counseling and psychological research",
+    "costo_pro": 14000,
+    "svg_icon": "brain",
+    "slug": "psychology"
+  },
+  {
+    "id_pro": 6,
+    "nom_pro": "Environmental Science",
+    "descri_pro": "Study of the environment and natural resource management",
+    "obj_pro": "To prepare students for careers in environmental conservation and sustainability",
+    "costo_pro": 11000,
+    "svg_icon": "leaf",
+    "slug": "environmentalscience"
+  },
+  {
+    "id_pro": 7,
+    "nom_pro": "Marketing",
+    "descri_pro": "Study of consumer behavior and market strategies",
+    "obj_pro": "To prepare students for careers in advertising and brand management",
+    "costo_pro": 16000,
+    "svg_icon": "bullhorn",
+    "slug": "marketing"
+  },
+  {
+    "id_pro": 8,
+    "nom_pro": "Nursing",
+    "descri_pro": "Study of healthcare practices and patient care",
+    "obj_pro": "To prepare students for careers in nursing and healthcare administration",
+    "costo_pro": 17000,
+    "svg_icon": "heart",
+    "slug": "nursing"
+  },
+  {
+    "id_pro": 9,
+    "nom_pro": "Civil Engineering",
+    "descri_pro": "Study of infrastructure and construction principles",
+    "obj_pro": "To prepare students for careers in civil engineering and urban development",
+    "costo_pro": 12500,
+    "svg_icon": "building",
+    "slug": "civilengineering"
+  },
+  {
+    "id_pro": 10,
+    "nom_pro": "Biology",
+    "descri_pro": "Study of living organisms and ecosystems",
+    "obj_pro": "To prepare students for careers in biological research and environmental science",
+    "costo_pro": 11500,
+    "svg_icon": "leaf",
+    "slug": "biology"
+  },
+  {
+    "id_pro": 11,
+    "nom_pro": "Finance",
+    "descri_pro": "Study of financial markets and investment strategies",
+    "obj_pro": "To prepare students for careers in banking and finance management",
+    "costo_pro": 15500,
+    "svg_icon": "chart-line",
+    "slug": "finance"
+  },
+  {
+    "id_pro": 12,
+    "nom_pro": "English Literature",
+    "descri_pro": "Study of English language and literary works",
+    "obj_pro": "To prepare students for careers in teaching and literary analysis",
+    "costo_pro": 11000,
+    "svg_icon": "book",
+    "slug": "englishliterature"
+  },
+  {
+    "id_pro": 13,
+    "nom_pro": "History",
+    "descri_pro": "Study of past events and human societies",
+    "obj_pro": "To prepare students for careers in historical research and education",
+    "costo_pro": 12000,
+    "svg_icon": "scroll",
+    "slug": "history"
+  },
+  {
+    "id_pro": 14,
+    "nom_pro": "Chemical Engineering",
+    "descri_pro": "Study of chemical processes and industrial chemistry",
+    "obj_pro": "To prepare students for careers in chemical engineering and pharmaceuticals",
+    "costo_pro": 13500,
+    "svg_icon": "flask",
+    "slug": "chemicalengineering"
+  },
+  {
+    "id_pro": 15,
+    "nom_pro": "Sociology",
+    "descri_pro": "Study of society and social behavior",
+    "obj_pro": "To prepare students for careers in social work and community development",
+    "costo_pro": 12500,
+    "svg_icon": "users",
+    "slug": "sociology"
+  },
+  {
+    "id_pro": 16,
+    "nom_pro": "Art History",
+    "descri_pro": "Study of art movements and cultural heritage",
+    "obj_pro": "To prepare students for careers in art curation and museum management",
+    "costo_pro": 11500,
+    "svg_icon": "paint-brush",
+    "slug": "arthistory"
+  },
+  {
+    "id_pro": 17,
+    "nom_pro": "Physics",
+    "descri_pro": "Study of matter, energy, and the laws of the universe",
+    "obj_pro": "To prepare students for careers in scientific research and academia",
+    "costo_pro": 13000,
+    "svg_icon": "atom",
+    "slug": "physics"
+  },
+  {
+    "id_pro": 18,
+    "nom_pro": "Music Performance",
+    "descri_pro": "Study of musical theory and performance techniques",
+    "obj_pro": "To prepare students for careers in music performance and education",
+    "costo_pro": 11000,
+    "svg_icon": "music",
+    "slug": "musicperformance"
+  },
+  {
+    "id_pro": 19,
+    "nom_pro": "Astronomy",
+    "descri_pro": "Study of celestial bodies and the universe",
+    "obj_pro": "To prepare students for careers in astronomy and astrophysics",
+    "costo_pro": 14500,
+    "svg_icon": "globe",
+    "slug": "astronomy"
+  },
+  {
+    "id_pro": 20,
+    "nom_pro": "Graphic Design",
+    "descri_pro": "Study of visual communication and creative design",
+    "obj_pro": "To prepare students for careers in graphic design and visual arts",
+    "costo_pro": 13000,
+    "svg_icon": "paint-brush",
+    "slug": "graphicdesign"
+  },
+  {
+    "id_pro": 21,
+    "nom_pro": "Data Science",
+    "descri_pro": "Study of data analysis and machine learning",
+    "obj_pro": "To prepare students for careers in data science and analytics",
+    "costo_pro": 15500,
+    "svg_icon": "chart-bar",
+    "slug": "datascience"
+  },
+  {
+    "id_pro": 22,
+    "nom_pro": "International Relations",
+    "descri_pro": "Study of global politics and diplomatic relations",
+    "obj_pro": "To prepare students for careers in international relations and diplomacy",
+    "costo_pro": 16000,
+    "svg_icon": "globe-americas",
+    "slug": "internationalrelations"
+  },
+  {
+    "id_pro": 23,
+    "nom_pro": "Cybersecurity",
+    "descri_pro": "Study of protecting computer systems and networks",
+    "obj_pro": "To prepare students for careers in cybersecurity and information security",
+    "costo_pro": 16500,
+    "svg_icon": "shield-alt",
+    "slug": "cybersecurity"
+  },
+  {
+    "id_pro": 24,
+    "nom_pro": "Film Production",
+    "descri_pro": "Study of filmmaking and cinematic production",
+    "obj_pro": "To prepare students for careers in film production and directing",
+    "costo_pro": 14000,
+    "svg_icon": "film",
+    "slug": "filmproduction"
+  },
+  {
+    "id_pro": 25,
+    "nom_pro": "Architecture",
+    "descri_pro": "Study of architectural design and construction",
+    "obj_pro": "To prepare students for careers in architecture and urban planning",
+    "costo_pro": 17000,
+    "svg_icon": "building",
+    "slug": "architecture"
+  },
+  {
+    "id_pro": 26,
+    "nom_pro": "Political Science",
+    "descri_pro": "Study of political systems and governance",
+    "obj_pro": "To prepare students for careers in political science and public policy",
+    "costo_pro": 15000,
+    "svg_icon": "balance-scale",
+    "slug": "politicalscience"
+  },
+  {
+    "id_pro": 27,
+    "nom_pro": "History",
+    "descri_pro": "Study of past events and human societies",
+    "obj_pro": "To prepare students for careers in historical research and education",
+    "costo_pro": 12000,
+    "svg_icon": "scroll",
+    "slug": "history"
+  }
+]
