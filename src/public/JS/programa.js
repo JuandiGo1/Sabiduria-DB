@@ -30,7 +30,7 @@ async function renderprograma() {
 
     renderEntry(programa, document.getElementById('entry'))
     renderInfoGeneral(programa, document.getElementById('info-general'))
-    // renderTargets(programa.targets, document.getElementById('targets_items'))
+    renderTargets(programa.objetivos, document.getElementById('targets_items'))
     renderAreas(programa.areas, document.getElementById('areas_items'))
 }
 
@@ -50,8 +50,8 @@ function renderAreas(areas, container) {
         areas_item.className = 'areas_item'
         const p = document.createElement('p')
         const span = document.createElement('span')
-        span.textContent = area.nom_area
-        p.textContent = area.desc_area
+        span.textContent = area.nom_area + ':'
+        p.textContent = '\t' + area.desc_area
 
         p.prepend(span)
         areas_item.appendChild(p)
@@ -84,23 +84,28 @@ function renderEntry({ nom_pro, descri_pro, slug }, container) {
     container.appendChild(rdm)
 }
 
-function renderInfoGeneral({ descri_pro, obj_pro }, container) {
+function renderInfoGeneral({ desc_extra }, container) {
     const descripcion = document.createElement('p')
-    const objetivo = document.createElement('p')
 
-    descripcion.textContent = descri_pro
-    objetivo.textContent = obj_pro
+    descripcion.textContent = desc_extra
 
     container.innerHTML = ''
     container.appendChild(descripcion)
-    container.appendChild(objetivo)
 }
 
+/** {
+    "id_obj": 1,
+    "id_pro": 1,
+    "titulo_obj": "Dominio de Fundamentos",
+    "desc_obj": "Dominar los fundamentos de la programación y la lógica de algoritmos para resolver problemas complejos en el campo de la ciencia de la computación."
+} */
 function renderTargets(targets, container) {
     /** <div class="target_item">
-                        <span class="icon">
-                            <img src="images/bombilla.png" alt="" />
-                        </span>
+                        <div class="icon_container">
+                            <span class="icon">
+                                <img src="images/bombilla.png" alt="" />
+                            </span>
+                        </div>
                         <div class="content">
                             <h2>Sample Headline</h2>
                             <p>
@@ -109,25 +114,28 @@ function renderTargets(targets, container) {
                             </p>
                         </div>
                     </div> */
+
     function renderTarget(target, container) {
         const target_item = document.createElement('div')
         target_item.className = 'target_item'
+        const icon_container = document.createElement('div')
+        icon_container.className = 'icon_container'
         const icon = document.createElement('span')
         icon.className = 'icon'
         const img = document.createElement('img')
         img.src = 'images/bombilla.png'
-        img.alt = ''
         const content = document.createElement('div')
         content.className = 'content'
-        const titulo = document.createElement('h2')
-        titulo.textContent = target.nom_tar
-        const descripcion = document.createElement('p')
-        descripcion.textContent = target.descri_tar
+        const h2 = document.createElement('h2')
+        h2.textContent = target.titulo_obj
+        const p = document.createElement('p')
+        p.textContent = target.desc_obj
 
         icon.appendChild(img)
-        content.appendChild(titulo)
-        content.appendChild(descripcion)
-        target_item.appendChild(icon)
+        icon_container.appendChild(icon)
+        content.appendChild(h2)
+        content.appendChild(p)
+        target_item.appendChild(icon_container)
         target_item.appendChild(content)
         container.appendChild(target_item)
     }
