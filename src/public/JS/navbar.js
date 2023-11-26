@@ -2,20 +2,43 @@
 
 const isLogged = document.cookie.includes('session')
 
+// Ruta activa
+const path = window.location.pathname
+const pathArray = path.split('/')
+const active = pathArray[1].toLowerCase().replace('.html', '') // Convertir a minúsculas para comparación insensible a mayúsculas y minúsculas
+
+const logo = `
+<div class="logo logo__cabecera">
+	<img src="images/logo_sabiduria.png" alt="Logo" />
+	<a href="/">
+		<h1>Sabiduría</h1>
+	</a>
+</div>`
+
 const notLogged = `
-<div class="logo logo__cabecera">Logo</div>
+${logo}
 <div id="menu">
-        <a class="opc_menu" href="portal.html">Programas</a>
-    <a class="opc_menu" href="Login.html">Acceder</a>
-    <a class="opc_menu" href="Register.html">Registrarse</a>
- </div>
+	<a class="opc_menu ${
+        active === 'portal' ? 'active' : ''
+    }" href="portal.html">Programas</a>
+	<a class="opc_menu ${
+        active === 'login' ? 'active' : ''
+    }" href="Login.html">Acceder</a>
+	<a class="opc_menu ${
+        active === 'register' ? 'active' : ''
+    }" href="Register.html">Registrarse</a>
+</div>
 `
 
 const logged = `
-<div class="logo logo__cabecera">Logo</div>
+${logo}
 <div id="menu">
-	<a class="opc_menu" href="portal.html">Programas</a>
-	<a class="opc_menu" href="perfil.html">Perfil</a>
+	<a class="opc_menu ${
+        active === 'portal' ? 'active' : ''
+    }" href="portal.html">Programas</a>
+	<a class="opc_menu ${
+        active === 'perfil' ? 'active' : ''
+    }" href="perfil.html">Perfil</a>
 	<a class="opc_menu" id="logoutb">Cerrar sesión</a>
 </div>
 `
