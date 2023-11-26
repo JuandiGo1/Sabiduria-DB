@@ -291,36 +291,198 @@
         "id_area": 49,
         "id_pro": 17,
         "nom_area": "Física Básica",
-        "desc_area": "Introducción a la mecánica clásica y la termodinámica"
+        "desc_area": "Conceptos y principios fundamentales en física"
     },
     {
         "id_area": 50,
         "id_pro": 17,
-        "nom_area": "Física Profesional",
-        "desc_area": "Estudio avanzado de la mecánica cuántica y la física de partículas"
+        "nom_area": "Física Aplicada",
+        "desc_area": "Estudio avanzado de aplicaciones prácticas en física"
     },
     {
         "id_area": 51,
         "id_pro": 17,
         "nom_area": "Énfasis en Física",
-        "desc_area": "Especialización en astrofísica y cosmología"
+        "desc_area": "Especialización en áreas específicas de la física"
     },
     {
         "id_area": 52,
         "id_pro": 18,
-        "nom_area": "Educación Musical Básica",
-        "desc_area": "Fundamentos de teoría musical y pedagogía"
+        "nom_area": "Teoría Musical",
+        "desc_area": "Conceptos y principios fundamentales en teoría musical"
     },
     {
         "id_area": 53,
         "id_pro": 18,
-        "nom_area": "Educación Musical Profesional",
-        "desc_area": "Estudio avanzado de desarrollo del plan de estudios musical y métodos de enseñanza"
+        "nom_area": "Técnicas de Interpretación",
+        "desc_area": "Estudio avanzado de técnicas de interpretación musical"
     },
     {
         "id_area": 54,
         "id_pro": 18,
-        "nom_area": "Énfasis en Educación Musical",
-        "desc_area": "Enfoque en tecnología musical y producción musical digital"
+        "nom_area": "Composición Musical",
+        "desc_area": "Especialización en composición musical"
+    },
+    {
+        "id_area": 55,
+        "id_pro": 19,
+        "nom_area": "Astrofísica",
+        "desc_area": "Conceptos y principios fundamentales en astrofísica"
+    },
+    {
+        "id_area": 56,
+        "id_pro": 19,
+        "nom_area": "Exploración Espacial",
+        "desc_area": "Estudio avanzado de la exploración espacial y tecnologías relacionadas"
+    },
+    {
+        "id_area": 57,
+        "id_pro": 19,
+        "nom_area": "Énfasis en Astronomía",
+        "desc_area": "Especialización en áreas específicas de la astronomía"
+    },
+    {
+        "id_area": 58,
+        "id_pro": 20,
+        "nom_area": "Diseño Visual",
+        "desc_area": "Conceptos y principios fundamentales en diseño visual"
+    },
+    {
+        "id_area": 59,
+        "id_pro": 20,
+        "nom_area": "Diseño Creativo",
+        "desc_area": "Estudio avanzado de técnicas creativas en diseño"
+    },
+    {
+        "id_area": 60,
+        "id_pro": 20,
+        "nom_area": "Énfasis en Diseño Gráfico",
+        "desc_area": "Especialización en áreas específicas del diseño gráfico"
+    },
+    {
+        "id_area": 61,
+        "id_pro": 21,
+        "nom_area": "Análisis de Datos",
+        "desc_area": "Conceptos y principios fundamentales en análisis de datos"
+    },
+    {
+        "id_area": 62,
+        "id_pro": 21,
+        "nom_area": "Aprendizaje Automático",
+        "desc_area": "Estudio avanzado de técnicas de aprendizaje automático"
+    },
+    {
+        "id_area": 63,
+        "id_pro": 21,
+        "nom_area": "Énfasis en Ciencia de Datos",
+        "desc_area": "Especialización en áreas específicas de la ciencia de datos"
+    },
+    {
+        "id_area": 64,
+        "id_pro": 22,
+        "nom_area": "Política Global",
+        "desc_area": "Conceptos y principios fundamentales en política global"
+    },
+    {
+        "id_area": 65,
+        "id_pro": 22,
+        "nom_area": "Diplomacia",
+        "desc_area": "Estudio avanzado de estrategias diplomáticas"
+    },
+    {
+        "id_area": 66,
+        "id_pro": 22,
+        "nom_area": "Énfasis en Relaciones Internacionales",
+        "desc_area": "Especialización en áreas específicas de relaciones internacionales"
+    },
+    {
+        "id_area": 67,
+        "id_pro": 23,
+        "nom_area": "Seguridad Informática",
+        "desc_area": "Conceptos y principios fundamentales en seguridad informática"
+    },
+    {
+        "id_area": 68,
+        "id_pro": 23,
+        "nom_area": "Protección de Redes",
+        "desc_area": "Estudio avanzado de técnicas de protección de redes"
+    },
+    {
+        "id_area": 69,
+        "id_pro": 23,
+        "nom_area": "Énfasis en Ciberseguridad",
+        "desc_area": "Especialización en áreas específicas de ciberseguridad"
+    },
+    {
+        "id_area": 70,
+        "id_pro": 24,
+        "nom_area": "Dirección Cinematográfica",
+        "desc_area": "Conceptos y principios fundamentales en dirección cinematográfica"
+    },
+    {
+        "id_area": 71,
+        "id_pro": 24,
+        "nom_area": "Producción Audiovisual",
+        "desc_area": "Estudio avanzado de técnicas de producción audiovisual"
+    },
+    {
+        "id_area": 72,
+        "id_pro": 24,
+        "nom_area": "Énfasis en Producción Cinematográfica",
+        "desc_area": "Especialización en áreas específicas de producción cinematográfica"
+    },
+    {
+        "id_area": 73,
+        "id_pro": 25,
+        "nom_area": "Diseño Arquitectónico",
+        "desc_area": "Conceptos y principios fundamentales en diseño arquitectónico"
+    },
+    {
+        "id_area": 74,
+        "id_pro": 25,
+        "nom_area": "Construcción Sostenible",
+        "desc_area": "Estudio avanzado de técnicas de construcción sostenible"
+    },
+    {
+        "id_area": 75,
+        "id_pro": 25,
+        "nom_area": "Énfasis en Arquitectura",
+        "desc_area": "Especialización en áreas específicas de arquitectura"
+    },
+    {
+        "id_area": 76,
+        "id_pro": 26,
+        "nom_area": "Sistemas Políticos",
+        "desc_area": "Conceptos y principios fundamentales en sistemas políticos"
+    },
+    {
+        "id_area": 77,
+        "id_pro": 26,
+        "nom_area": "Gobernanza",
+        "desc_area": "Estudio avanzado de procesos de gobernanza"
+    },
+    {
+        "id_area": 78,
+        "id_pro": 26,
+        "nom_area": "Énfasis en Ciencias Políticas",
+        "desc_area": "Especialización en áreas específicas de ciencias políticas"
+    },
+    {
+        "id_area": 79,
+        "id_pro": 27,
+        "nom_area": "Investigación Histórica",
+        "desc_area": "Conceptos y principios fundamentales en investigación histórica"
+    },
+    {
+        "id_area": 80,
+        "id_pro": 27,
+        "nom_area": "Análisis de Sociedades Humanas",
+        "desc_area": "Estudio avanzado de técnicas de análisis de sociedades humanas"
+    },
+    {
+        "id_area": 81,
+        "id_pro": 27,
+        "nom_area": "Énfasis en Historia",
+        "desc_area": "Especialización en áreas específicas de historia"
     }
 ]
