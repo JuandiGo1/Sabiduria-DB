@@ -1,245 +1,247 @@
 [
-  {
-    "id_pro": 1,
-    "nom_pro": "Computer Science",
-    "descri_pro": "Study of computer systems and software development",
-    "obj_pro": "To prepare students for careers in technology and software engineering",
-    "costo_pro": 10000,
-    "svg_icon": "laptop-code",
-    "slug": "computerscience"
-  },
-  {
-    "id_pro": 2,
-    "nom_pro": "Electrical Engineering",
-    "descri_pro": "Study of electrical systems and power generation",
-    "obj_pro": "To prepare students for careers in electrical engineering and renewable energy",
-    "costo_pro": 12000,
-    "svg_icon": "bolt",
-    "slug": "electricalengineering"
-  },
-  {
-    "id_pro": 3,
-    "nom_pro": "Business Administration",
-    "descri_pro": "Study of business management and organizational leadership",
-    "obj_pro": "To prepare students for careers in business and entrepreneurship",
-    "costo_pro": 15000,
-    "svg_icon": "suitcase",
-    "slug": "businessadministration"
-  },
-  {
-    "id_pro": 4,
-    "nom_pro": "Mechanical Engineering",
-    "descri_pro": "Study of mechanical systems and design principles",
-    "obj_pro": "To prepare students for careers in mechanical engineering and manufacturing",
-    "costo_pro": 13000,
-    "svg_icon": "cogs",
-    "slug": "mechanicalengineering"
-  },
-  {
-    "id_pro": 5,
-    "nom_pro": "Psychology",
-    "descri_pro": "Study of human behavior and mental processes",
-    "obj_pro": "To prepare students for careers in counseling and psychological research",
-    "costo_pro": 14000,
-    "svg_icon": "brain",
-    "slug": "psychology"
-  },
-  {
-    "id_pro": 6,
-    "nom_pro": "Environmental Science",
-    "descri_pro": "Study of the environment and natural resource management",
-    "obj_pro": "To prepare students for careers in environmental conservation and sustainability",
-    "costo_pro": 11000,
-    "svg_icon": "leaf",
-    "slug": "environmentalscience"
-  },
-  {
-    "id_pro": 7,
-    "nom_pro": "Marketing",
-    "descri_pro": "Study of consumer behavior and market strategies",
-    "obj_pro": "To prepare students for careers in advertising and brand management",
-    "costo_pro": 16000,
-    "svg_icon": "bullhorn",
-    "slug": "marketing"
-  },
-  {
-    "id_pro": 8,
-    "nom_pro": "Nursing",
-    "descri_pro": "Study of healthcare practices and patient care",
-    "obj_pro": "To prepare students for careers in nursing and healthcare administration",
-    "costo_pro": 17000,
-    "svg_icon": "heart",
-    "slug": "nursing"
-  },
-  {
-    "id_pro": 9,
-    "nom_pro": "Civil Engineering",
-    "descri_pro": "Study of infrastructure and construction principles",
-    "obj_pro": "To prepare students for careers in civil engineering and urban development",
-    "costo_pro": 12500,
-    "svg_icon": "building",
-    "slug": "civilengineering"
-  },
-  {
-    "id_pro": 10,
-    "nom_pro": "Biology",
-    "descri_pro": "Study of living organisms and ecosystems",
-    "obj_pro": "To prepare students for careers in biological research and environmental science",
-    "costo_pro": 11500,
-    "svg_icon": "leaf",
-    "slug": "biology"
-  },
-  {
-    "id_pro": 11,
-    "nom_pro": "Finance",
-    "descri_pro": "Study of financial markets and investment strategies",
-    "obj_pro": "To prepare students for careers in banking and finance management",
-    "costo_pro": 15500,
-    "svg_icon": "chart-line",
-    "slug": "finance"
-  },
-  {
-    "id_pro": 12,
-    "nom_pro": "English Literature",
-    "descri_pro": "Study of English language and literary works",
-    "obj_pro": "To prepare students for careers in teaching and literary analysis",
-    "costo_pro": 11000,
-    "svg_icon": "book",
-    "slug": "englishliterature"
-  },
-  {
-    "id_pro": 13,
-    "nom_pro": "History",
-    "descri_pro": "Study of past events and human societies",
-    "obj_pro": "To prepare students for careers in historical research and education",
-    "costo_pro": 12000,
-    "svg_icon": "scroll",
-    "slug": "history"
-  },
-  {
-    "id_pro": 14,
-    "nom_pro": "Chemical Engineering",
-    "descri_pro": "Study of chemical processes and industrial chemistry",
-    "obj_pro": "To prepare students for careers in chemical engineering and pharmaceuticals",
-    "costo_pro": 13500,
-    "svg_icon": "flask",
-    "slug": "chemicalengineering"
-  },
-  {
-    "id_pro": 15,
-    "nom_pro": "Sociology",
-    "descri_pro": "Study of society and social behavior",
-    "obj_pro": "To prepare students for careers in social work and community development",
-    "costo_pro": 12500,
-    "svg_icon": "users",
-    "slug": "sociology"
-  },
-  {
-    "id_pro": 16,
-    "nom_pro": "Art History",
-    "descri_pro": "Study of art movements and cultural heritage",
-    "obj_pro": "To prepare students for careers in art curation and museum management",
-    "costo_pro": 11500,
-    "svg_icon": "paint-brush",
-    "slug": "arthistory"
-  },
-  {
-    "id_pro": 17,
-    "nom_pro": "Physics",
-    "descri_pro": "Study of matter, energy, and the laws of the universe",
-    "obj_pro": "To prepare students for careers in scientific research and academia",
-    "costo_pro": 13000,
-    "svg_icon": "atom",
-    "slug": "physics"
-  },
-  {
-    "id_pro": 18,
-    "nom_pro": "Music Performance",
-    "descri_pro": "Study of musical theory and performance techniques",
-    "obj_pro": "To prepare students for careers in music performance and education",
-    "costo_pro": 11000,
-    "svg_icon": "music",
-    "slug": "musicperformance"
-  },
-  {
-    "id_pro": 19,
-    "nom_pro": "Astronomy",
-    "descri_pro": "Study of celestial bodies and the universe",
-    "obj_pro": "To prepare students for careers in astronomy and astrophysics",
-    "costo_pro": 14500,
-    "svg_icon": "globe",
-    "slug": "astronomy"
-  },
-  {
-    "id_pro": 20,
-    "nom_pro": "Graphic Design",
-    "descri_pro": "Study of visual communication and creative design",
-    "obj_pro": "To prepare students for careers in graphic design and visual arts",
-    "costo_pro": 13000,
-    "svg_icon": "paint-brush",
-    "slug": "graphicdesign"
-  },
-  {
-    "id_pro": 21,
-    "nom_pro": "Data Science",
-    "descri_pro": "Study of data analysis and machine learning",
-    "obj_pro": "To prepare students for careers in data science and analytics",
-    "costo_pro": 15500,
-    "svg_icon": "chart-bar",
-    "slug": "datascience"
-  },
-  {
-    "id_pro": 22,
-    "nom_pro": "International Relations",
-    "descri_pro": "Study of global politics and diplomatic relations",
-    "obj_pro": "To prepare students for careers in international relations and diplomacy",
-    "costo_pro": 16000,
-    "svg_icon": "globe-americas",
-    "slug": "internationalrelations"
-  },
-  {
-    "id_pro": 23,
-    "nom_pro": "Cybersecurity",
-    "descri_pro": "Study of protecting computer systems and networks",
-    "obj_pro": "To prepare students for careers in cybersecurity and information security",
-    "costo_pro": 16500,
-    "svg_icon": "shield-alt",
-    "slug": "cybersecurity"
-  },
-  {
-    "id_pro": 24,
-    "nom_pro": "Film Production",
-    "descri_pro": "Study of filmmaking and cinematic production",
-    "obj_pro": "To prepare students for careers in film production and directing",
-    "costo_pro": 14000,
-    "svg_icon": "film",
-    "slug": "filmproduction"
-  },
-  {
-    "id_pro": 25,
-    "nom_pro": "Architecture",
-    "descri_pro": "Study of architectural design and construction",
-    "obj_pro": "To prepare students for careers in architecture and urban planning",
-    "costo_pro": 17000,
-    "svg_icon": "building",
-    "slug": "architecture"
-  },
-  {
-    "id_pro": 26,
-    "nom_pro": "Political Science",
-    "descri_pro": "Study of political systems and governance",
-    "obj_pro": "To prepare students for careers in political science and public policy",
-    "costo_pro": 15000,
-    "svg_icon": "balance-scale",
-    "slug": "politicalscience"
-  },
-  {
-    "id_pro": 27,
-    "nom_pro": "History",
-    "descri_pro": "Study of past events and human societies",
-    "obj_pro": "To prepare students for careers in historical research and education",
-    "costo_pro": 12000,
-    "svg_icon": "scroll",
-    "slug": "history"
-  }
+    {
+        "id_pro": 1,
+        "nom_pro": "Ciencia de la Computación",
+        "descri_pro": "Estudio de sistemas informáticos y desarrollo de software",
+        "costo_pro": 10000,
+        "svg_icon": "laptop-code",
+        "slug": "ciencia-de-la-computacion",
+        "desc_extra": "El programa 'Ciencia de la Computación' es una inmersión integral en el estudio de sistemas informáticos y el desarrollo de software. Con un costo de $10,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 2,
+        "nom_pro": "Ingeniería Eléctrica",
+        "descri_pro": "Estudio de sistemas eléctricos y generación de energía",
+        "costo_pro": 12000,
+        "svg_icon": "bolt",
+        "slug": "ingenieria-electrica",
+        "desc_extra": "El programa de Ingeniería Eléctrica ofrece una exploración profunda de sistemas eléctricos y técnicas de generación de energía. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la ingeniería eléctrica."
+    },
+    {
+        "id_pro": 3,
+        "nom_pro": "Administración de Empresas",
+        "descri_pro": "Estudio de gestión empresarial y liderazgo organizacional",
+        "costo_pro": 15000,
+        "svg_icon": "suitcase",
+        "slug": "administracion-de-empresas",
+        "desc_extra": "El programa de Administración de Empresas es una inmersión integral en el estudio de la gestión empresarial y el liderazgo organizacional. Con un costo de $15,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 4,
+        "nom_pro": "Ingeniería Mecánica",
+        "descri_pro": "Estudio de sistemas mecánicos y principios de diseño",
+        "costo_pro": 13000,
+        "svg_icon": "cogs",
+        "slug": "ingenieria-mecanica",
+        "desc_extra": "El programa de Ingeniería Mecánica ofrece una exploración profunda de sistemas mecánicos y principios de diseño. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la ingeniería mecánica."
+    },
+    {
+        "id_pro": 5,
+        "nom_pro": "Psicología",
+        "descri_pro": "Estudio del comportamiento humano y los procesos mentales",
+        "costo_pro": 14000,
+        "svg_icon": "brain",
+        "slug": "psicologia",
+        "desc_extra": "El programa de Psicología es una inmersión integral en el estudio del comportamiento humano y los procesos mentales. Con un costo de $14,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 6,
+        "nom_pro": "Ciencias Ambientales",
+        "descri_pro": "Estudio del medio ambiente y la gestión de los recursos naturales",
+        "costo_pro": 11000,
+        "svg_icon": "leaf",
+        "slug": "ciencias-ambientales",
+        "desc_extra": "El programa de Ciencias Ambientales ofrece una exploración profunda del medio ambiente y la gestión de los recursos naturales. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la ciencia ambiental."
+    },
+    {
+        "id_pro": 7,
+        "nom_pro": "Marketing",
+        "descri_pro": "Estudio del comportamiento del consumidor y las estrategias de mercado",
+        "costo_pro": 16000,
+        "svg_icon": "bullhorn",
+        "slug": "marketing",
+        "desc_extra": "El programa de Marketing es una inmersión integral en el estudio del comportamiento del consumidor y las estrategias de mercado. Con un costo de $16,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 8,
+        "nom_pro": "Enfermería",
+        "descri_pro": "Estudio de las prácticas de atención médica y el cuidado de los pacientes",
+        "costo_pro": 17000,
+        "svg_icon": "heart",
+        "slug": "enfermeria",
+        "desc_extra": "El programa de Enfermería ofrece una exploración profunda de las prácticas de atención médica y el cuidado de los pacientes. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la enfermería."
+    },
+
+    {
+        "id_pro": 9,
+        "nom_pro": "Ingeniería Civil",
+        "descri_pro": "Estudio de infraestructura y principios de construcción",
+        "costo_pro": 12500,
+        "svg_icon": "building",
+        "slug": "ingenieria-civil",
+        "desc_extra": "El programa de Ingeniería Civil ofrece una exploración profunda de infraestructura y principios de construcción. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la ingeniería civil."
+    },
+    {
+        "id_pro": 10,
+        "nom_pro": "Biología",
+        "descri_pro": "Estudio de organismos vivos y ecosistemas",
+        "costo_pro": 11500,
+        "svg_icon": "leaf",
+        "slug": "biologia",
+        "desc_extra": "El programa de Biología es una inmersión integral en el estudio de organismos vivos y ecosistemas. Con un costo de $11,500, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 11,
+        "nom_pro": "Finanzas",
+        "descri_pro": "Estudio de los mercados financieros y las estrategias de inversión",
+        "costo_pro": 15500,
+        "svg_icon": "chart-line",
+        "slug": "finanzas",
+        "desc_extra": "El programa de Finanzas es una inmersión integral en el estudio de los mercados financieros y las estrategias de inversión. Con un costo de $15,500, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 12,
+        "nom_pro": "Literatura Inglesa",
+        "descri_pro": "Estudio del idioma inglés y obras literarias",
+        "costo_pro": 11000,
+        "svg_icon": "book",
+        "slug": "literatura-inglesa",
+        "desc_extra": "El programa de Literatura Inglesa es una inmersión integral en el estudio del idioma inglés y las obras literarias. Con un costo de $11,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 13,
+        "nom_pro": "Historia",
+        "descri_pro": "Estudio de eventos pasados y sociedades humanas",
+        "costo_pro": 12000,
+        "svg_icon": "scroll",
+        "slug": "historia",
+        "desc_extra": "El programa de Historia es una inmersión integral en el estudio de eventos pasados y sociedades humanas. Con un costo de $12,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 14,
+        "nom_pro": "Ingeniería Química",
+        "descri_pro": "Estudio de procesos químicos y química industrial",
+        "costo_pro": 13500,
+        "svg_icon": "flask",
+        "slug": "ingenieria-quimica",
+        "desc_extra": "El programa de Ingeniería Química ofrece una exploración profunda de procesos químicos y química industrial. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la ingeniería química."
+    },
+    {
+        "id_pro": 15,
+        "nom_pro": "Sociología",
+        "descri_pro": "Estudio de la sociedad y el comportamiento social",
+        "costo_pro": 12500,
+        "svg_icon": "users",
+        "slug": "sociologia",
+        "desc_extra": "El programa de Sociología es una inmersión integral en el estudio de la sociedad y el comportamiento social. Con un costo de $12,500, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece 'Ciencia de la Computación'."
+    },
+    {
+        "id_pro": 16,
+        "nom_pro": "Historia del Arte",
+        "descri_pro": "Estudio de movimientos artísticos y patrimonio cultural",
+        "costo_pro": 11500,
+        "svg_icon": "paint-brush",
+        "slug": "historia-del-arte",
+        "desc_extra": "El programa de Historia del Arte es una inmersión integral en el estudio de movimientos artísticos y patrimonio cultural. Con un costo de $11,500, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas. Esta descripción extendida destaca la relevancia contemporánea y la experiencia integral que ofrece Historia del Arte."
+    },
+    {
+        "id_pro": 17,
+        "nom_pro": "Física",
+        "descri_pro": "Estudio de la materia, la energía y las leyes del universo",
+        "costo_pro": 13000,
+        "svg_icon": "atom",
+        "slug": "fisica",
+        "desc_extra": "El programa de Física ofrece una exploración profunda de la materia, la energía y las leyes del universo. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la física."
+    },
+
+    {
+        "id_pro": 18,
+        "nom_pro": "Música",
+        "descri_pro": "Estudio de teoría musical y técnicas de interpretación",
+        "costo_pro": 11000,
+        "svg_icon": "music",
+        "slug": "musica",
+        "desc_extra": "El programa de Música es una inmersión integral en el estudio de teoría musical y técnicas de interpretación. Con un costo de $11,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria. Desde la creación de algoritmos hasta la participación activa en comunidades tecnológicas, los graduados emergen con habilidades prácticas y están preparados para carreras dinámicas."
+    },
+    {
+        "id_pro": 19,
+        "nom_pro": "Astronomía",
+        "descri_pro": "Estudio de cuerpos celestes y el universo",
+        "costo_pro": 14500,
+        "svg_icon": "globe",
+        "slug": "astronomia",
+        "desc_extra": "El programa de Astronomía ofrece una exploración profunda de cuerpos celestes y el universo. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la astronomía."
+    },
+    {
+        "id_pro": 20,
+        "nom_pro": "Diseño Gráfico",
+        "descri_pro": "Estudio de la comunicación visual y el diseño creativo",
+        "costo_pro": 13000,
+        "svg_icon": "paint-brush",
+        "slug": "diseno-grafico",
+        "desc_extra": "El programa de Diseño Gráfico es una inmersión integral en el estudio de la comunicación visual y el diseño creativo. Con un costo de $13,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria."
+    },
+    {
+        "id_pro": 21,
+        "nom_pro": "Ciencia de Datos",
+        "descri_pro": "Estudio del análisis de datos y el aprendizaje automático",
+        "costo_pro": 15500,
+        "svg_icon": "chart-bar",
+        "slug": "ciencia-de-datos",
+        "desc_extra": "El programa de Ciencia de Datos es una inmersión integral en el estudio del análisis de datos y el aprendizaje automático. Con un costo de $15,500, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria."
+    },
+    {
+        "id_pro": 22,
+        "nom_pro": "Relaciones Internacionales",
+        "descri_pro": "Estudio de la política global y las relaciones diplomáticas",
+        "costo_pro": 16000,
+        "svg_icon": "globe-americas",
+        "slug": "relaciones-internacionales",
+        "desc_extra": "El programa de Relaciones Internacionales ofrece una exploración profunda de la política global y las relaciones diplomáticas. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de las relaciones internacionales."
+    },
+    {
+        "id_pro": 23,
+        "nom_pro": "Ciberseguridad",
+        "descri_pro": "Estudio de la protección de sistemas informáticos y redes",
+        "costo_pro": 16500,
+        "svg_icon": "shield-alt",
+        "slug": "ciberseguridad",
+        "desc_extra": "El programa de Ciberseguridad ofrece una exploración profunda de la protección de sistemas informáticos y redes. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación. Colaboraciones con la industria y proyectos prácticos garantizan una experiencia integral, preparando a los graduados para liderar en la vanguardia de la ciberseguridad."
+    },
+    {
+        "id_pro": 24,
+        "nom_pro": "Producción Cinematográfica",
+        "descri_pro": "Estudio de la realización de películas y la producción cinematográfica",
+        "costo_pro": 14000,
+        "svg_icon": "film",
+        "slug": "produccion-cinematografica",
+        "desc_extra": "El programa de Producción Cinematográfica es una inmersión integral en el estudio de la realización de películas y la producción cinematográfica. Con un costo de $14,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria."
+    },
+    {
+        "id_pro": 25,
+        "nom_pro": "Arquitectura",
+        "descri_pro": "Estudio del diseño arquitectónico y la construcción",
+        "costo_pro": 17000,
+        "svg_icon": "building",
+        "slug": "arquitectura",
+        "desc_extra": "El programa de Arquitectura ofrece una exploración profunda del diseño arquitectónico y la construcción. Desde el diseño de circuitos hasta la implementación de tecnologías sostenibles, los estudiantes se sumergen en un mundo de innovación."
+    },
+    {
+        "id_pro": 26,
+        "nom_pro": "Ciencias Políticas",
+        "descri_pro": "Estudio de los sistemas políticos y la gobernanza",
+        "costo_pro": 15000,
+        "svg_icon": "balance-scale",
+        "slug": "ciencias-politicas",
+        "desc_extra": "El programa de Ciencias Políticas es una inmersión integral en el estudio de los sistemas políticos y la gobernanza. Con un costo de $15,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática. Los estudiantes se sumergen en proyectos innovadores y colaboran estrechamente con la industria."
+    },
+    {
+        "id_pro": 27,
+        "nom_pro": "Historia",
+        "descri_pro": "Estudio de eventos pasados y sociedades humanas",
+        "costo_pro": 12000,
+        "svg_icon": "scroll",
+        "slug": "historia",
+        "desc_extra": "El programa de Historia es una inmersión integral en el estudio de eventos pasados y sociedades humanas. Con un costo de $12,000, este programa líder ofrece una sólida base en inteligencia artificial, desarrollo de software, redes y seguridad informática."
+    }
 ]

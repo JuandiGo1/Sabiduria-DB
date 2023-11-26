@@ -94,6 +94,7 @@ const areaHandler = new Handler(db, 'Area')
 const asignaturaHandler = new Handler(db, 'Asignatura')
 const requisitosHandler = new Handler(db, 'Requisitos')
 const pagoHandler = new Handler(db, 'Pago')
+const objetivoHandler = new Handler(db, 'Objetivos')
 
 // Initialize the handler
 ;(async () => {
@@ -107,6 +108,7 @@ const pagoHandler = new Handler(db, 'Pago')
         await asignaturaHandler.init()
         await requisitosHandler.init()
         await pagoHandler.init()
+        await objetivoHandler.init()
         // You can now use usuarioHandler
     } catch (error) {
         console.error(error)
@@ -122,5 +124,6 @@ export {
     areaHandler,
     asignaturaHandler,
     requisitosHandler,
-    pagoHandler
+    pagoHandler,
+    objetivoHandler
 }

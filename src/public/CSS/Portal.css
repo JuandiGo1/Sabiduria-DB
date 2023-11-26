@@ -53,7 +53,7 @@ body {
     text-align: center;
 }
 
-img {
+#container img {
     width: 150px;
     height: 150px;
     /* invert its color */

@@ -100,3 +100,28 @@ h1 {
     animation-range: entry 25% 50% exit;
     animation-fill-mode: both;
 }
+.logo__cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__cabecera a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo__cabecera img {
+    height: 75px;
+}
+
+.logo__cabecera h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.opc_menu.active {
+    color: #ff0000; /* Cambia este color al que desees para resaltar la ruta activa */
+    font-weight: bold; /* O cualquier otro estilo que desees aplicar */
+}

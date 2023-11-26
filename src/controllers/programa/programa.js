@@ -1,5 +1,9 @@
 // import db from "../db/index.js";
-import { programaHandler, areaHandler } from '../../db/handler.js'
+import {
+    programaHandler,
+    areaHandler,
+    objetivoHandler
+} from '../../db/handler.js'
 
 // const table = 'Programa'
 
@@ -39,11 +43,16 @@ export async function getProgramaBySlug(req, res) {
     try {
         const rows = await programaHandler.getByColumn('slug', req.params.slug)
         const areas = await areaHandler.getByColumn('id_pro', rows[0].id_pro)
+        const objetivos = await objetivoHandler.getByColumn(
+            'id_pro',
+            rows[0].id_pro
+        )
         const response = {
             message: `Programa con slug: ${req.params.slug} obtenido correctamente`,
             data: {
                 ...rows[0],
-                areas
+                areas,
+                objetivos
             }
         }
         res.json(response)

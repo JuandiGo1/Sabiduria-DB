@@ -77,7 +77,7 @@ h1 {
 
 #targets_items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 }
 
 .target_item {
@@ -91,6 +91,7 @@ h1 {
     border-radius: 1vw;
 
     width: auto;
+    /* min-width: 500px; */
 
     height: auto;
 
@@ -107,6 +108,14 @@ h1 {
     text-wrap: wrap;
 }
 
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
 .icon {
     display: grid;
     height: 65px;
@@ -118,11 +127,6 @@ h1 {
     text-align: center;
     place-content: center;
     /* centra verticalemente el texto */
-
-    /* line-height: 65px; */
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
 }
 
 .icon img {
