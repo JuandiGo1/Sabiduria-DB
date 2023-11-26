@@ -61,7 +61,6 @@ const createTables = async () => {
       id_pro INTEGER PRIMARY KEY,
       nom_pro TEXT,
       descri_pro TEXT,
-      obj_pro TEXT,
       costo_pro INTEGER,
       svg_icon TEXT,
 	    slug TEXT,
@@ -83,6 +82,18 @@ const createTables = async () => {
     )
   `
     )
+
+    await createTable(
+      'Objetivos',
+      `
+    CREATE TABLE IF NOT EXISTS Objetivos (
+      id_obj INTEGER PRIMARY KEY,
+      id_pro INTEGER,
+      desc_obj TEXT,
+      FOREIGN KEY (id_pro) REFERENCES Programa(id_pro) ON DELETE SET NULL ON UPDATE CASCADE
+    )
+    `
+   )
 
     await createTable(
         'Requisitos_cumplidos',
