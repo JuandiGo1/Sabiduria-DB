@@ -1,4 +1,5 @@
 import express, { json } from 'express'
+import cors from 'cors'
 
 import morgan from 'morgan'
 
@@ -18,6 +19,12 @@ const port = 3000
 app.use(json())
 // Configuracion de morgan
 app.use(morgan('dev'))
+// Configuración de cors
+app.use(
+    cors({
+        origin: '*' // Reemplazar con dominio
+    })
+)
 
 // configuracion de archivos estaticos
 app.use(express.static('src/public'))
