@@ -16,7 +16,7 @@ async function Ingresar() {
         pass
     }
 
-    const res = await fetch('/auth/register', {
+    const res = await fetch(register_url, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -34,5 +34,5 @@ async function Ingresar() {
     window.location.href = '/login.html'
 }
 
-const button = document.getElementById('bt_form')
-button.addEventListener('click', Ingresar)
+// const button = document.getElementById('bt_form')
+// button.addEventListener('click', Ingresar)
