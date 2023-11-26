@@ -22,5 +22,629 @@
         "id_pro": 1,
         "titulo_obj": "Seguridad Informática",
         "desc_obj": "Investigar y aplicar medidas de seguridad informática, comprendiendo la importancia de proteger la integridad y confidencialidad de los datos en entornos informáticos."
+    },
+    {
+        "titulo_obj": "Innovación en Energía",
+        "desc_obj": "Innovar en la generación y gestión de energías renovables y sostenibles.",
+        "id_obj": 5,
+        "id_pro": 2
+    },
+    {
+        "titulo_obj": "Automatización y Control",
+        "desc_obj": "Desarrollar sistemas de automatización y control para infraestructuras eléctricas modernas.",
+        "id_obj": 6,
+        "id_pro": 2
+    },
+    {
+        "titulo_obj": "Redes Inteligentes",
+        "desc_obj": "Implementar y optimizar redes eléctricas inteligentes para mejorar la distribución de energía.",
+        "id_obj": 7,
+        "id_pro": 2
+    },
+    {
+        "titulo_obj": "Electrónica Avanzada",
+        "desc_obj": "Avanzar en el diseño y aplicación de componentes electrónicos en la industria y la investigación.",
+        "id_obj": 8,
+        "id_pro": 2
+    },
+    {
+        "titulo_obj": "Gestión Empresarial",
+        "desc_obj": "Liderar la gestión y administración de empresas con enfoques innovadores y sostenibles.",
+        "id_obj": 9,
+        "id_pro": 3
+    },
+    {
+        "titulo_obj": "Emprendimiento",
+        "desc_obj": "Fomentar el espíritu emprendedor para la creación y desarrollo de nuevas empresas.",
+        "id_obj": 10,
+        "id_pro": 3
+    },
+    {
+        "titulo_obj": "Estrategia de Mercado",
+        "desc_obj": "Analizar e implementar estrategias de mercado que potencien la competencia empresarial.",
+        "id_obj": 11,
+        "id_pro": 3
+    },
+    {
+        "titulo_obj": "Finanzas Corporativas",
+        "desc_obj": "Manejar las finanzas corporativas con una perspectiva ética y global.",
+        "id_obj": 12,
+        "id_pro": 3
+    },
+    {
+        "titulo_obj": "Derecho Constitucional",
+        "desc_obj": "Profundizar en el estudio del derecho constitucional y su aplicación práctica.",
+        "id_obj": 13,
+        "id_pro": 4
+    },
+    {
+        "titulo_obj": "Derecho Internacional",
+        "desc_obj": "Aplicar los principios del derecho internacional en la resolución de conflictos globales.",
+        "id_obj": 14,
+        "id_pro": 4
+    },
+    {
+        "titulo_obj": "Derechos Humanos",
+        "desc_obj": "Promover la defensa y el conocimiento de los derechos humanos en todas las esferas.",
+        "id_obj": 15,
+        "id_pro": 4
+    },
+    {
+        "titulo_obj": "Innovación Legal",
+        "desc_obj": "Innovar en la práctica legal para enfrentar los retos de la sociedad moderna.",
+        "id_obj": 16,
+        "id_pro": 4
+    },
+    {
+        "titulo_obj": "Intervención Psicológica",
+        "desc_obj": "Capacitar en las técnicas más avanzadas de intervención y terapia psicológica.",
+        "id_obj": 17,
+        "id_pro": 5
+    },
+    {
+        "titulo_obj": "Psicología Educativa",
+        "desc_obj": "Desarrollar métodos de enseñanza y aprendizaje basados en principios psicológicos.",
+        "id_obj": 18,
+        "id_pro": 5
+    },
+    {
+        "titulo_obj": "Investigación en Psicología",
+        "desc_obj": "Liderar investigaciones que amplíen el conocimiento en diversas áreas de la psicología.",
+        "id_obj": 19,
+        "id_pro": 5
+    },
+    {
+        "titulo_obj": "Psicología Organizacional",
+        "desc_obj": "Aplicar la psicología para mejorar el bienestar y la eficiencia en entornos organizacionales.",
+        "id_obj": 20,
+        "id_pro": 5
+    },
+    {
+        "titulo_obj": "Diseño Arquitectónico",
+        "desc_obj": "Concebir y desarrollar proyectos arquitectónicos que integren estética y funcionalidad.",
+        "id_obj": 21,
+        "id_pro": 6
+    },
+    {
+        "titulo_obj": "Urbanismo Sostenible",
+        "desc_obj": "Planificar espacios urbanos con un enfoque en sostenibilidad y habitabilidad.",
+        "id_obj": 22,
+        "id_pro": 6
+    },
+    {
+        "titulo_obj": "Tecnologías de la Construcción",
+        "desc_obj": "Incorporar tecnologías avanzadas en procesos de construcción para optimizar recursos.",
+        "id_obj": 23,
+        "id_pro": 6
+    },
+    {
+        "titulo_obj": "Patrimonio y Restauración",
+        "desc_obj": "Preservar y restaurar el patrimonio arquitectónico valorando su importancia cultural e histórica.",
+        "id_obj": 24,
+        "id_pro": 6
+    },
+    {
+        "id_obj": 25,
+        "id_pro": 7,
+        "titulo_obj": "Análisis del Comportamiento del Consumidor",
+        "desc_obj": "Profundizar en el estudio y análisis del comportamiento del consumidor para desarrollar estrategias de mercado efectivas."
+    },
+    {
+        "id_obj": 26,
+        "id_pro": 7,
+        "titulo_obj": "Estrategias de Marketing Digital",
+        "desc_obj": "Dominar las herramientas y técnicas de marketing digital, incluyendo la inteligencia artificial y el análisis de datos, para optimizar la presencia en línea y el engagement con el cliente."
+    },
+    {
+        "id_obj": 27,
+        "id_pro": 7,
+        "titulo_obj": "Innovación en Marketing",
+        "desc_obj": "Fomentar la capacidad de innovación en el desarrollo y aplicación de nuevas estrategias de marketing que respondan a los cambios constantes del mercado y las tecnologías emergentes."
+    },
+    {
+        "id_obj": 28,
+        "id_pro": 7,
+        "titulo_obj": "Liderazgo en Marketing y Gestión de Proyectos",
+        "desc_obj": "Desarrollar habilidades de liderazgo y gestión de proyectos de marketing, preparando a los estudiantes para dirigir equipos y proyectos innovadores en un entorno empresarial dinámico."
+    },
+    {
+        "id_obj": 29,
+        "id_pro": 8,
+        "titulo_obj": "Competencias Clínicas Avanzadas",
+        "desc_obj": "Desarrollar habilidades clínicas avanzadas en el cuidado de pacientes, enfocándose en prácticas de atención médica innovadoras y efectivas."
+    },
+    {
+        "id_obj": 30,
+        "id_pro": 8,
+        "titulo_obj": "Tecnología en Cuidados de Salud",
+        "desc_obj": "Integrar tecnologías sostenibles y avanzadas en la práctica de enfermería para mejorar la calidad y eficiencia de la atención al paciente."
+    },
+    {
+        "id_obj": 31,
+        "id_pro": 8,
+        "titulo_obj": "Liderazgo en Enfermería",
+        "desc_obj": "Fomentar el liderazgo entre los estudiantes de enfermería, preparándolos para asumir roles clave en la gestión y dirección en entornos de salud."
+    },
+    {
+        "id_obj": 32,
+        "id_pro": 8,
+        "titulo_obj": "Colaboración Interdisciplinaria",
+        "desc_obj": "Promover la colaboración interdisciplinaria en el cuidado de la salud, preparando a los estudiantes para trabajar efectivamente en equipos multidisciplinarios."
+    },
+    {
+        "id_obj": 33,
+        "id_pro": 9,
+        "titulo_obj": "Diseño y Construcción Sostenible",
+        "desc_obj": "Dominar los principios del diseño y la construcción sostenible, enfocándose en el desarrollo de infraestructuras respetuosas con el medio ambiente."
+    },
+    {
+        "id_obj": 34,
+        "id_pro": 9,
+        "titulo_obj": "Innovación en Ingeniería Civil",
+        "desc_obj": "Innovar en el campo de la ingeniería civil mediante la aplicación de tecnologías avanzadas y métodos de construcción modernos."
+    },
+    {
+        "id_obj": 35,
+        "id_pro": 9,
+        "titulo_obj": "Gestión de Proyectos de Construcción",
+        "desc_obj": "Desarrollar habilidades avanzadas en la gestión de proyectos de construcción, desde la planificación hasta la ejecución y entrega."
+    },
+    {
+        "id_obj": 36,
+        "id_pro": 9,
+        "titulo_obj": "Colaboración Industrial y Práctica Profesional",
+        "desc_obj": "Fomentar la colaboración con la industria y la experiencia práctica, preparando a los estudiantes para enfrentar desafíos reales en la ingeniería civil."
+    },
+    {
+        "id_obj": 37,
+        "id_pro": 10,
+        "titulo_obj": "Estudio Avanzado de Organismos y Ecosistemas",
+        "desc_obj": "Adquirir un conocimiento profundo y detallado de los organismos vivos y los ecosistemas, enfatizando en la biodiversidad y la conservación."
+    },
+    {
+        "id_obj": 38,
+        "id_pro": 10,
+        "titulo_obj": "Biología Computacional y Análisis de Datos",
+        "desc_obj": "Integrar la inteligencia artificial y el análisis de datos en la investigación biológica para innovar en el estudio de los sistemas biológicos complejos."
+    },
+    {
+        "id_obj": 39,
+        "id_pro": 10,
+        "titulo_obj": "Colaboración Interdisciplinaria en Biología",
+        "desc_obj": "Promover la colaboración interdisciplinaria, combinando la biología con campos como la informática y la tecnología, para abordar desafíos científicos contemporáneos."
+    },
+    {
+        "id_obj": 40,
+        "id_pro": 10,
+        "titulo_obj": "Investigación y Desarrollo en Biología",
+        "desc_obj": "Fomentar habilidades en investigación y desarrollo, preparando a los estudiantes para contribuir a avances significativos en biología y ciencias relacionadas."
+    },
+    {
+        "id_obj": 41,
+        "id_pro": 11,
+        "titulo_obj": "Análisis Avanzado de Mercados Financieros",
+        "desc_obj": "Profundizar en el análisis y comprensión de los mercados financieros globales, desarrollando estrategias de inversión efectivas y sostenibles."
+    },
+    {
+        "id_obj": 42,
+        "id_pro": 11,
+        "titulo_obj": "Integración de Inteligencia Artificial en Finanzas",
+        "desc_obj": "Aplicar la inteligencia artificial y el análisis de datos para innovar en la toma de decisiones financieras y la gestión de inversiones."
+    },
+    {
+        "id_obj": 43,
+        "id_pro": 11,
+        "titulo_obj": "Gestión de Riesgos Financieros",
+        "desc_obj": "Desarrollar habilidades en la identificación, análisis y gestión de riesgos financieros, contribuyendo a una mayor estabilidad y eficiencia en los mercados."
+    },
+    {
+        "id_obj": 44,
+        "id_pro": 11,
+        "titulo_obj": "Liderazgo en el Sector Financiero",
+        "desc_obj": "Cultivar liderazgo y habilidades gerenciales para dirigir y transformar entidades financieras en un entorno económico global cambiante."
+    },
+    {
+        "id_obj": 45,
+        "id_pro": 12,
+        "titulo_obj": "Análisis Crítico de Obras Literarias",
+        "desc_obj": "Desarrollar habilidades avanzadas en el análisis crítico de obras literarias inglesas, abarcando diferentes periodos y estilos."
+    },
+    {
+        "id_obj": 46,
+        "id_pro": 12,
+        "titulo_obj": "Dominio del Idioma Inglés",
+        "desc_obj": "Alcanzar un alto nivel de competencia en el idioma inglés, tanto en su forma escrita como oral, con énfasis en su uso literario y creativo."
+    },
+    {
+        "id_obj": 47,
+        "id_pro": 12,
+        "titulo_obj": "Integración de Tecnología en Estudios Literarios",
+        "desc_obj": "Incorporar tecnologías como la inteligencia artificial para innovar en la forma de estudiar y analizar la literatura inglesa."
+    },
+    {
+        "id_obj": 48,
+        "id_pro": 12,
+        "titulo_obj": "Creación Literaria y Publicación",
+        "desc_obj": "Fomentar la creación literaria original y proporcionar las habilidades y conocimientos necesarios para la publicación en diversos medios."
+    },
+    {
+        "id_obj": 49,
+        "id_pro": 13,
+        "titulo_obj": "Comprensión Profunda de Eventos Históricos",
+        "desc_obj": "Adquirir una comprensión detallada y crítica de eventos históricos significativos y su impacto en las sociedades humanas a lo largo del tiempo."
+    },
+    {
+        "id_obj": 50,
+        "id_pro": 13,
+        "titulo_obj": "Análisis Interdisciplinario en Historia",
+        "desc_obj": "Integrar diversas disciplinas y perspectivas, incluyendo la tecnología y la informática, para un análisis más rico y completo de la historia."
+    },
+    {
+        "id_obj": 51,
+        "id_pro": 13,
+        "titulo_obj": "Metodologías de Investigación en Historia",
+        "desc_obj": "Dominar las metodologías de investigación histórica, desde el trabajo de archivo hasta el uso de herramientas digitales, para realizar investigaciones rigurosas y originales."
+    },
+    {
+        "id_obj": 52,
+        "id_pro": 13,
+        "titulo_obj": "Comunicación Efectiva de Conocimientos Históricos",
+        "desc_obj": "Desarrollar habilidades para comunicar conocimientos históricos de manera efectiva, tanto a través de medios escritos como digitales, a un público diverso."
+    },
+    {
+        "id_obj": 53,
+        "id_pro": 14,
+        "titulo_obj": "Dominio de Procesos Químicos",
+        "desc_obj": "Adquirir un conocimiento exhaustivo de los procesos químicos industriales, con énfasis en la innovación y la eficiencia en la producción."
+    },
+    {
+        "id_obj": 54,
+        "id_pro": 14,
+        "titulo_obj": "Desarrollo Sostenible en Ingeniería Química",
+        "desc_obj": "Implementar principios de sostenibilidad en la ingeniería química, buscando minimizar el impacto ambiental y optimizar el uso de recursos."
+    },
+    {
+        "id_obj": 55,
+        "id_pro": 14,
+        "titulo_obj": "Colaboración Industrial y Proyectos Prácticos",
+        "desc_obj": "Fomentar la colaboración con la industria química a través de proyectos prácticos que preparen a los estudiantes para desafíos reales del campo."
+    },
+    {
+        "id_obj": 56,
+        "id_pro": 14,
+        "titulo_obj": "Innovación en Diseño y Optimización de Circuitos Químicos",
+        "desc_obj": "Innovar en el diseño y optimización de circuitos y procesos químicos, aplicando las últimas tecnologías y métodos de investigación."
+    },
+    {
+        "id_obj": 57,
+        "id_pro": 15,
+        "titulo_obj": "Análisis del Comportamiento Social",
+        "desc_obj": "Estudiar y comprender en profundidad el comportamiento social y las dinámicas de la sociedad, utilizando métodos de análisis crítico y teórico."
+    },
+    {
+        "id_obj": 58,
+        "id_pro": 15,
+        "titulo_obj": "Aplicación de Tecnología en Sociología",
+        "desc_obj": "Integrar tecnologías emergentes, como la inteligencia artificial, en la investigación sociológica para analizar y predecir tendencias sociales."
+    },
+    {
+        "id_obj": 59,
+        "id_pro": 15,
+        "titulo_obj": "Colaboración Interdisciplinaria",
+        "desc_obj": "Fomentar la colaboración interdisciplinaria, uniendo la sociología con campos como la informática y las ciencias sociales, para abordar problemas complejos de la sociedad."
+    },
+    {
+        "id_obj": 60,
+        "id_pro": 15,
+        "titulo_obj": "Impacto Social y Cambio",
+        "desc_obj": "Preparar a los estudiantes para liderar y contribuir a iniciativas de cambio social, utilizando el conocimiento sociológico para influir positivamente en la sociedad."
+    },
+    {
+        "id_obj": 61,
+        "id_pro": 16,
+        "titulo_obj": "Comprensión de Movimientos Artísticos",
+        "desc_obj": "Adquirir un conocimiento detallado de diversos movimientos artísticos y su impacto en el patrimonio cultural a lo largo de la historia."
+    },
+    {
+        "id_obj": 62,
+        "id_pro": 16,
+        "titulo_obj": "Análisis y Conservación del Arte",
+        "desc_obj": "Desarrollar habilidades en el análisis crítico del arte y técnicas de conservación para preservar el patrimonio cultural para futuras generaciones."
+    },
+    {
+        "id_obj": 63,
+        "id_pro": 16,
+        "titulo_obj": "Integración de Tecnología en el Estudio del Arte",
+        "desc_obj": "Utilizar la tecnología, incluyendo la inteligencia artificial, para innovar en el estudio y la difusión del arte y su historia."
+    },
+    {
+        "id_obj": 64,
+        "id_pro": 16,
+        "titulo_obj": "Fomento de la Apreciación Artística",
+        "desc_obj": "Impulsar la apreciación y comprensión del arte en la sociedad, fomentando un enfoque interdisciplinario y crítico del estudio artístico."
+    },
+    {
+        "id_obj": 65,
+        "id_pro": 17,
+        "titulo_obj": "Comprensión Avanzada de la Física",
+        "desc_obj": "Alcanzar una comprensión profunda de los conceptos fundamentales de la materia, la energía y las leyes que rigen el universo."
+    },
+    {
+        "id_obj": 66,
+        "id_pro": 17,
+        "titulo_obj": "Innovación en Física Teórica y Experimental",
+        "desc_obj": "Fomentar la innovación tanto en la física teórica como en la experimental, preparando a los estudiantes para contribuir a nuevos descubrimientos y aplicaciones."
+    },
+    {
+        "id_obj": 67,
+        "id_pro": 17,
+        "titulo_obj": "Aplicación de Tecnologías Sostenibles",
+        "desc_obj": "Implementar y desarrollar tecnologías sostenibles basadas en principios físicos, contribuyendo a soluciones ambientales y energéticas."
+    },
+    {
+        "id_obj": 68,
+        "id_pro": 17,
+        "titulo_obj": "Colaboración Interdisciplinaria en Física",
+        "desc_obj": "Promover la colaboración interdisciplinaria, integrando la física con otras disciplinas científicas y tecnológicas para abordar desafíos complejos."
+    },
+    {
+        "id_obj": 69,
+        "id_pro": 18,
+        "titulo_obj": "Maestría en Teoría y Práctica Musical",
+        "desc_obj": "Lograr una comprensión avanzada y habilidad en la teoría musical y las técnicas de interpretación, abarcando una amplia gama de estilos y géneros."
+    },
+    {
+        "id_obj": 70,
+        "id_pro": 18,
+        "titulo_obj": "Innovación en la Creación Musical",
+        "desc_obj": "Fomentar la innovación en la composición y producción musical, integrando tecnologías modernas y enfoques creativos."
+    },
+    {
+        "id_obj": 71,
+        "id_pro": 18,
+        "titulo_obj": "Aplicación de Tecnología en Música",
+        "desc_obj": "Utilizar tecnologías emergentes, incluyendo la inteligencia artificial, para expandir las posibilidades de la creación, interpretación y distribución musical."
+    },
+    {
+        "id_obj": 72,
+        "id_pro": 18,
+        "titulo_obj": "Colaboración Artística e Interdisciplinaria",
+        "desc_obj": "Promover la colaboración artística e interdisciplinaria, preparando a los estudiantes para participar en proyectos musicales innovadores y diversos."
+    },
+    {
+        "id_obj": 73,
+        "id_pro": 19,
+        "titulo_obj": "Exploración Avanzada del Universo",
+        "desc_obj": "Profundizar en el conocimiento y la exploración del universo, estudiando cuerpos celestes y fenómenos cósmicos."
+    },
+    {
+        "id_obj": 74,
+        "id_pro": 19,
+        "titulo_obj": "Innovación en Astronomía Observacional",
+        "desc_obj": "Desarrollar técnicas innovadoras en astronomía observacional, utilizando tecnologías avanzadas para la recolección y análisis de datos astronómicos."
+    },
+    {
+        "id_obj": 75,
+        "id_pro": 19,
+        "titulo_obj": "Aplicación de Tecnología Sostenible en Astronomía",
+        "desc_obj": "Integrar prácticas y tecnologías sostenibles en la investigación astronómica, promoviendo un enfoque respetuoso con el medio ambiente."
+    },
+    {
+        "id_obj": 76,
+        "id_pro": 19,
+        "titulo_obj": "Colaboración Interdisciplinaria en Investigaciones Espaciales",
+        "desc_obj": "Fomentar la colaboración interdisciplinaria en proyectos de investigación espacial, combinando la astronomía con otras ciencias y tecnologías."
+    },
+    {
+        "id_obj": 77,
+        "id_pro": 20,
+        "titulo_obj": "Maestría en Comunicación Visual",
+        "desc_obj": "Alcanzar una comprensión profunda y habilidad en la comunicación visual a través del diseño gráfico, abarcando desde conceptos tradicionales hasta técnicas contemporáneas."
+    },
+    {
+        "id_obj": 78,
+        "id_pro": 20,
+        "titulo_obj": "Innovación en Diseño Creativo",
+        "desc_obj": "Fomentar la creatividad y la innovación en el diseño gráfico, preparando a los estudiantes para generar soluciones visuales únicas y efectivas."
+    },
+    {
+        "id_obj": 79,
+        "id_pro": 20,
+        "titulo_obj": "Integración de Tecnologías Digitales",
+        "desc_obj": "Incorporar tecnologías digitales avanzadas, incluyendo la inteligencia artificial, en el proceso de diseño para ampliar las capacidades creativas y técnicas."
+    },
+    {
+        "id_obj": 80,
+        "id_pro": 20,
+        "titulo_obj": "Colaboración Interdisciplinaria y Proyectos Prácticos",
+        "desc_obj": "Promover la colaboración interdisciplinaria y la participación en proyectos prácticos para aplicar conocimientos de diseño gráfico en contextos reales y diversos."
+    },
+    {
+        "id_obj": 81,
+        "id_pro": 21,
+        "titulo_obj": "Dominio del Análisis de Datos",
+        "desc_obj": "Adquirir habilidades avanzadas en el análisis de grandes conjuntos de datos, utilizando técnicas estadísticas y herramientas computacionales para extraer información valiosa y patrones significativos."
+    },
+    {
+        "id_obj": 82,
+        "id_pro": 21,
+        "titulo_obj": "Experto en Aprendizaje Automático",
+        "desc_obj": "Desarrollar una comprensión profunda y habilidades prácticas en el aprendizaje automático, preparando a los estudiantes para aplicar estas técnicas en diversos campos."
+    },
+    {
+        "id_obj": 83,
+        "id_pro": 21,
+        "titulo_obj": "Aplicaciones Prácticas en Inteligencia Artificial",
+        "desc_obj": "Integrar principios y herramientas de inteligencia artificial en la ciencia de datos para innovar y mejorar los procesos de toma de decisiones en diversas industrias."
+    },
+    {
+        "id_obj": 84,
+        "id_pro": 21,
+        "titulo_obj": "Colaboración y Proyectos en Ciencia de Datos",
+        "desc_obj": "Fomentar la colaboración en proyectos de ciencia de datos, trabajando con datos reales y en entornos de la industria para resolver problemas complejos y actuales."
+    },
+    {
+        "id_obj": 85,
+        "id_pro": 22,
+        "titulo_obj": "Comprensión de la Política Global",
+        "desc_obj": "Desarrollar una comprensión profunda de la política global y sus dinámicas, incluyendo las teorías y prácticas de las relaciones internacionales."
+    },
+    {
+        "id_obj": 86,
+        "id_pro": 22,
+        "titulo_obj": "Habilidades en Diplomacia y Negociación",
+        "desc_obj": "Adquirir habilidades avanzadas en diplomacia y negociación, preparando a los estudiantes para manejar conflictos y fomentar la cooperación internacional."
+    },
+    {
+        "id_obj": 87,
+        "id_pro": 22,
+        "titulo_obj": "Análisis de Políticas Internacionales",
+        "desc_obj": "Dominar el análisis de políticas internacionales y su impacto, aplicando un enfoque crítico y multidisciplinario para entender los retos globales."
+    },
+    {
+        "id_obj": 88,
+        "id_pro": 22,
+        "titulo_obj": "Liderazgo en Relaciones Internacionales",
+        "desc_obj": "Desarrollar capacidades de liderazgo en el campo de las relaciones internacionales, preparando a los estudiantes para roles de influencia en un escenario mundial."
+    },
+    {
+        "id_obj": 89,
+        "id_pro": 23,
+        "titulo_obj": "Dominio en Seguridad de Sistemas Informáticos",
+        "desc_obj": "Adquirir conocimientos avanzados y habilidades prácticas en la protección de sistemas informáticos y redes contra amenazas y vulnerabilidades."
+    },
+    {
+        "id_obj": 90,
+        "id_pro": 23,
+        "titulo_obj": "Estrategias Avanzadas en Ciberseguridad",
+        "desc_obj": "Desarrollar estrategias y técnicas avanzadas para anticipar, prevenir y responder eficazmente a incidentes de ciberseguridad."
+    },
+    {
+        "id_obj": 91,
+        "id_pro": 23,
+        "titulo_obj": "Aplicación de Tecnologías Emergentes",
+        "desc_obj": "Integrar tecnologías emergentes, como la inteligencia artificial, en la práctica de la ciberseguridad para mejorar la detección y respuesta a amenazas."
+    },
+    {
+        "id_obj": 92,
+        "id_pro": 23,
+        "titulo_obj": "Liderazgo y Gestión en Ciberseguridad",
+        "desc_obj": "Fomentar habilidades de liderazgo y gestión para dirigir equipos de ciberseguridad y desarrollar políticas efectivas de seguridad informática."
+    },
+    {
+        "id_obj": 93,
+        "id_pro": 24,
+        "titulo_obj": "Maestría en Realización Cinematográfica",
+        "desc_obj": "Desarrollar una comprensión profunda y habilidades prácticas en todas las etapas de la realización cinematográfica, desde la preproducción hasta la postproducción."
+    },
+    {
+        "id_obj": 94,
+        "id_pro": 24,
+        "titulo_obj": "Innovación y Creatividad en Cine",
+        "desc_obj": "Fomentar la innovación y la creatividad en la producción cinematográfica, incorporando nuevas técnicas narrativas y tecnológicas."
+    },
+    {
+        "id_obj": 95,
+        "id_pro": 24,
+        "titulo_obj": "Integración de Tecnologías en la Producción de Cine",
+        "desc_obj": "Aplicar tecnologías emergentes, incluyendo la inteligencia artificial, para mejorar la calidad y eficiencia de la producción cinematográfica."
+    },
+    {
+        "id_obj": 96,
+        "id_pro": 24,
+        "titulo_obj": "Colaboración y Proyectos en la Industria Cinematográfica",
+        "desc_obj": "Promover la colaboración y la participación en proyectos reales dentro de la industria cinematográfica, preparando a los estudiantes para carreras dinámicas en el cine."
+    },
+    {
+        "id_obj": 97,
+        "id_pro": 25,
+        "titulo_obj": "Excelencia en Diseño Arquitectónico",
+        "desc_obj": "Lograr una comprensión avanzada y habilidades prácticas en diseño arquitectónico, abordando tanto aspectos técnicos como estéticos para crear espacios funcionales y visualmente atractivos."
+    },
+    {
+        "id_obj": 98,
+        "id_pro": 25,
+        "titulo_obj": "Innovación en Construcción y Tecnología",
+        "desc_obj": "Integrar innovaciones en construcción y tecnologías sostenibles para mejorar la eficiencia y sostenibilidad en proyectos arquitectónicos."
+    },
+    {
+        "id_obj": 99,
+        "id_pro": 25,
+        "titulo_obj": "Práctica Arquitectónica Sostenible",
+        "desc_obj": "Fomentar prácticas arquitectónicas que respeten el medio ambiente y promuevan el desarrollo sostenible, equilibrando necesidades humanas y conservación ambiental."
+    },
+    {
+        "id_obj": 100,
+        "id_pro": 25,
+        "titulo_obj": "Colaboración Multidisciplinaria en Proyectos Arquitectónicos",
+        "desc_obj": "Promover la colaboración multidisciplinaria en proyectos arquitectónicos, combinando arquitectura con otras disciplinas para abordar complejos desafíos de diseño y construcción."
+    },
+    {
+        "id_obj": 101,
+        "id_pro": 26,
+        "titulo_obj": "Comprensión de Sistemas Políticos",
+        "desc_obj": "Adquirir un conocimiento profundo de los sistemas políticos, analizando su estructura, funcionamiento y evolución en diferentes contextos y culturas."
+    },
+    {
+        "id_obj": 102,
+        "id_pro": 26,
+        "titulo_obj": "Análisis de Políticas y Gobernanza",
+        "desc_obj": "Desarrollar habilidades para analizar políticas públicas y procesos de gobernanza, evaluando su impacto y eficacia en la sociedad."
+    },
+    {
+        "id_obj": 103,
+        "id_pro": 26,
+        "titulo_obj": "Integración de Tecnología en Ciencias Políticas",
+        "desc_obj": "Utilizar tecnologías emergentes, como la inteligencia artificial, para mejorar el análisis político y la toma de decisiones en la gobernanza."
+    },
+    {
+        "id_obj": 104,
+        "id_pro": 26,
+        "titulo_obj": "Liderazgo y Participación Ciudadana",
+        "desc_obj": "Fomentar el liderazgo político y la participación ciudadana activa, preparando a los estudiantes para contribuir a la construcción de sociedades democráticas y justas."
+    },
+    {
+        "id_obj": 105,
+        "id_pro": 27,
+        "titulo_obj": "Estudio Integral de Civilizaciones Antiguas",
+        "desc_obj": "Profundizar en el estudio de civilizaciones antiguas, analizando su influencia en la sociedad contemporánea y su legado cultural y político."
+    },
+    {
+        "id_obj": 106,
+        "id_pro": 27,
+        "titulo_obj": "Historia y Tecnología Digital",
+        "desc_obj": "Integrar herramientas digitales y tecnologías emergentes, como la inteligencia artificial, para innovar en la investigación y presentación de la historia."
+    },
+    {
+        "id_obj": 107,
+        "id_pro": 27,
+        "titulo_obj": "Historiografía y Método Crítico",
+        "desc_obj": "Fomentar el desarrollo de habilidades en historiografía y análisis crítico, permitiendo a los estudiantes evaluar y contextualizar fuentes históricas de manera efectiva."
+    },
+    {
+        "id_obj": 108,
+        "id_pro": 27,
+        "titulo_obj": "Historia Contemporánea y Análisis Global",
+        "desc_obj": "Examinar eventos históricos contemporáneos desde una perspectiva global, enfocándose en cómo han moldeado las sociedades y el panorama político actual."
     }
 ]

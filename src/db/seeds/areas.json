@@ -2,325 +2,325 @@
     {
         "id_area": 1,
         "id_pro": 1,
-        "nom_area": "Basic Computer Science",
-        "desc_area": "Fundamental concepts and principles in computer science"
+        "nom_area": "Ciencias de la Computación Básica",
+        "desc_area": "Conceptos y principios fundamentales en ciencias de la computación"
     },
     {
         "id_area": 2,
         "id_pro": 1,
-        "nom_area": "Professional Computer Science",
-        "desc_area": "Advanced study of software development and system architecture"
+        "nom_area": "Ciencias de la Computación Profesional",
+        "desc_area": "Estudio avanzado del desarrollo de software y arquitectura de sistemas"
     },
     {
         "id_area": 3,
         "id_pro": 1,
-        "nom_area": "Emphasis Computer Science",
-        "desc_area": "Specialization in artificial intelligence and machine learning"
+        "nom_area": "Énfasis en Ciencias de la Computación",
+        "desc_area": "Especialización en inteligencia artificial y aprendizaje automático"
     },
     {
         "id_area": 4,
         "id_pro": 2,
-        "nom_area": "Basic Electrical Engineering",
-        "desc_area": "Fundamentals of electrical circuits and systems"
+        "nom_area": "Ingeniería Eléctrica Básica",
+        "desc_area": "Fundamentos de circuitos eléctricos y sistemas"
     },
     {
         "id_area": 5,
         "id_pro": 2,
-        "nom_area": "Professional Electrical Engineering",
-        "desc_area": "Advanced power generation and renewable energy technologies"
+        "nom_area": "Ingeniería Eléctrica Profesional",
+        "desc_area": "Estudio avanzado de generación de energía y tecnologías de energía renovable"
     },
     {
         "id_area": 6,
         "id_pro": 2,
-        "nom_area": "Emphasis Electrical Engineering",
-        "desc_area": "Specialization in electrical grid design and optimization"
+        "nom_area": "Énfasis en Ingeniería Eléctrica",
+        "desc_area": "Especialización en diseño y optimización de redes eléctricas"
     },
     {
         "id_area": 7,
         "id_pro": 3,
-        "nom_area": "Basic Business Administration",
-        "desc_area": "Introduction to management principles and organizational behavior"
+        "nom_area": "Administración de Empresas Básica",
+        "desc_area": "Introducción a los principios de gestión y comportamiento organizacional"
     },
     {
         "id_area": 8,
         "id_pro": 3,
-        "nom_area": "Professional Business Administration",
-        "desc_area": "Strategic planning and financial management in business"
+        "nom_area": "Administración de Empresas Profesional",
+        "desc_area": "Planificación estratégica y gestión financiera en los negocios"
     },
     {
         "id_area": 9,
         "id_pro": 3,
-        "nom_area": "Emphasis Business Administration",
-        "desc_area": "Focus on entrepreneurship and innovation in business"
+        "nom_area": "Énfasis en Administración de Empresas",
+        "desc_area": "Enfoque en emprendimiento e innovación en los negocios"
     },
     {
         "id_area": 10,
         "id_pro": 4,
-        "nom_area": "Basic Mechanical Engineering",
-        "desc_area": "Study of mechanics and materials science"
+        "nom_area": "Ingeniería Mecánica Básica",
+        "desc_area": "Estudio de la mecánica y la ciencia de los materiales"
     },
     {
         "id_area": 11,
         "id_pro": 4,
-        "nom_area": "Professional Mechanical Engineering",
-        "desc_area": "Advanced thermodynamics and fluid mechanics"
+        "nom_area": "Ingeniería Mecánica Profesional",
+        "desc_area": "Termodinámica avanzada y mecánica de fluidos"
     },
     {
         "id_area": 12,
         "id_pro": 4,
-        "nom_area": "Emphasis Mechanical Engineering",
-        "desc_area": "Specialization in automotive engineering and design"
+        "nom_area": "Énfasis en Ingeniería Mecánica",
+        "desc_area": "Especialización en ingeniería automotriz y diseño"
     },
     {
         "id_area": 13,
         "id_pro": 5,
-        "nom_area": "Basic Psychology",
-        "desc_area": "Introduction to psychological theories and research methods"
+        "nom_area": "Psicología Básica",
+        "desc_area": "Introducción a las teorías psicológicas y métodos de investigación"
     },
     {
         "id_area": 14,
         "id_pro": 5,
-        "nom_area": "Professional Psychology",
-        "desc_area": "Advanced study of clinical psychology and counseling techniques"
+        "nom_area": "Psicología Profesional",
+        "desc_area": "Estudio avanzado de psicología clínica y técnicas de consejería"
     },
     {
         "id_area": 15,
         "id_pro": 5,
-        "nom_area": "Emphasis Psychology",
-        "desc_area": "Specialization in developmental psychology and behavioral analysis"
+        "nom_area": "Énfasis en Psicología",
+        "desc_area": "Especialización en psicología del desarrollo y análisis del comportamiento"
     },
     {
         "id_area": 16,
         "id_pro": 6,
-        "nom_area": "Basic Environmental Science",
-        "desc_area": "Fundamentals of ecology and environmental conservation"
+        "nom_area": "Ciencias Ambientales Básicas",
+        "desc_area": "Fundamentos de ecología y conservación del medio ambiente"
     },
     {
         "id_area": 17,
         "id_pro": 6,
-        "nom_area": "Professional Environmental Science",
-        "desc_area": "Advanced study of environmental policy and sustainable development"
+        "nom_area": "Ciencias Ambientales Profesionales",
+        "desc_area": "Estudio avanzado de políticas ambientales y desarrollo sostenible"
     },
     {
         "id_area": 18,
         "id_pro": 6,
-        "nom_area": "Emphasis Environmental Science",
-        "desc_area": "Focus on environmental impact assessment and natural resource management"
+        "nom_area": "Énfasis en Ciencias Ambientales",
+        "desc_area": "Enfoque en evaluación del impacto ambiental y gestión de recursos naturales"
     },
     {
         "id_area": 19,
         "id_pro": 7,
-        "nom_area": "Basic Marketing",
-        "desc_area": "Introduction to consumer behavior and marketing principles"
+        "nom_area": "Marketing Básico",
+        "desc_area": "Introducción al comportamiento del consumidor y principios de marketing"
     },
     {
         "id_area": 20,
         "id_pro": 7,
-        "nom_area": "Professional Marketing",
-        "desc_area": "Advanced study of digital marketing strategies and market analysis"
+        "nom_area": "Marketing Profesional",
+        "desc_area": "Estudio avanzado de estrategias de marketing digital y análisis de mercado"
     },
     {
         "id_area": 21,
         "id_pro": 7,
-        "nom_area": "Emphasis Marketing",
-        "desc_area": "Specialization in brand management and advertising campaigns"
+        "nom_area": "Énfasis en Marketing",
+        "desc_area": "Especialización en gestión de marcas y campañas publicitarias"
     },
     {
         "id_area": 22,
         "id_pro": 8,
-        "nom_area": "Basic Nursing",
-        "desc_area": "Fundamentals of patient care and healthcare practices"
+        "nom_area": "Enfermería Básica",
+        "desc_area": "Fundamentos de cuidado de pacientes y prácticas de atención médica"
     },
     {
         "id_area": 23,
         "id_pro": 8,
-        "nom_area": "Professional Nursing",
-        "desc_area": "Advanced study of nursing management and healthcare administration"
+        "nom_area": "Enfermería Profesional",
+        "desc_area": "Estudio avanzado de gestión de enfermería y administración de atención médica"
     },
     {
         "id_area": 24,
         "id_pro": 8,
-        "nom_area": "Emphasis Nursing",
-        "desc_area": "Focus on specialized nursing practices and patient advocacy"
+        "nom_area": "Énfasis en Enfermería",
+        "desc_area": "Enfoque en prácticas de enfermería especializadas y defensa de pacientes"
     },
     {
         "id_area": 25,
         "id_pro": 9,
-        "nom_area": "Basic Civil Engineering",
-        "desc_area": "Study of structural engineering and construction materials"
+        "nom_area": "Ingeniería Civil Básica",
+        "desc_area": "Estudio de la ingeniería estructural y materiales de construcción"
     },
     {
         "id_area": 26,
         "id_pro": 9,
-        "nom_area": "Professional Civil Engineering",
-        "desc_area": "Advanced study of transportation engineering and urban infrastructure"
+        "nom_area": "Ingeniería Civil Profesional",
+        "desc_area": "Estudio avanzado de ingeniería de transporte e infraestructura urbana"
     },
     {
         "id_area": 27,
         "id_pro": 9,
-        "nom_area": "Emphasis Civil Engineering",
-        "desc_area": "Specialization in environmental engineering and sustainable design"
+        "nom_area": "Énfasis en Ingeniería Civil",
+        "desc_area": "Especialización en ingeniería ambiental y diseño sostenible"
     },
     {
         "id_area": 28,
         "id_pro": 10,
-        "nom_area": "Basic Biology",
-        "desc_area": "Introduction to cellular biology and genetics"
+        "nom_area": "Biología Básica",
+        "desc_area": "Introducción a la biología celular y la genética"
     },
     {
         "id_area": 29,
         "id_pro": 10,
-        "nom_area": "Professional Biology",
-        "desc_area": "Advanced study of ecology and evolutionary biology"
+        "nom_area": "Biología Profesional",
+        "desc_area": "Estudio avanzado de la ecología y biología evolutiva"
     },
     {
         "id_area": 30,
         "id_pro": 10,
-        "nom_area": "Emphasis Biology",
-        "desc_area": "Focus on marine biology and conservation research"
+        "nom_area": "Énfasis en Biología",
+        "desc_area": "Enfoque en biología marina e investigación de conservación"
     },
     {
         "id_area": 31,
         "id_pro": 11,
-        "nom_area": "Basic Finance",
-        "desc_area": "Introduction to financial markets and investment principles"
+        "nom_area": "Finanzas Básicas",
+        "desc_area": "Introducción a los mercados financieros y principios de inversión"
     },
     {
         "id_area": 32,
         "id_pro": 11,
-        "nom_area": "Professional Finance",
-        "desc_area": "Advanced study of corporate finance and risk management"
+        "nom_area": "Finanzas Profesionales",
+        "desc_area": "Estudio avanzado de finanzas corporativas y gestión de riesgos"
     },
     {
         "id_area": 33,
         "id_pro": 11,
-        "nom_area": "Emphasis Finance",
-        "desc_area": "Specialization in financial analysis and portfolio management"
+        "nom_area": "Énfasis en Finanzas",
+        "desc_area": "Especialización en análisis financiero y gestión de carteras"
     },
     {
         "id_area": 34,
         "id_pro": 12,
-        "nom_area": "Basic English Literature",
-        "desc_area": "Study of literary genres and language analysis"
+        "nom_area": "Literatura Inglesa Básica",
+        "desc_area": "Estudio de géneros literarios y análisis lingüístico"
     },
     {
         "id_area": 35,
         "id_pro": 12,
-        "nom_area": "Professional English Literature",
-        "desc_area": "Advanced study of literary criticism and cultural studies"
+        "nom_area": "Literatura Inglesa Profesional",
+        "desc_area": "Estudio avanzado de crítica literaria y estudios culturales"
     },
     {
         "id_area": 36,
         "id_pro": 12,
-        "nom_area": "Emphasis English Literature",
-        "desc_area": "Focus on creative writing and modern literature"
+        "nom_area": "Énfasis en Literatura Inglesa",
+        "desc_area": "Enfoque en escritura creativa y literatura moderna"
     },
     {
         "id_area": 37,
         "id_pro": 13,
-        "nom_area": "Basic History",
-        "desc_area": "Introduction to historical events and global civilizations"
+        "nom_area": "Historia Básica",
+        "desc_area": "Introducción a eventos históricos y civilizaciones globales"
     },
     {
         "id_area": 38,
         "id_pro": 13,
-        "nom_area": "Professional History",
-        "desc_area": "Advanced study of historical research methods and archival studies"
+        "nom_area": "Historia Profesional",
+        "desc_area": "Estudio avanzado de métodos de investigación histórica y estudios archivísticos"
     },
     {
         "id_area": 39,
         "id_pro": 13,
-        "nom_area": "Emphasis History",
-        "desc_area": "Specialization in cultural heritage and museum studies"
+        "nom_area": "Énfasis en Historia",
+        "desc_area": "Especialización en patrimonio cultural y estudios de museos"
     },
     {
         "id_area": 40,
         "id_pro": 14,
-        "nom_area": "Basic Chemical Engineering",
-        "desc_area": "Fundamentals of chemical processes and industrial chemistry"
+        "nom_area": "Ingeniería Química Básica",
+        "desc_area": "Fundamentos de procesos químicos y química industrial"
     },
     {
         "id_area": 41,
         "id_pro": 14,
-        "nom_area": "Professional Chemical Engineering",
-        "desc_area": "Advanced study of chemical reactor design and process optimization"
+        "nom_area": "Ingeniería Química Profesional",
+        "desc_area": "Estudio avanzado de diseño de reactores químicos y optimización de procesos"
     },
     {
         "id_area": 42,
         "id_pro": 14,
-        "nom_area": "Emphasis Chemical Engineering",
-        "desc_area": "Specialization in pharmaceutical engineering and drug development"
+        "nom_area": "Énfasis en Ingeniería Química",
+        "desc_area": "Especialización en ingeniería farmacéutica y desarrollo de medicamentos"
     },
     {
         "id_area": 43,
         "id_pro": 15,
-        "nom_area": "Basic Sociology",
-        "desc_area": "Introduction to sociological theories and social structures"
+        "nom_area": "Sociología Básica",
+        "desc_area": "Introducción a las teorías sociológicas y estructuras sociales"
     },
     {
         "id_area": 44,
         "id_pro": 15,
-        "nom_area": "Professional Sociology",
-        "desc_area": "Advanced study of community development and social welfare policies"
+        "nom_area": "Sociología Profesional",
+        "desc_area": "Estudio avanzado del desarrollo comunitario y políticas de bienestar social"
     },
     {
         "id_area": 45,
         "id_pro": 15,
-        "nom_area": "Emphasis Sociology",
-        "desc_area": "Focus on criminology and deviant behavior analysis"
+        "nom_area": "Énfasis en Sociología",
+        "desc_area": "Enfoque en criminología y análisis de comportamiento desviado"
     },
     {
         "id_area": 46,
         "id_pro": 16,
-        "nom_area": "Basic Art History",
-        "desc_area": "Study of art movements and cultural heritage preservation"
+        "nom_area": "Historia del Arte Básica",
+        "desc_area": "Estudio de movimientos artísticos y preservación del patrimonio cultural"
     },
     {
         "id_area": 47,
         "id_pro": 16,
-        "nom_area": "Professional Art History",
-        "desc_area": "Advanced study of museum curation and art conservation"
+        "nom_area": "Historia del Arte Profesional",
+        "desc_area": "Estudio avanzado de curaduría de museos y conservación del arte"
     },
     {
         "id_area": 48,
         "id_pro": 16,
-        "nom_area": "Emphasis Art History",
-        "desc_area": "Specialization in contemporary art and visual culture studies"
+        "nom_area": "Énfasis en Historia del Arte",
+        "desc_area": "Especialización en arte contemporáneo y estudios de cultura visual"
     },
     {
         "id_area": 49,
         "id_pro": 17,
-        "nom_area": "Basic Physics",
-        "desc_area": "Introduction to classical mechanics and thermodynamics"
+        "nom_area": "Física Básica",
+        "desc_area": "Introducción a la mecánica clásica y la termodinámica"
     },
     {
         "id_area": 50,
         "id_pro": 17,
-        "nom_area": "Professional Physics",
-        "desc_area": "Advanced study of quantum mechanics and particle physics"
+        "nom_area": "Física Profesional",
+        "desc_area": "Estudio avanzado de la mecánica cuántica y la física de partículas"
     },
     {
         "id_area": 51,
         "id_pro": 17,
-        "nom_area": "Emphasis Physics",
-        "desc_area": "Specialization in astrophysics and cosmology"
+        "nom_area": "Énfasis en Física",
+        "desc_area": "Especialización en astrofísica y cosmología"
     },
     {
         "id_area": 52,
         "id_pro": 18,
-        "nom_area": "Basic Music Education",
-        "desc_area": "Fundamentals of music theory and pedagogy"
+        "nom_area": "Educación Musical Básica",
+        "desc_area": "Fundamentos de teoría musical y pedagogía"
     },
     {
         "id_area": 53,
         "id_pro": 18,
-        "nom_area": "Professional Music Education",
-        "desc_area": "Advanced study of music curriculum development and teaching methods"
+        "nom_area": "Educación Musical Profesional",
+        "desc_area": "Estudio avanzado de desarrollo del plan de estudios musical y métodos de enseñanza"
     },
     {
         "id_area": 54,
         "id_pro": 18,
-        "nom_area": "Emphasis Music Education",
-        "desc_area": "Focus on music technology and digital music production"
+        "nom_area": "Énfasis en Educación Musical",
+        "desc_area": "Enfoque en tecnología musical y producción musical digital"
     }
 ]
