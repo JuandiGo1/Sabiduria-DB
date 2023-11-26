@@ -47,6 +47,9 @@ const dropDatabase = async () => {
         await db.run('DROP TABLE IF EXISTS Asignatura')
         console.log('Table Asignatura dropped successfully')
 
+        await db.run('DROP TABLE IF EXISTS Objetivos')
+        console.log('Table Objetivos dropped successfully')
+
         console.log('Database dropped successfully')
     } catch (error) {
         console.error('Error dropping the database:', error)
@@ -84,16 +87,17 @@ const createTables = async () => {
     )
 
     await createTable(
-      'Objetivos',
-      `
+        'Objetivos',
+        `
     CREATE TABLE IF NOT EXISTS Objetivos (
       id_obj INTEGER PRIMARY KEY,
       id_pro INTEGER,
+	  titulo_obj TEXT,
       desc_obj TEXT,
       FOREIGN KEY (id_pro) REFERENCES Programa(id_pro) ON DELETE SET NULL ON UPDATE CASCADE
     )
     `
-   )
+    )
 
     await createTable(
         'Requisitos_cumplidos',

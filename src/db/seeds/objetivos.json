@@ -1,0 +1,26 @@
+[
+    {
+        "id_obj": 1,
+        "id_pro": 1,
+        "titulo_obj": "Dominio de Fundamentos",
+        "desc_obj": "Dominar los fundamentos de la programación y la lógica de algoritmos para resolver problemas complejos en el campo de la ciencia de la computación."
+    },
+    {
+        "id_obj": 2,
+        "id_pro": 1,
+        "titulo_obj": "Aplicaciones de Inteligencia Artificial",
+        "desc_obj": "Explorar y aplicar técnicas avanzadas de inteligencia artificial y aprendizaje automático para desarrollar soluciones innovadoras en el ámbito informático."
+    },
+    {
+        "id_obj": 3,
+        "id_pro": 1,
+        "titulo_obj": "Desarrollo de Sistemas Distribuidos",
+        "desc_obj": "Desarrollar habilidades especializadas en el diseño y la implementación de sistemas distribuidos y redes, asegurando un conocimiento sólido de la infraestructura tecnológica."
+    },
+    {
+        "id_obj": 4,
+        "id_pro": 1,
+        "titulo_obj": "Seguridad Informática",
+        "desc_obj": "Investigar y aplicar medidas de seguridad informática, comprendiendo la importancia de proteger la integridad y confidencialidad de los datos en entornos informáticos."
+    }
+]
