@@ -1,0 +1,1403 @@
+[
+    {
+        "id_asig": 1,
+        "id_area": 1,
+        "nom_asig": "Fundamentos de Programación",
+        "desc_asig": "Conceptos básicos de programación, incluyendo sintaxis y estructuras de control.",
+        "categoria": "Programación Básica"
+    },
+    {
+        "id_asig": 2,
+        "id_area": 1,
+        "nom_asig": "Lógica Computacional",
+        "desc_asig": "Introducción a la lógica matemática y su aplicación en la computación.",
+        "categoria": "Programación Básica"
+    },
+    {
+        "id_asig": 3,
+        "id_area": 1,
+        "nom_asig": "Introducción a las Estructuras de Datos",
+        "desc_asig": "Conceptos de estructuras de datos como listas, pilas y colas.",
+        "categoria": "Estructuras y Algoritmos"
+    },
+    {
+        "id_asig": 4,
+        "id_area": 1,
+        "nom_asig": "Algoritmos y Resolución de Problemas",
+        "desc_asig": "Técnicas de diseño y análisis de algoritmos básicos.",
+        "categoria": "Estructuras y Algoritmos"
+    },
+    {
+        "id_asig": 5,
+        "id_area": 1,
+        "nom_asig": "Arquitectura de Computadoras",
+        "desc_asig": "Fundamentos de la arquitectura de hardware y sistemas operativos.",
+        "categoria": "Hardware y Sistemas"
+    },
+    {
+        "id_asig": 6,
+        "id_area": 1,
+        "nom_asig": "Sistemas Operativos",
+        "desc_asig": "Estudio de los principios de los sistemas operativos modernos.",
+        "categoria": "Hardware y Sistemas"
+    },
+    {
+        "id_asig": 7,
+        "id_area": 1,
+        "nom_asig": "Introducción a Bases de Datos",
+        "desc_asig": "Conceptos básicos de bases de datos, incluyendo modelos y lenguajes de consulta.",
+        "categoria": "Tecnologías de la Información"
+    },
+    {
+        "id_asig": 8,
+        "id_area": 1,
+        "nom_asig": "Fundamentos de Desarrollo Web",
+        "desc_asig": "Principios del desarrollo web, cubriendo HTML, CSS y JavaScript.",
+        "categoria": "Tecnologías de la Información"
+    },
+    {
+        "id_asig": 9,
+        "id_area": 1,
+        "nom_asig": "Matemáticas para Computación",
+        "desc_asig": "Matemáticas discretas y su aplicación en informática.",
+        "categoria": "Matemáticas Computacionales"
+    },
+    {
+        "id_asig": 10,
+        "id_area": 1,
+        "nom_asig": "Teoría de la Computación",
+        "desc_asig": "Introducción a la teoría de autómatas y complejidad computacional.",
+        "categoria": "Matemáticas Computacionales"
+    },
+    {
+        "id_asig": 11,
+        "id_area": 2,
+        "nom_asig": "Desarrollo de Software Avanzado",
+        "desc_asig": "Técnicas y metodologías avanzadas en el desarrollo de software.",
+        "categoria": "Ingeniería de Software"
+    },
+    {
+        "id_asig": 12,
+        "id_area": 2,
+        "nom_asig": "Arquitectura de Sistemas",
+        "desc_asig": "Principios y prácticas en el diseño de arquitecturas de sistemas complejos.",
+        "categoria": "Ingeniería de Software"
+    },
+    {
+        "id_asig": 13,
+        "id_area": 2,
+        "nom_asig": "Programación de Sistemas",
+        "desc_asig": "Desarrollo y gestión de sistemas a nivel de sistema operativo y hardware.",
+        "categoria": "Sistemas y Redes"
+    },
+    {
+        "id_asig": 14,
+        "id_area": 2,
+        "nom_asig": "Redes y Comunicaciones",
+        "desc_asig": "Estudio de redes de computadoras y protocolos de comunicación.",
+        "categoria": "Sistemas y Redes"
+    },
+    {
+        "id_asig": 15,
+        "id_area": 2,
+        "nom_asig": "Inteligencia Artificial Avanzada",
+        "desc_asig": "Técnicas y aplicaciones de inteligencia artificial y aprendizaje automático.",
+        "categoria": "Inteligencia Artificial"
+    },
+    {
+        "id_asig": 16,
+        "id_area": 2,
+        "nom_asig": "Aprendizaje Profundo",
+        "desc_asig": "Enfoques y técnicas de aprendizaje profundo en inteligencia artificial.",
+        "categoria": "Inteligencia Artificial"
+    },
+    {
+        "id_asig": 17,
+        "id_area": 2,
+        "nom_asig": "Seguridad Informática",
+        "desc_asig": "Estudio avanzado de la seguridad en sistemas informáticos y redes.",
+        "categoria": "Ciberseguridad"
+    },
+    {
+        "id_asig": 18,
+        "id_area": 2,
+        "nom_asig": "Criptografía",
+        "desc_asig": "Principios y técnicas de cifrado y seguridad de la información.",
+        "categoria": "Ciberseguridad"
+    },
+    {
+        "id_asig": 19,
+        "id_area": 2,
+        "nom_asig": "Gestión de Proyectos de TI",
+        "desc_asig": "Metodologías y herramientas para la gestión eficaz de proyectos tecnológicos.",
+        "categoria": "Gestión Tecnológica"
+    },
+    {
+        "id_asig": 20,
+        "id_area": 2,
+        "nom_asig": "Desarrollo de Aplicaciones Móviles",
+        "desc_asig": "Creación de aplicaciones móviles utilizando diferentes frameworks y plataformas.",
+        "categoria": "Desarrollo de Software"
+    },
+    {
+        "id_asig": 21,
+        "id_area": 3,
+        "nom_asig": "Fundamentos de Inteligencia Artificial",
+        "desc_asig": "Principios básicos y teorías fundamentales de la inteligencia artificial.",
+        "categoria": "Inteligencia Artificial Básica"
+    },
+    {
+        "id_asig": 22,
+        "id_area": 3,
+        "nom_asig": "Aprendizaje Automático",
+        "desc_asig": "Técnicas y algoritmos en aprendizaje automático, incluyendo aprendizaje supervisado y no supervisado.",
+        "categoria": "Inteligencia Artificial Básica"
+    },
+    {
+        "id_asig": 23,
+        "id_area": 3,
+        "nom_asig": "Visión por Computador",
+        "desc_asig": "Técnicas de procesamiento y análisis de imágenes digitales para aplicaciones de IA.",
+        "categoria": "Aplicaciones de IA"
+    },
+    {
+        "id_asig": 24,
+        "id_area": 3,
+        "nom_asig": "Procesamiento de Lenguaje Natural",
+        "desc_asig": "Métodos para el procesamiento y análisis de datos de lenguaje natural con IA.",
+        "categoria": "Aplicaciones de IA"
+    },
+    {
+        "id_asig": 25,
+        "id_area": 3,
+        "nom_asig": "Robótica Inteligente",
+        "desc_asig": "Integración de la inteligencia artificial en sistemas robóticos para la automatización y toma de decisiones.",
+        "categoria": "Robótica y Automatización"
+    },
+    {
+        "id_asig": 26,
+        "id_area": 3,
+        "nom_asig": "Sistemas Autónomos",
+        "desc_asig": "Diseño y desarrollo de sistemas autónomos utilizando principios de IA y aprendizaje automático.",
+        "categoria": "Robótica y Automatización"
+    },
+    {
+        "id_asig": 27,
+        "id_area": 3,
+        "nom_asig": "Redes Neuronales y Deep Learning",
+        "desc_asig": "Estudio de redes neuronales y técnicas de aprendizaje profundo en diversos contextos de IA.",
+        "categoria": "Aprendizaje Profundo"
+    },
+    {
+        "id_asig": 28,
+        "id_area": 3,
+        "nom_asig": "IA en Negocios y Finanzas",
+        "desc_asig": "Aplicación de la inteligencia artificial para la solución de problemas en el ámbito empresarial y financiero.",
+        "categoria": "IA en Industrias"
+    },
+    {
+        "id_asig": 29,
+        "id_area": 3,
+        "nom_asig": "Ética en Inteligencia Artificial",
+        "desc_asig": "Discusión de los aspectos éticos y sociales relacionados con el desarrollo y uso de la IA.",
+        "categoria": "Aspectos Éticos y Sociales"
+    },
+    {
+        "id_asig": 30,
+        "id_area": 3,
+        "nom_asig": "Proyectos de Innovación en IA",
+        "desc_asig": "Desarrollo de proyectos innovadores que apliquen soluciones de IA en problemas reales.",
+        "categoria": "Proyectos y Casos Prácticos"
+    },
+    {
+        "id_asig": 31,
+        "id_area": 4,
+        "nom_asig": "Teoría de Circuitos Eléctricos",
+        "desc_asig": "Fundamentos de análisis de circuitos, incluyendo leyes de Ohm y Kirchhoff.",
+        "categoria": "Fundamentos Eléctricos"
+    },
+    {
+        "id_asig": 32,
+        "id_area": 4,
+        "nom_asig": "Electrónica Básica",
+        "desc_asig": "Introducción a los componentes electrónicos básicos y su funcionamiento.",
+        "categoria": "Fundamentos Eléctricos"
+    },
+    {
+        "id_asig": 33,
+        "id_area": 4,
+        "nom_asig": "Sistemas Digitales",
+        "desc_asig": "Principios de la electrónica digital y diseño de circuitos lógicos.",
+        "categoria": "Electrónica y Sistemas Digitales"
+    },
+    {
+        "id_asig": 34,
+        "id_area": 4,
+        "nom_asig": "Laboratorio de Circuitos",
+        "desc_asig": "Prácticas experimentales en diseño y análisis de circuitos eléctricos.",
+        "categoria": "Electrónica y Sistemas Digitales"
+    },
+    {
+        "id_asig": 35,
+        "id_area": 4,
+        "nom_asig": "Máquinas Eléctricas",
+        "desc_asig": "Estudio de los principios de operación de máquinas eléctricas, incluyendo transformadores y motores.",
+        "categoria": "Máquinas y Equipos Eléctricos"
+    },
+    {
+        "id_asig": 36,
+        "id_area": 4,
+        "nom_asig": "Generación y Distribución de Energía",
+        "desc_asig": "Aspectos básicos de la generación de energía eléctrica y su distribución en redes.",
+        "categoria": "Energía Eléctrica"
+    },
+    {
+        "id_asig": 37,
+        "id_area": 4,
+        "nom_asig": "Electromagnetismo",
+        "desc_asig": "Principios del electromagnetismo y su aplicación en ingeniería eléctrica.",
+        "categoria": "Teoría y Aplicaciones"
+    },
+    {
+        "id_asig": 38,
+        "id_area": 4,
+        "nom_asig": "Instrumentación Eléctrica",
+        "desc_asig": "Técnicas de medición y uso de instrumentos en sistemas eléctricos.",
+        "categoria": "Mediciones y Control"
+    },
+    {
+        "id_asig": 39,
+        "id_area": 4,
+        "nom_asig": "Seguridad en Sistemas Eléctricos",
+        "desc_asig": "Normas y prácticas para la seguridad en el manejo de sistemas eléctricos.",
+        "categoria": "Seguridad y Normativas"
+    },
+    {
+        "id_asig": 40,
+        "id_area": 4,
+        "nom_asig": "Fundamentos de Control Automático",
+        "desc_asig": "Introducción a los sistemas de control automático y su aplicación en ingeniería eléctrica.",
+        "categoria": "Control y Automatización"
+    },
+    {
+        "id_asig": 41,
+        "id_area": 5,
+        "nom_asig": "Generación de Energía Avanzada",
+        "desc_asig": "Estudio detallado de las técnicas modernas de generación de energía eléctrica.",
+        "categoria": "Generación de Energía"
+    },
+    {
+        "id_asig": 42,
+        "id_area": 5,
+        "nom_asig": "Energías Renovables",
+        "desc_asig": "Exploración de fuentes de energía renovable, incluyendo solar, eólica e hidráulica.",
+        "categoria": "Energía Sostenible"
+    },
+    {
+        "id_asig": 43,
+        "id_area": 5,
+        "nom_asig": "Sistemas Fotovoltaicos",
+        "desc_asig": "Diseño e implementación de sistemas de energía solar fotovoltaica.",
+        "categoria": "Energía Sostenible"
+    },
+    {
+        "id_asig": 44,
+        "id_area": 5,
+        "nom_asig": "Turbinas Eólicas",
+        "desc_asig": "Principios de diseño y funcionamiento de turbinas eólicas para la generación de energía.",
+        "categoria": "Energía Sostenible"
+    },
+    {
+        "id_asig": 45,
+        "id_area": 5,
+        "nom_asig": "Microredes y Distribución de Energía",
+        "desc_asig": "Estudio de microredes y tecnologías avanzadas en la distribución de energía.",
+        "categoria": "Distribución de Energía"
+    },
+    {
+        "id_asig": 46,
+        "id_area": 5,
+        "nom_asig": "Eficiencia Energética",
+        "desc_asig": "Técnicas y estrategias para mejorar la eficiencia en el uso y distribución de la energía.",
+        "categoria": "Distribución de Energía"
+    },
+    {
+        "id_asig": 47,
+        "id_area": 5,
+        "nom_asig": "Almacenamiento de Energía",
+        "desc_asig": "Tecnologías y métodos para el almacenamiento eficiente de energía eléctrica.",
+        "categoria": "Distribución de Energía"
+    },
+    {
+        "id_asig": 48,
+        "id_area": 5,
+        "nom_asig": "Automatización de Sistemas Eléctricos",
+        "desc_asig": "Uso de sistemas de control y automatización en la gestión de redes eléctricas.",
+        "categoria": "Control y Automatización"
+    },
+    {
+        "id_asig": 49,
+        "id_area": 5,
+        "nom_asig": "Normativas en Ingeniería Eléctrica",
+        "desc_asig": "Estudio de las regulaciones y normativas en el sector eléctrico.",
+        "categoria": "Control y Automatización"
+    },
+    {
+        "id_asig": 50,
+        "id_area": 5,
+        "nom_asig": "Proyectos de Energía Renovable",
+        "desc_asig": "Desarrollo y gestión de proyectos enfocados en energías renovables.",
+        "categoria": "Proyectos de Ingeniería"
+    },
+
+    {
+        "id_asig": 51,
+        "id_area": 6,
+        "nom_asig": "Diseño Avanzado de Redes Eléctricas",
+        "desc_asig": "Principios y técnicas en el diseño moderno de redes eléctricas.",
+        "categoria": "Diseño de Redes"
+    },
+    {
+        "id_asig": 52,
+        "id_area": 6,
+        "nom_asig": "Optimización de Sistemas Eléctricos",
+        "desc_asig": "Métodos de optimización aplicados a sistemas de energía eléctrica.",
+        "categoria": "Diseño de Redes"
+    },
+    {
+        "id_asig": 53,
+        "id_area": 6,
+        "nom_asig": "Análisis de Redes Eléctricas",
+        "desc_asig": "Estudio detallado de las características y comportamiento de las redes eléctricas.",
+        "categoria": "Análisis de Sistemas"
+    },
+    {
+        "id_asig": 54,
+        "id_area": 6,
+        "nom_asig": "Gestión de la Demanda Eléctrica",
+        "desc_asig": "Estrategias y técnicas para la gestión eficiente de la demanda de energía.",
+        "categoria": "Análisis de Sistemas"
+    },
+    {
+        "id_asig": 55,
+        "id_area": 6,
+        "nom_asig": "Protecciones Eléctricas",
+        "desc_asig": "Sistemas de protección en redes eléctricas y su importancia en la seguridad.",
+        "categoria": "Seguridad y Protecciones"
+    },
+    {
+        "id_asig": 56,
+        "id_area": 6,
+        "nom_asig": "Calidad de la Energía Eléctrica",
+        "desc_asig": "Estudio de los factores que afectan la calidad de la energía y cómo mejorarla.",
+        "categoria": "Seguridad y Protecciones"
+    },
+    {
+        "id_asig": 57,
+        "id_area": 6,
+        "nom_asig": "Smart Grids y Redes Inteligentes",
+        "desc_asig": "Principios y aplicaciones de las redes eléctricas inteligentes.",
+        "categoria": "Tecnologías Emergentes"
+    },
+    {
+        "id_asig": 58,
+        "id_area": 6,
+        "nom_asig": "Integración de Energías Renovables",
+        "desc_asig": "Técnicas para integrar eficientemente fuentes de energía renovable en la red eléctrica.",
+        "categoria": "Tecnologías Emergentes"
+    },
+    {
+        "id_asig": 59,
+        "id_area": 6,
+        "nom_asig": "Simulación de Redes Eléctricas",
+        "desc_asig": "Uso de software especializado para la simulación y análisis de redes eléctricas.",
+        "categoria": "Tecnologías Emergentes"
+    },
+    {
+        "id_asig": 60,
+        "id_area": 6,
+        "nom_asig": "Proyectos en Ingeniería Eléctrica",
+        "desc_asig": "Desarrollo de proyectos prácticos enfocados en el diseño y optimización de redes eléctricas.",
+        "categoria": "Tecnologías Emergentes"
+    },
+    {
+        "id_asig": 61,
+        "id_area": 7,
+        "nom_asig": "Principios de Administración",
+        "desc_asig": "Fundamentos de la administración y gestión empresarial.",
+        "categoria": "Fundamentos de Gestión"
+    },
+    {
+        "id_asig": 62,
+        "id_area": 7,
+        "nom_asig": "Comportamiento Organizacional",
+        "desc_asig": "Estudio del comportamiento humano en organizaciones y su impacto en la eficacia empresarial.",
+        "categoria": "Fundamentos de Gestión"
+    },
+    {
+        "id_asig": 63,
+        "id_area": 7,
+        "nom_asig": "Fundamentos de Marketing",
+        "desc_asig": "Introducción a los conceptos y estrategias de marketing en el entorno empresarial.",
+        "categoria": "Fundamentos de Gestión"
+    },
+    {
+        "id_asig": 64,
+        "id_area": 7,
+        "nom_asig": "Contabilidad Básica",
+        "desc_asig": "Principios y prácticas de contabilidad en el contexto empresarial.",
+        "categoria": "Fundamentos de Gestión"
+    },
+    {
+        "id_asig": 65,
+        "id_area": 7,
+        "nom_asig": "Gestión de Recursos Humanos",
+        "desc_asig": "Fundamentos de la gestión de recursos humanos y desarrollo del talento.",
+        "categoria": "Recursos Humanos"
+    },
+    {
+        "id_asig": 66,
+        "id_area": 7,
+        "nom_asig": "Ética Empresarial",
+        "desc_asig": "Exploración de los principios éticos en la toma de decisiones y gestión empresarial.",
+        "categoria": "Recursos Humanos"
+    },
+    {
+        "id_asig": 67,
+        "id_area": 7,
+        "nom_asig": "Economía para Administradores",
+        "desc_asig": "Conceptos básicos de micro y macroeconomía relevantes para la administración de empresas.",
+        "categoria": "Economía y Entorno"
+    },
+    {
+        "id_asig": 68,
+        "id_area": 7,
+        "nom_asig": "Tecnologías de Información en Negocios",
+        "desc_asig": "Uso de tecnologías de información y sistemas en la gestión empresarial.",
+        "categoria": "Tecnología e Innovación"
+    },
+    {
+        "id_asig": 69,
+        "id_area": 7,
+        "nom_asig": "Introducción a la Gestión de Proyectos",
+        "desc_asig": "Fundamentos de la gestión de proyectos y su aplicación en el ámbito empresarial.",
+        "categoria": "Tecnología e Innovación"
+    },
+    {
+        "id_asig": 70,
+        "id_area": 7,
+        "nom_asig": "Negociación y Resolución de Conflictos",
+        "desc_asig": "Técnicas y habilidades para la negociación efectiva y resolución de conflictos en las organizaciones.",
+        "categoria": "Tecnología e Innovación"
+    },
+    {
+        "id_asig": 71,
+        "id_area": 8,
+        "nom_asig": "Planificación Estratégica Empresarial",
+        "desc_asig": "Desarrollo de habilidades para la formulación e implementación de estrategias empresariales.",
+        "categoria": "Estrategia y Planificación"
+    },
+    {
+        "id_asig": 72,
+        "id_area": 8,
+        "nom_asig": "Gestión Financiera Avanzada",
+        "desc_asig": "Técnicas y herramientas avanzadas para la gestión financiera y la toma de decisiones en las empresas.",
+        "categoria": "Estrategia y Planificación"
+    },
+    {
+        "id_asig": 73,
+        "id_area": 8,
+        "nom_asig": "Análisis de Inversiones",
+        "desc_asig": "Evaluación de inversiones y estrategias para la maximización del valor corporativo.",
+        "categoria": "Estrategia y Planificación"
+    },
+    {
+        "id_asig": 74,
+        "id_area": 8,
+        "nom_asig": "Liderazgo Organizacional",
+        "desc_asig": "Estudio del liderazgo efectivo y su impacto en la cultura y desempeño organizacional.",
+        "categoria": "Liderazgo y Desarrollo"
+    },
+    {
+        "id_asig": 75,
+        "id_area": 8,
+        "nom_asig": "Gestión del Cambio Organizacional",
+        "desc_asig": "Estrategias y prácticas para gestionar el cambio en las organizaciones.",
+        "categoria": "Liderazgo y Desarrollo"
+    },
+    {
+        "id_asig": 76,
+        "id_area": 8,
+        "nom_asig": "Marketing Estratégico",
+        "desc_asig": "Desarrollo de estrategias de marketing basadas en análisis del mercado y del consumidor.",
+        "categoria": "Liderazgo y Desarrollo"
+    },
+    {
+        "id_asig": 77,
+        "id_area": 8,
+        "nom_asig": "Innovación y Desarrollo Empresarial",
+        "desc_asig": "Creación y gestión de procesos de innovación para el desarrollo empresarial.",
+        "categoria": "Liderazgo y Desarrollo"
+    },
+    {
+        "id_asig": 78,
+        "id_area": 8,
+        "nom_asig": "Dirección de Recursos Humanos",
+        "desc_asig": "Gestión estratégica del talento y desarrollo del capital humano en la organización.",
+        "categoria": "Gestión de Recursos Humanos"
+    },
+    {
+        "id_asig": 79,
+        "id_area": 8,
+        "nom_asig": "Estrategias de Negociación y Resolución de Conflictos",
+        "desc_asig": "Técnicas avanzadas para negociaciones efectivas y resolución de conflictos empresariales.",
+        "categoria": "Gestión de Recursos Humanos"
+    },
+    {
+        "id_asig": 80,
+        "id_area": 8,
+        "nom_asig": "Responsabilidad Social Corporativa",
+        "desc_asig": "Estudio de la responsabilidad social y ética en la toma de decisiones empresariales.",
+        "categoria": "Gestión de Recursos Humanos"
+    },
+    {
+        "id_asig": 81,
+        "id_area": 9,
+        "nom_asig": "Emprendimiento y Creación de Empresas",
+        "desc_asig": "Fundamentos para el desarrollo y lanzamiento de nuevas empresas, desde la idea hasta la ejecución.",
+        "categoria": "Innovación Empresarial"
+    },
+    {
+        "id_asig": 82,
+        "id_area": 9,
+        "nom_asig": "Innovación en Modelos de Negocio",
+        "desc_asig": "Exploración de modelos de negocio innovadores y su impacto en el éxito empresarial.",
+        "categoria": "Innovación Empresarial"
+    },
+    {
+        "id_asig": 83,
+        "id_area": 9,
+        "nom_asig": "Gestión de la Innovación",
+        "desc_asig": "Estrategias y herramientas para gestionar la innovación en organizaciones.",
+        "categoria": "Innovación Empresarial"
+    },
+    {
+        "id_asig": 84,
+        "id_area": 9,
+        "nom_asig": "Finanzas para Emprendedores",
+        "desc_asig": "Aspectos financieros clave para emprendedores, incluyendo financiación, presupuestos y análisis financiero.",
+        "categoria": "Innovación Empresarial"
+    },
+    {
+        "id_asig": 85,
+        "id_area": 9,
+        "nom_asig": "Marketing Digital",
+        "desc_asig": "Estrategias y herramientas de marketing en el entorno digital para impulsar negocios.",
+        "categoria": "Marketing y Ventas"
+    },
+    {
+        "id_asig": 86,
+        "id_area": 9,
+        "nom_asig": "Liderazgo Emprendedor",
+        "desc_asig": "Desarrollo de habilidades de liderazgo y gestión en contextos de emprendimiento.",
+        "categoria": "Marketing y Ventas"
+    },
+    {
+        "id_asig": 87,
+        "id_area": 9,
+        "nom_asig": "Gestión de Startups",
+        "desc_asig": "Principios y prácticas para la gestión eficiente de startups y empresas emergentes.",
+        "categoria": "Marketing y Ventas"
+    },
+    {
+        "id_asig": 88,
+        "id_area": 9,
+        "nom_asig": "Desarrollo Sostenible en Negocios",
+        "desc_asig": "Integración de prácticas de sostenibilidad en la planificación y operación de negocios.",
+        "categoria": "Marketing y Ventas"
+    },
+    {
+        "id_asig": 89,
+        "id_area": 9,
+        "nom_asig": "Análisis de Tendencias de Mercado",
+        "desc_asig": "Técnicas para identificar y analizar tendencias de mercado y su aplicación en la estrategia empresarial.",
+        "categoria": "Marketing y Ventas"
+    },
+    {
+        "id_asig": 90,
+        "id_area": 9,
+        "nom_asig": "Negocios Internacionales",
+        "desc_asig": "Estudio de los desafíos y oportunidades en la gestión de negocios en un contexto global.",
+        "categoria": "Marketing y Ventas"
+    },
+    {
+        "id_asig": 91,
+        "id_area": 10,
+        "nom_asig": "Fundamentos de Mecánica Clásica",
+        "desc_asig": "Principios básicos de la mecánica, incluyendo dinámica, estática y cinemática.",
+        "categoria": "Mecánica Fundamental"
+    },
+    {
+        "id_asig": 92,
+        "id_area": 10,
+        "nom_asig": "Introducción a la Ciencia de Materiales",
+        "desc_asig": "Estudio de las propiedades de los materiales y su comportamiento bajo diferentes condiciones.",
+        "categoria": "Ciencia de Materiales"
+    },
+    {
+        "id_asig": 93,
+        "id_area": 10,
+        "nom_asig": "Termodinámica Básica",
+        "desc_asig": "Conceptos fundamentales de la termodinámica y su aplicación en ingeniería mecánica.",
+        "categoria": "Mecánica Fundamental"
+    },
+    {
+        "id_asig": 94,
+        "id_area": 10,
+        "nom_asig": "Diseño Mecánico",
+        "desc_asig": "Fundamentos del diseño de elementos mecánicos y sistemas.",
+        "categoria": "Mecánica Fundamental"
+    },
+    {
+        "id_asig": 95,
+        "id_area": 10,
+        "nom_asig": "Mecánica de Fluidos",
+        "desc_asig": "Introducción a la mecánica de fluidos y sus aplicaciones en ingeniería.",
+        "categoria": "Mecánica Fundamental"
+    },
+    {
+        "id_asig": 96,
+        "id_area": 10,
+        "nom_asig": "Resistencia de Materiales",
+        "desc_asig": "Análisis del comportamiento de materiales bajo cargas y esfuerzos.",
+        "categoria": "Análisis Estructural"
+    },
+    {
+        "id_asig": 97,
+        "id_area": 10,
+        "nom_asig": "Métodos de Fabricación",
+        "desc_asig": "Técnicas y procesos utilizados en la fabricación de componentes mecánicos.",
+        "categoria": "Análisis Estructural"
+    },
+    {
+        "id_asig": 98,
+        "id_area": 10,
+        "nom_asig": "Instrumentación y Medidas Mecánicas",
+        "desc_asig": "Principios y técnicas de medición en contextos mecánicos y experimentales.",
+        "categoria": "Análisis Estructural"
+    },
+    {
+        "id_asig": 99,
+        "id_area": 10,
+        "nom_asig": "Introducción a la Automatización y Control",
+        "desc_asig": "Fundamentos de sistemas automáticos y control en ingeniería mecánica.",
+        "categoria": "Automatización y Robótica"
+    },
+    {
+        "id_asig": 100,
+        "id_area": 10,
+        "nom_asig": "Dibujo Técnico y CAD",
+        "desc_asig": "Técnicas de dibujo técnico y diseño asistido por computadora para ingenieros mecánicos.",
+        "categoria": "Automatización y Robótica"
+    },
+    {
+        "id_asig": 101,
+        "id_area": 11,
+        "nom_asig": "Termodinámica Aplicada",
+        "desc_asig": "Estudio avanzado de la termodinámica y su aplicación en sistemas mecánicos y energéticos.",
+        "categoria": "Termodinámica Avanzada"
+    },
+    {
+        "id_asig": 102,
+        "id_area": 11,
+        "nom_asig": "Dinámica de Fluidos Computacional",
+        "desc_asig": "Análisis de fluidos utilizando herramientas computacionales y modelos matemáticos.",
+        "categoria": "Termodinámica Avanzada"
+    },
+    {
+        "id_asig": 103,
+        "id_area": 11,
+        "nom_asig": "Transferencia de Calor y Masa",
+        "desc_asig": "Estudio detallado de la transferencia de calor y masa en diferentes medios.",
+        "categoria": "Termodinámica Avanzada"
+    },
+    {
+        "id_asig": 104,
+        "id_area": 11,
+        "nom_asig": "Sistemas de Refrigeración y Aire Acondicionado",
+        "desc_asig": "Diseño y análisis de sistemas de refrigeración y climatización.",
+        "categoria": "Termodinámica Avanzada"
+    },
+    {
+        "id_asig": 105,
+        "id_area": 11,
+        "nom_asig": "Dinámica de Gases y Turbomáquinas",
+        "desc_asig": "Estudio de gases en movimiento y su aplicación en máquinas como turbinas y compresores.",
+        "categoria": "Mecánica de Fluidos Avanzada"
+    },
+    {
+        "id_asig": 106,
+        "id_area": 11,
+        "nom_asig": "Mecánica de Sólidos Avanzada",
+        "desc_asig": "Análisis de la resistencia y comportamiento de materiales sólidos bajo diversas condiciones.",
+        "categoria": "Análisis Estructural"
+    },
+    {
+        "id_asig": 107,
+        "id_area": 11,
+        "nom_asig": "Simulación y Modelado en Ingeniería Mecánica",
+        "desc_asig": "Uso de software de simulación para modelar sistemas mecánicos y analizar su comportamiento.",
+        "categoria": "Simulación y Modelado"
+    },
+    {
+        "id_asig": 108,
+        "id_area": 11,
+        "nom_asig": "Sistemas Hidráulicos y Neumáticos",
+        "desc_asig": "Diseño y análisis de sistemas hidráulicos y neumáticos en la ingeniería mecánica.",
+        "categoria": "Simulación y Modelado"
+    },
+    {
+        "id_asig": 109,
+        "id_area": 11,
+        "nom_asig": "Vibraciones Mecánicas",
+        "desc_asig": "Estudio de las vibraciones en sistemas mecánicos y métodos para su control.",
+        "categoria": "Simulación y Modelado"
+    },
+    {
+        "id_asig": 110,
+        "id_area": 11,
+        "nom_asig": "Mecánica de Fluidos Experimentales",
+        "desc_asig": "Técnicas experimentales en la mecánica de fluidos para análisis y prueba de conceptos.",
+        "categoria": "Simulación y Modelado"
+    },
+    {
+        "id_asig": 111,
+        "id_area": 12,
+        "nom_asig": "Diseño de Vehículos Automotrices",
+        "desc_asig": "Fundamentos y técnicas avanzadas en el diseño de vehículos automotrices.",
+        "categoria": "Diseño Automotriz"
+    },
+    {
+        "id_asig": 112,
+        "id_area": 12,
+        "nom_asig": "Motores de Combustión Interna",
+        "desc_asig": "Estudio detallado de los principios y funcionamiento de los motores de combustión.",
+        "categoria": "Diseño Automotriz"
+    },
+    {
+        "id_asig": 113,
+        "id_area": 12,
+        "nom_asig": "Aerodinámica en Automoción",
+        "desc_asig": "Análisis de la aerodinámica en vehículos y su influencia en el rendimiento.",
+        "categoria": "Diseño Automotriz"
+    },
+    {
+        "id_asig": 114,
+        "id_area": 12,
+        "nom_asig": "Sistemas de Transmisión Automotriz",
+        "desc_asig": "Diseño y análisis de sistemas de transmisión en vehículos automotrices.",
+        "categoria": "Diseño Automotriz"
+    },
+    {
+        "id_asig": 115,
+        "id_area": 12,
+        "nom_asig": "Seguridad en Vehículos Automotrices",
+        "desc_asig": "Estudio de sistemas de seguridad y normativas en la industria automotriz.",
+        "categoria": "Seguridad Automotriz"
+    },
+    {
+        "id_asig": 116,
+        "id_area": 12,
+        "nom_asig": "Tecnología de Materiales en Automoción",
+        "desc_asig": "Uso y selección de materiales avanzados en la fabricación de vehículos.",
+        "categoria": "Seguridad Automotriz"
+    },
+    {
+        "id_asig": 117,
+        "id_area": 12,
+        "nom_asig": "Electrónica en Automoción",
+        "desc_asig": "Aplicaciones de la electrónica en sistemas automotrices, incluyendo sensores y controladores.",
+        "categoria": "Seguridad Automotriz"
+    },
+    {
+        "id_asig": 118,
+        "id_area": 12,
+        "nom_asig": "Diseño Asistido por Computadora en Automoción",
+        "desc_asig": "Técnicas de CAD aplicadas al diseño de componentes y sistemas automotrices.",
+        "categoria": "Seguridad Automotriz"
+    },
+    {
+        "id_asig": 119,
+        "id_area": 12,
+        "nom_asig": "Vehículos Híbridos y Eléctricos",
+        "desc_asig": "Principios y tecnologías detrás de los vehículos híbridos y eléctricos.",
+        "categoria": "Vehículos Alternativos"
+    },
+    {
+        "id_asig": 120,
+        "id_area": 12,
+        "nom_asig": "Dinámica y Control de Vehículos",
+        "desc_asig": "Estudio de la dinámica vehicular y sistemas de control en ingeniería automotriz.",
+        "categoria": "Vehículos Alternativos"
+    },
+    {
+        "id_asig": 121,
+        "id_area": 13,
+        "nom_asig": "Introducción a la Psicología",
+        "desc_asig": "Visión general de los principales conceptos y teorías en psicología.",
+        "categoria": "Fundamentos de Psicología"
+    },
+    {
+        "id_asig": 122,
+        "id_area": 13,
+        "nom_asig": "Psicología del Desarrollo",
+        "desc_asig": "Estudio del desarrollo humano desde la infancia hasta la vejez.",
+        "categoria": "Fundamentos de Psicología"
+    },
+    {
+        "id_asig": 123,
+        "id_area": 13,
+        "nom_asig": "Psicología Social",
+        "desc_asig": "Exploración de cómo las personas interactúan y son influenciadas por otros.",
+        "categoria": "Fundamentos de Psicología"
+    },
+    {
+        "id_asig": 124,
+        "id_area": 13,
+        "nom_asig": "Teorías de la Personalidad",
+        "desc_asig": "Análisis de las diferentes teorías que explican la formación de la personalidad.",
+        "categoria": "Personalidad y Conducta"
+    },
+    {
+        "id_asig": 125,
+        "id_area": 13,
+        "nom_asig": "Neurociencia Básica",
+        "desc_asig": "Introducción a la estructura y función del sistema nervioso.",
+        "categoria": "Personalidad y Conducta"
+    },
+    {
+        "id_asig": 126,
+        "id_area": 13,
+        "nom_asig": "Métodos de Investigación en Psicología",
+        "desc_asig": "Técnicas y metodologías para la investigación en psicología.",
+        "categoria": "Personalidad y Conducta"
+    },
+    {
+        "id_asig": 127,
+        "id_area": 13,
+        "nom_asig": "Psicología del Aprendizaje",
+        "desc_asig": "Estudio de cómo los individuos adquieren y procesan nueva información.",
+        "categoria": "Aprendizaje y Memoria"
+    },
+    {
+        "id_asig": 128,
+        "id_area": 13,
+        "nom_asig": "Psicopatología Básica",
+        "desc_asig": "Introducción a los trastornos psicológicos y su clasificación.",
+        "categoria": "Aprendizaje y Memoria"
+    },
+    {
+        "id_asig": 129,
+        "id_area": 13,
+        "nom_asig": "Psicología Cognitiva",
+        "desc_asig": "Análisis de los procesos mentales implicados en el conocimiento.",
+        "categoria": "Aprendizaje y Memoria"
+    },
+    {
+        "id_asig": 130,
+        "id_area": 13,
+        "nom_asig": "Ética en Psicología",
+        "desc_asig": "Principios éticos y profesionales en la práctica de la psicología.",
+        "categoria": "Aprendizaje y Memoria"
+    },
+    {
+        "id_asig": 131,
+        "id_area": 14,
+        "nom_asig": "Técnicas Avanzadas de Consejería",
+        "desc_asig": "Metodologías y enfoques avanzados en la consejería psicológica.",
+        "categoria": "Consejería y Terapia"
+    },
+    {
+        "id_asig": 132,
+        "id_area": 14,
+        "nom_asig": "Psicoterapia Cognitivo-Conductual",
+        "desc_asig": "Principios y aplicaciones de la terapia cognitivo-conductual.",
+        "categoria": "Consejería y Terapia"
+    },
+    {
+        "id_asig": 133,
+        "id_area": 14,
+        "nom_asig": "Diagnóstico en Psicología Clínica",
+        "desc_asig": "Métodos y herramientas para el diagnóstico de trastornos psicológicos.",
+        "categoria": "Consejería y Terapia"
+    },
+    {
+        "id_asig": 134,
+        "id_area": 14,
+        "nom_asig": "Psicología de la Salud",
+        "desc_asig": "Estudio de la interacción entre la salud física y los factores psicológicos.",
+        "categoria": "Salud y Bienestar"
+    },
+    {
+        "id_asig": 135,
+        "id_area": 14,
+        "nom_asig": "Intervención en Crisis y Trauma",
+        "desc_asig": "Técnicas para la intervención y manejo de situaciones de crisis y traumáticas.",
+        "categoria": "Salud y Bienestar"
+    },
+    {
+        "id_asig": 136,
+        "id_area": 14,
+        "nom_asig": "Terapia Familiar y de Pareja",
+        "desc_asig": "Enfoques y técnicas para la terapia familiar y de pareja.",
+        "categoria": "Salud y Bienestar"
+    },
+    {
+        "id_asig": 137,
+        "id_area": 14,
+        "nom_asig": "Psicopatología Avanzada",
+        "desc_asig": "Análisis detallado de trastornos psicológicos y su tratamiento.",
+        "categoria": "Psicopatología"
+    },
+    {
+        "id_asig": 138,
+        "id_area": 14,
+        "nom_asig": "Neuropsicología Clínica",
+        "desc_asig": "Estudio de la relación entre el cerebro y el comportamiento en contextos clínicos.",
+        "categoria": "Psicopatología"
+    },
+    {
+        "id_asig": 139,
+        "id_area": 14,
+        "nom_asig": "Evaluación Psicológica Avanzada",
+        "desc_asig": "Métodos avanzados para la evaluación y diagnóstico psicológico.",
+        "categoria": "Psicopatología"
+    },
+    {
+        "id_asig": 140,
+        "id_area": 14,
+        "nom_asig": "Psicofarmacología",
+        "desc_asig": "Fundamentos del uso de fármacos en el tratamiento de trastornos psicológicos.",
+        "categoria": "Psicopatología"
+    },
+    {
+        "id_asig": 141,
+        "id_area": 15,
+        "nom_asig": "Psicología del Desarrollo Avanzada",
+        "desc_asig": "Estudio detallado de los cambios psicológicos a lo largo del ciclo vital.",
+        "categoria": "Desarrollo Humano"
+    },
+    {
+        "id_asig": 142,
+        "id_area": 15,
+        "nom_asig": "Análisis Conductual Aplicado",
+        "desc_asig": "Técnicas de modificación y análisis del comportamiento en diversos contextos.",
+        "categoria": "Desarrollo Humano"
+    },
+    {
+        "id_asig": 143,
+        "id_area": 15,
+        "nom_asig": "Teorías del Aprendizaje",
+        "desc_asig": "Examinación en profundidad de las teorías clásicas y contemporáneas del aprendizaje.",
+        "categoria": "Desarrollo Humano"
+    },
+    {
+        "id_asig": 144,
+        "id_area": 15,
+        "nom_asig": "Psicología Infantil y Adolescente",
+        "desc_asig": "Estudio del desarrollo emocional, cognitivo y social en niños y adolescentes.",
+        "categoria": "Desarrollo Humano"
+    },
+    {
+        "id_asig": 145,
+        "id_area": 15,
+        "nom_asig": "Psicología de la Adultez y Vejez",
+        "desc_asig": "Exploración de los aspectos psicológicos del envejecimiento y la adultez.",
+        "categoria": "Psicología Gerontológica"
+    },
+    {
+        "id_asig": 146,
+        "id_area": 15,
+        "nom_asig": "Evaluación del Comportamiento",
+        "desc_asig": "Métodos y herramientas para la evaluación y análisis del comportamiento humano.",
+        "categoria": "Psicología Gerontológica"
+    },
+    {
+        "id_asig": 147,
+        "id_area": 15,
+        "nom_asig": "Intervenciones en Psicología del Desarrollo",
+        "desc_asig": "Enfoques y estrategias para intervenciones psicológicas en distintas etapas del desarrollo.",
+        "categoria": "Psicología Gerontológica"
+    },
+    {
+        "id_asig": 148,
+        "id_area": 15,
+        "nom_asig": "Teoría y Técnica de Grupo",
+        "desc_asig": "Dinámicas y técnicas de trabajo terapéutico y formativo en grupos.",
+        "categoria": "Dinámica de Grupos"
+    },
+    {
+        "id_asig": 149,
+        "id_area": 15,
+        "nom_asig": "Psicología de las Diferencias Individuales",
+        "desc_asig": "Estudio de la variabilidad en comportamiento, cognición y emoción entre individuos.",
+        "categoria": "Dinámica de Grupos"
+    },
+    {
+        "id_asig": 150,
+        "id_area": 15,
+        "nom_asig": "Psicología Experimental",
+        "desc_asig": "Técnicas experimentales en psicología para el estudio del comportamiento y procesos mentales.",
+        "categoria": "Metodología Experimental"
+    },
+    {
+        "id_asig": 151,
+        "id_area": 16,
+        "nom_asig": "Introducción a la Ecología",
+        "desc_asig": "Conceptos básicos de ecología, ecosistemas y biodiversidad.",
+        "categoria": "Fundamentos Ecológicos"
+    },
+    {
+        "id_asig": 152,
+        "id_area": 16,
+        "nom_asig": "Conservación de la Biodiversidad",
+        "desc_asig": "Enfoques y estrategias para la conservación de especies y hábitats.",
+        "categoria": "Fundamentos Ecológicos"
+    },
+    {
+        "id_asig": 153,
+        "id_area": 16,
+        "nom_asig": "Ciencias Ambientales y Sociedad",
+        "desc_asig": "Interacción entre la sociedad y el medio ambiente, incluyendo aspectos socioeconómicos.",
+        "categoria": "Fundamentos Ecológicos"
+    },
+    {
+        "id_asig": 154,
+        "id_area": 16,
+        "nom_asig": "Gestión de Recursos Naturales",
+        "desc_asig": "Principios de gestión sostenible de recursos como agua, suelo y aire.",
+        "categoria": "Fundamentos Ecológicos"
+    },
+    {
+        "id_asig": 155,
+        "id_area": 16,
+        "nom_asig": "Ecología de Poblaciones",
+        "desc_asig": "Estudio de las poblaciones en los ecosistemas y su dinámica.",
+        "categoria": "Fundamentos Ecológicos"
+    },
+    {
+        "id_asig": 156,
+        "id_area": 16,
+        "nom_asig": "Impacto Ambiental y Evaluación",
+        "desc_asig": "Métodos para evaluar y mitigar el impacto ambiental de proyectos y actividades.",
+        "categoria": "Fundamentos Ecológicos"
+    },
+    {
+        "id_asig": 157,
+        "id_area": 16,
+        "nom_asig": "Cambio Climático y Medio Ambiente",
+        "desc_asig": "Análisis de los efectos del cambio climático en los ecosistemas y la biodiversidad.",
+        "categoria": "Cambio Climático"
+    },
+    {
+        "id_asig": 158,
+        "id_area": 16,
+        "nom_asig": "Sistemas de Información Geográfica en Ecología",
+        "desc_asig": "Uso de herramientas SIG para el estudio y manejo de ecosistemas.",
+        "categoria": "Educación Ambiental"
+    },
+    {
+        "id_asig": 159,
+        "id_area": 16,
+        "nom_asig": "Educación y Sensibilización Ambiental",
+        "desc_asig": "Estrategias y programas para la educación y concienciación ambiental.",
+        "categoria": "Educación Ambiental"
+    },
+    {
+        "id_asig": 160,
+        "id_area": 16,
+        "nom_asig": "Energías Renovables y Medio Ambiente",
+        "desc_asig": "Estudio de las fuentes de energía renovable y su impacto en el medio ambiente.",
+        "categoria": "Educación Ambiental"
+    },
+    {
+        "id_asig": 161,
+        "id_area": 17,
+        "nom_asig": "Política y Legislación Ambiental",
+        "desc_asig": "Análisis de políticas y leyes ambientales nacionales e internacionales.",
+        "categoria": "Política Ambiental"
+    },
+    {
+        "id_asig": 162,
+        "id_area": 17,
+        "nom_asig": "Desarrollo Sostenible",
+        "desc_asig": "Estudio de modelos y estrategias para un desarrollo sostenible y responsable.",
+        "categoria": "Política Ambiental"
+    },
+    {
+        "id_asig": 163,
+        "id_area": 17,
+        "nom_asig": "Gestión de Proyectos Ambientales",
+        "desc_asig": "Técnicas y herramientas para la gestión efectiva de proyectos ambientales.",
+        "categoria": "Política Ambiental"
+    },
+    {
+        "id_asig": 164,
+        "id_area": 17,
+        "nom_asig": "Economía Ambiental",
+        "desc_asig": "Principios de economía aplicados a los recursos naturales y el medio ambiente.",
+        "categoria": "Política Ambiental"
+    },
+    {
+        "id_asig": 165,
+        "id_area": 17,
+        "nom_asig": "Evaluación del Impacto Ambiental Avanzada",
+        "desc_asig": "Métodos avanzados para la evaluación de impactos ambientales de proyectos.",
+        "categoria": "Política Ambiental"
+    },
+    {
+        "id_asig": 166,
+        "id_area": 17,
+        "nom_asig": "Restauración Ecológica",
+        "desc_asig": "Técnicas y enfoques para la restauración de ecosistemas dañados o degradados.",
+        "categoria": "Conservación y Restauración"
+    },
+    {
+        "id_asig": 167,
+        "id_area": 17,
+        "nom_asig": "Gestión de Áreas Protegidas",
+        "desc_asig": "Manejo y administración de áreas naturales protegidas.",
+        "categoria": "Conservación y Restauración"
+    },
+    {
+        "id_asig": 168,
+        "id_area": 17,
+        "nom_asig": "Cambio Climático: Política y Gestión",
+        "desc_asig": "Estrategias de mitigación y adaptación frente al cambio climático.",
+        "categoria": "Conservación y Restauración"
+    },
+    {
+        "id_asig": 169,
+        "id_area": 17,
+        "nom_asig": "Gestión de Residuos y Reciclaje",
+        "desc_asig": "Sistemas y políticas para la gestión eficiente de residuos y prácticas de reciclaje.",
+        "categoria": "Conservación y Restauración"
+    },
+    {
+        "id_asig": 170,
+        "id_area": 17,
+        "nom_asig": "Gestión de Recursos Hídricos",
+        "desc_asig": "Manejo sostenible de los recursos hídricos y políticas de agua.",
+        "categoria": "Conservación y Restauración"
+    },
+    {
+        "id_asig": 171,
+        "id_area": 18,
+        "nom_asig": "Metodologías de Evaluación del Impacto Ambiental",
+        "desc_asig": "Técnicas y procedimientos para la evaluación del impacto ambiental de proyectos.",
+        "categoria": "Evaluación Ambiental"
+    },
+    {
+        "id_asig": 172,
+        "id_area": 18,
+        "nom_asig": "Manejo Sostenible de Bosques",
+        "desc_asig": "Prácticas y políticas para la conservación y gestión sostenible de bosques.",
+        "categoria": "Evaluación Ambiental"
+    },
+    {
+        "id_asig": 173,
+        "id_area": 18,
+        "nom_asig": "Biodiversidad y Conservación",
+        "desc_asig": "Estudio de la biodiversidad y estrategias para su conservación.",
+        "categoria": "Evaluación Ambiental"
+    },
+    {
+        "id_asig": 174,
+        "id_area": 18,
+        "nom_asig": "Sistemas de Gestión Ambiental",
+        "desc_asig": "Implementación y gestión de sistemas para mejorar el rendimiento ambiental de organizaciones.",
+        "categoria": "Gestión Ambiental"
+    },
+    {
+        "id_asig": 175,
+        "id_area": 18,
+        "nom_asig": "Agroecología y Desarrollo Sostenible",
+        "desc_asig": "Principios de agroecología y su papel en el desarrollo sostenible.",
+        "categoria": "Gestión Ambiental"
+    },
+    {
+        "id_asig": 176,
+        "id_area": 18,
+        "nom_asig": "Gestión de Cuencas Hidrográficas",
+        "desc_asig": "Manejo integrado de cuencas hidrográficas y recursos hídricos.",
+        "categoria": "Gestión Ambiental"
+    },
+    {
+        "id_asig": 177,
+        "id_area": 18,
+        "nom_asig": "Estrategias de Adaptación al Cambio Climático",
+        "desc_asig": "Enfoques para adaptarse a los efectos del cambio climático en ecosistemas y comunidades.",
+        "categoria": "Desarrollo y Planificación"
+    },
+    {
+        "id_asig": 178,
+        "id_area": 18,
+        "nom_asig": "Planificación y Desarrollo Sostenible",
+        "desc_asig": "Estrategias y herramientas para la planificación del desarrollo sostenible.",
+        "categoria": "Desarrollo y Planificación"
+    },
+    {
+        "id_asig": 179,
+        "id_area": 18,
+        "nom_asig": "Conservación Marina y Costera",
+        "desc_asig": "Gestión y protección de ecosistemas marinos y costeros.",
+        "categoria": "Desarrollo y Planificación"
+    },
+    {
+        "id_asig": 180,
+        "id_area": 18,
+        "nom_asig": "Ciudades Sostenibles y Planificación Urbana",
+        "desc_asig": "Principios de urbanismo sostenible y gestión de ciudades en el contexto del cambio ambiental.",
+        "categoria": "Desarrollo y Planificación"
+    },
+    {
+        "id_asig": 181,
+        "id_area": 19,
+        "nom_asig": "Fundamentos del Marketing",
+        "desc_asig": "Principios básicos del marketing, incluyendo estrategias, planificación y tendencias.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 182,
+        "id_area": 19,
+        "nom_asig": "Comportamiento del Consumidor",
+        "desc_asig": "Estudio de cómo los consumidores toman decisiones de compra y factores que influyen en su comportamiento.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 183,
+        "id_area": 19,
+        "nom_asig": "Marketing Digital Básico",
+        "desc_asig": "Introducción al marketing digital, incluyendo redes sociales, SEO y marketing por correo electrónico.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 184,
+        "id_area": 19,
+        "nom_asig": "Estrategia de Marca",
+        "desc_asig": "Conceptos de construcción y gestión de marca para crear una identidad de marca fuerte.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 185,
+        "id_area": 19,
+        "nom_asig": "Publicidad y Promoción",
+        "desc_asig": "Fundamentos de la publicidad y técnicas promocionales para atraer y retener clientes.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 186,
+        "id_area": 19,
+        "nom_asig": "Investigación de Mercados",
+        "desc_asig": "Métodos de recopilación y análisis de datos para comprender mercados y necesidades del consumidor.",
+        "categoria": "Investigación"
+    },
+    {
+        "id_asig": 187,
+        "id_area": 19,
+        "nom_asig": "Ventas y Negociación",
+        "desc_asig": "Técnicas de ventas y negociación efectivas en el contexto del marketing.",
+        "categoria": "Investigación"
+    },
+    {
+        "id_asig": 188,
+        "id_area": 19,
+        "nom_asig": "Principios de Relaciones Públicas",
+        "desc_asig": "Introducción a las relaciones públicas y su papel en la gestión de la imagen de marca.",
+        "categoria": "Investigación"
+    },
+    {
+        "id_asig": 189,
+        "id_area": 19,
+        "nom_asig": "Planificación Estratégica en Marketing",
+        "desc_asig": "Desarrollo de habilidades para la planificación y ejecución de estrategias de marketing efectivas.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 190,
+        "id_area": 19,
+        "nom_asig": "Ética y Responsabilidad Social en Marketing",
+        "desc_asig": "Exploración de la ética y la responsabilidad social en las prácticas de marketing.",
+        "categoria": "Investigación"
+    },
+    {
+        "id_asig": 191,
+        "id_area": 20,
+        "nom_asig": "Marketing Digital Avanzado",
+        "desc_asig": "Técnicas avanzadas en marketing digital, incluyendo publicidad en línea, SEO avanzado y marketing de contenidos.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 192,
+        "id_area": 20,
+        "nom_asig": "Analítica Web y Big Data",
+        "desc_asig": "Uso de herramientas analíticas y big data para la optimización de estrategias de marketing digital.",
+        "categoria": "Analítica y Datos"
+    },
+    {
+        "id_asig": 193,
+        "id_area": 20,
+        "nom_asig": "Gestión de Redes Sociales",
+        "desc_asig": "Estrategias avanzadas para la gestión de redes sociales y engagement con la audiencia.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 194,
+        "id_area": 20,
+        "nom_asig": "Branding y Posicionamiento de Marca",
+        "desc_asig": "Creación y gestión de marcas fuertes, posicionamiento en el mercado y fidelización de clientes.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 195,
+        "id_area": 20,
+        "nom_asig": "Marketing Móvil",
+        "desc_asig": "Estrategias y herramientas para el marketing efectivo en dispositivos móviles.",
+        "categoria": "Marketing Digital"
+    },
+    {
+        "id_asig": 196,
+        "id_area": 20,
+        "nom_asig": "E-Commerce y Marketing Online",
+        "desc_asig": "Principios y técnicas de comercio electrónico, incluyendo optimización de tiendas online.",
+        "categoria": "E-Commerce"
+    },
+    {
+        "id_asig": 197,
+        "id_area": 20,
+        "nom_asig": "Email Marketing Avanzado",
+        "desc_asig": "Técnicas avanzadas en email marketing para campañas efectivas y personalización.",
+        "categoria": "E-Commerce"
+    },
+    {
+        "id_asig": 198,
+        "id_area": 20,
+        "nom_asig": "Psicología del Consumidor y Neuromarketing",
+        "desc_asig": "Estudio avanzado del comportamiento del consumidor y aplicación de neuromarketing.",
+        "categoria": "E-Commerce"
+    },
+    {
+        "id_asig": 199,
+        "id_area": 20,
+        "nom_asig": "Planificación Estratégica y ROI en Marketing",
+        "desc_asig": "Enfoques para la planificación estratégica y medición del retorno de inversión en campañas de marketing.",
+        "categoria": "Planificación y Estrategia"
+    },
+    {
+        "id_asig": 200,
+        "id_area": 20,
+        "nom_asig": "Tendencias y Futuro del Marketing",
+        "desc_asig": "Análisis de tendencias emergentes y el futuro del marketing en un mundo digital.",
+        "categoria": "Planificación y Estrategia"
+    }
+]
