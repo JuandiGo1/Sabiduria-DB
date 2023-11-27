@@ -26,12 +26,17 @@ async function getPrograma(slug) {
 async function renderprograma() {
     const slug = getSlug()
     const programa = await getPrograma(slug)
+
     console.log(programa)
 
     renderEntry(programa, document.getElementById('entry'))
     renderInfoGeneral(programa, document.getElementById('info-general'))
     renderTargets(programa.objetivos, document.getElementById('targets_items'))
     renderAreas(programa.areas, document.getElementById('areas_items'))
+    renderContents(
+        programa.asignaturas,
+        document.getElementById('content_items')
+    )
 }
 
 /** <div class="areas_item">
@@ -143,5 +148,43 @@ function renderTargets(targets, container) {
     container.innerHTML = ''
     targets.forEach((target) => {
         renderTarget(target, container)
+    })
+}
+
+function renderContents(contents, container) {
+    /*                        <h2>Strategy</h2>
+                        <ul>
+                            <li><p>Brand Positioning</p></li>
+                            <li><p>Brand Architecture</p></li>
+                            <li><p>Naming</p></li>
+                            <li><p>Content Strategy</p></li>
+                            <li><p>Experience Mapping</p></li>
+                            <li><p>Social Media Strategy</p></li>
+                        </ul>
+                    </div> */
+    function renderContent(content, container) {
+        const content_item = document.createElement('div')
+        content_item.className = 'content_item'
+        const h2 = document.createElement('h2')
+        h2.textContent = content[0]
+        const ul = document.createElement('ul')
+        const asignaturas = content[1]
+        for (const asignatura of asignaturas) {
+            const li = document.createElement('li')
+            const p = document.createElement('p')
+            p.textContent = asignatura.nom_asig
+            li.appendChild(p)
+            ul.appendChild(li)
+        }
+
+        content_item.appendChild(h2)
+        content_item.appendChild(ul)
+        container.appendChild(content_item)
+    }
+
+    container.innerHTML = ''
+    contents.sort((a, b) => b[1].length - a[1].length)
+    contents.forEach((content) => {
+        renderContent(content, container)
     })
 }

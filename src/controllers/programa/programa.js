@@ -50,7 +50,7 @@ export async function getProgramaBySlug(req, res) {
         )
         const areas_ids = areas.map((area) => area.id_area)
         const asignaturas = await getAsignaturasbyAreas(areas_ids)
-        console.log(asignaturas)
+        // console.log(asignaturas)
         const response = {
             message: `Programa con slug: ${req.params.slug} obtenido correctamente`,
             data: {
