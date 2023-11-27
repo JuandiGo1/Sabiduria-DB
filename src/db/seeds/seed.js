@@ -4,13 +4,15 @@ import {
     areaHandler,
     programaHandler,
     usuarioHandler,
-    objetivoHandler
+    objetivoHandler,
+    asignaturaHandler
 } from '../handler.js'
 
 import dataToInsertPrograma from './programs.json' assert { type: 'json' }
 import dataToInsertObjetivo from './objetivos.json' assert { type: 'json' }
 import dataToInsertArea from './areas.json' assert { type: 'json' }
 import dataToInsertUsuario from './usuario.json' assert { type: 'json' }
+import dataToInsertAsignatura from './asignaturas.json' assert { type: 'json' }
 
 // Data to be inserted
 
@@ -37,6 +39,7 @@ export async function seed() {
     insertData(areaHandler, dataToInsertArea)
     insertData(usuarioHandler, dataToInsertUsuario)
     insertData(objetivoHandler, dataToInsertObjetivo)
+    insertData(asignaturaHandler, dataToInsertAsignatura)
     // insertData(aspiranteHandler, dataToInsert)
     // insertData(direccionHandler, dataToInsert)
     // ... (insert data for other tables)

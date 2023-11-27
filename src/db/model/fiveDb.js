@@ -215,7 +215,7 @@ const createTables = async () => {
       id_area INTEGER,
       nom_asig TEXT,
       desc_asig TEXT,
-      periodo TEXT,
+      categoria TEXT,
       svg_icon TEXT,
       FOREIGN KEY (id_area) REFERENCES Area(id_area) ON DELETE CASCADE ON UPDATE CASCADE
     )
