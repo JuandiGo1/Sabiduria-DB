@@ -5,6 +5,7 @@ import {
     objetivoHandler
 } from '../../db/handler.js'
 
+import { getAsignaturasbyAreas } from './util.js'
 // const table = 'Programa'
 
 export async function getProgramas(req, res) {
@@ -47,12 +48,16 @@ export async function getProgramaBySlug(req, res) {
             'id_pro',
             rows[0].id_pro
         )
+        const areas_ids = areas.map((area) => area.id_area)
+        const asignaturas = await getAsignaturasbyAreas(areas_ids)
+        console.log(asignaturas)
         const response = {
             message: `Programa con slug: ${req.params.slug} obtenido correctamente`,
             data: {
                 ...rows[0],
                 areas,
-                objetivos
+                objetivos,
+                asignaturas
             }
         }
         res.json(response)

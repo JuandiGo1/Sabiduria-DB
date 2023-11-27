@@ -38,7 +38,7 @@ Cookie: session=j%3A%7B%22id%22%3A%22dcb282b5-d35b-44f9-b04a-611e4da055fc%22%2C%
 GET http://localhost:3000/api/programa/ HTTP/1.1
 
 ### get Prgoramas by slug
-GET http://localhost:3000/api/programa/slug/computerscience HTTP/1.1
+GET http://localhost:3000/api/programa/slug/ciencia-de-la-computacion HTTP/1.1
 
 ### get area by id programa
 GET http://localhost:3000/api/programa/area/p/1 HTTP/1.1
