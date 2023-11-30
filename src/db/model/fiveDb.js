@@ -136,6 +136,7 @@ const createTables = async () => {
     CREATE TABLE IF NOT EXISTS Usuario (
       correo TEXT PRIMARY KEY,
       contrasena TEXT,
+	  paso INTEGER DEFAULT 1,
       num_doc INTEGER,
       FOREIGN KEY (num_doc) REFERENCES Aspirante(num_doc) ON DELETE SET NULL ON UPDATE CASCADE
     )

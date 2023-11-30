@@ -83,6 +83,26 @@ export class Handler {
             throw error
         }
     }
+
+    async count() {
+        try {
+            const rows = await db.all(`SELECT COUNT(*) FROM ${this.table};`)
+            return rows[0]['COUNT(*)']
+        } catch (error) {
+            throw error
+        }
+    }
+
+    async mostRepeatedByColumn(columnName) {
+        try {
+            const rows = await db.all(
+                `SELECT ${columnName}, COUNT(${columnName}) AS count FROM ${this.table} GROUP BY ${columnName} ORDER BY count DESC LIMIT 1;`
+            )
+            return rows[0]
+        } catch (error) {
+            throw error
+        }
+    }
 }
 
 const usuarioHandler = new Handler(db, 'Usuario')
