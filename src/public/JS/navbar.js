@@ -19,7 +19,7 @@ const notLogged = `
 ${logo}
 <div id="menu">
 	<a class="opc_menu ${
-        active === 'portal' ? 'active' : ''
+        active === 'portal' || active === '' ? 'active' : ''
     }" href="portal.html">Programas</a>
 	<a class="opc_menu ${
         active === 'login' ? 'active' : ''
@@ -33,12 +33,12 @@ ${logo}
 const logged = `
 ${logo}
 <div id="menu">
+	<a class="opc_menu" ${
+        active === 'inscripcion' ? 'active' : ''
+    } href="Inscripcion.html">Inscripcion</a>
 	<a class="opc_menu ${
         active === 'portal' ? 'active' : ''
     }" href="portal.html">Programas</a>
-	<a class="opc_menu ${
-        active === 'perfil' ? 'active' : ''
-    }" href="perfil.html">Perfil</a>
 	<a class="opc_menu" id="logoutb">Cerrar sesión</a>
 </div>
 `
