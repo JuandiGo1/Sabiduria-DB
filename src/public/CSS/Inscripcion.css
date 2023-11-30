@@ -1,0 +1,277 @@
+* {
+    font-family: Open Sans, sans-serif;
+}
+
+#cuerpo {
+    background-color: white;
+}
+
+.sec_steps {
+    margin-top: 8vh;
+}
+
+.sec_steps div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_steps hr {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    z-index: 0;
+}
+
+.figure_step {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    margin: 0 10%;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.sec_steps span img {
+    width: 80%;
+    height: 80%;
+}
+
+.sec_steps p {
+    height: 1.5em;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sec_step1 {
+    justify-content: center;
+}
+
+#sec_step1 div {
+    width: 45%;
+}
+
+#sec_step1 h2 {
+    display: block;
+    margin: 50px 0;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.input_txt {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+.input_txt::placeholder {
+    color: #bbb;
+    font-weight: 300;
+}
+
+#sec_step1 select {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 50px;
+    background-color: #e5e5e5;
+    border-color: #aaa;
+}
+
+#sec_step1 select:focus {
+    outline: none;
+}
+
+#bt_submit_1 {
+    font-weight: 300;
+    border: none;
+    background-color: #478ac9;
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+#bt_submit_1:hover {
+    background-color: #387cbd;
+    cursor: pointer;
+}
+
+#sec_step2 h2 {
+    display: block;
+    margin: 50px 0;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+#sec_step2 section {
+    display: flex;
+    justify-content: center;
+}
+
+.cont_req {
+    display: inline-block;
+    width: 25vw;
+    height: 50vh;
+    margin: 5vh 3vw;
+    position: relative;
+}
+
+.cont_req h4 {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6em;
+    margin: 23px 0;
+}
+
+.cont_req p {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 200;
+    margin: 23px 0;
+}
+
+.cont_req button {
+    width: 50%;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: #478ac9;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.cont_req button:hover {
+    background-color: #425465;
+    cursor: pointer;
+}
+
+.cont_req div {
+    display: flex;
+    justify-content: center;
+}
+
+#slc_programa {
+    display: block;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #e5e5e5;
+    border-color: #aaa;
+}
+
+#slc_programa select:focus{
+    outline: none;
+}
+
+.icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#bt_submit_2 {
+    width: 200px;
+    height: 60px;
+    margin: 100px 0;
+    border-radius: 50px;
+    background-color: #2cccc4;
+    color: white;
+    border: none;
+}
+
+#bt_submit_2:hover {
+    background-color: #77aad9;
+    cursor: pointer;
+}
+
+#bt_submit_2:focus {
+    outline: none;
+}
+
+.div_center {
+    display: flex;
+    justify-content: center;
+}
+
+#sec_step3 h2 {
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.sec {
+    width: 40%;
+    height: 400px;
+    margin: 0 10px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#etq_programa {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#sp_precio {
+    margin: 0 20px;
+}
+
+#bt_pagar {
+    font-weight: 300;
+    border: none;
+    background-color: #478ac9;
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin: 30px 0;
+}
+
+#bt_pagar:hover {
+    background-color: #387cbd;
+    cursor: pointer;
+}
+
+#sec_step1 {
+    /* flex */
+    display: none;
+}
+#sec_step2 {
+    /* block */
+    display: none;
+}
+#sec_step3 {
+    /* block */
+    display: none;
+}
