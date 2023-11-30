@@ -5,12 +5,20 @@ import {
     getUsers,
     insertUserToDB,
     setNumDocById,
-    updateUserById
+    updateUserById,
+    usersCount,
+    loggedUser
 } from 'controllers/usuario.js'
+
+import cookieParser from 'cookie-parser'
 
 const router = new Router()
 
+router.use(cookieParser())
+
 router.get('/', getUsers)
+router.get('/count', usersCount)
+router.get('/user', loggedUser)
 router.get('/:id', getUserById)
 router.post('/insert', insertUserToDB)
 router.put('/:id', updateUserById)

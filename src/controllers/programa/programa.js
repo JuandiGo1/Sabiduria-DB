@@ -26,7 +26,7 @@ export async function getProgramas(req, res) {
 
 export async function getProgramaById(req, res) {
     try {
-        const rows = await programaHandler.getById(req.params.id)
+        const rows = await programaHandler.getByColumn('id_pro', req.params.id)
         const response = {
             message: `Programa con id: ${req.params.id} obtenido correctamente`,
             data: rows
@@ -69,6 +69,39 @@ export async function getProgramaBySlug(req, res) {
     }
 }
 
+export async function programaCount(req, res) {
+    try {
+        const rows = await programaHandler.count()
+        const response = {
+            message: 'Programas contados correctamente',
+            data: rows
+        }
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: 'Se produjo un error al contar los programas',
+            error: true
+        })
+    }
+}
+
+export async function mostCommonProgram(req, res) {
+    try {
+        const rows = await programaHandler.mostRepeatedByColumn('nom_pro')
+        const response = {
+            message: 'Programa más común obtenido correctamente',
+            data: rows
+        }
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: 'Se produjo un error al obtener el programa más común',
+            error: true
+        })
+        console.log(error)
+    }
+}
+
 export async function insertProgramaToDB(req, res) {
     const data = req.body
 
@@ -82,6 +115,25 @@ export async function insertProgramaToDB(req, res) {
     } catch (error) {
         res.status(400).json({
             message: `se produjo un error al insertar el programa con id: ${data.id}`,
+            error
+        })
+    }
+}
+
+export async function insertObjetivo(req, res) {
+    const data = req.body
+
+    try {
+        const rows = await objetivoHandler.insert(data)
+        const response = {
+            message: `Objetivo con id: ${data.id} insertado correctamente`,
+            data: rows
+        }
+        res.json(response)
+    } catch (error) {
+        console.log(error)
+        res.status(400).json({
+            message: `se produjo un error al insertar el objetivo con id: ${data.id}`,
             error
         })
     }

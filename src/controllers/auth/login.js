@@ -9,7 +9,6 @@ const cookieOptions = {
 
 export const login = async (req, res) => {
     const { user, pass } = req.body
-    console.log(user, pass)
 
     if (!validateUser(user)) {
         return res.status(400).json({ error: 'Usuario inválido' })
@@ -20,7 +19,6 @@ export const login = async (req, res) => {
     }
 
     const usuario = await usuarioHandler.getById(user)
-    console.log(usuario)
 
     if (!usuario) {
         return res.status(400).json({ error: 'Usuario no encontrado' })
@@ -32,7 +30,7 @@ export const login = async (req, res) => {
     }
 
     // Create session cookie
-    const sessionCookie = createSessionCookie(user)
+    const sessionCookie = createSessionCookie(usuario)
 
     // Set the session cookie in the response
     res.cookie('session', sessionCookie, cookieOptions)
@@ -48,8 +46,10 @@ export const renewSession = async (req, res) => {
     }
 
     // extract data from de cookie using Cookie
-    const { user, ...rest } = sessionCookie
-    console.log(rest)
+    let { user, ...rest } = sessionCookie
+    
+    user = await usuarioHandler.getById(user.correo)
+
     // Create session cookie
     const newSessionCookie = createSessionCookie(user)
 

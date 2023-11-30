@@ -53,6 +53,22 @@ export async function insertUserToDB(req, res) {
     }
 }
 
+export async function usersCount(req, res) {
+    try {
+        const rows = await usuarioHandler.count()
+        const response = {
+            message: 'Cantidad de usuarios obtenida correctamente',
+            data: rows
+        }
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: 'Se produjo un error al obtener la cantidad de usuarios',
+            error
+        })
+    }
+}
+
 export function updateUserById(req, res) {
     const data = req.body
     const columns = Object.keys(data)
@@ -114,4 +130,20 @@ export function setNumDocById(req, res) {
             })
         }
     )
+}
+
+export function loggedUser(req, res) {
+    const { session } = req.cookies
+
+    if (session) {
+        res.json({
+            message: 'Usuario logueado correctamente',
+            data: session
+        })
+    } else {
+        res.status(400).json({
+            message: 'Se produjo un error al obtener el usuario logueado',
+            error: true
+        })
+    }
 }

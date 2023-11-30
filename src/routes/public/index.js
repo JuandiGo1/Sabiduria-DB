@@ -18,4 +18,8 @@ htmlFiles.forEach((file) => {
     })
 })
 
+router.get('/', (req, res) => {
+    res.sendFile('portal.html', { root: dir })
+})
+
 export default router

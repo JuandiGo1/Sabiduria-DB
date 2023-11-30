@@ -19,7 +19,10 @@ export async function getAspirantes(req, res) {
 
 export async function getAspiranteById(req, res) {
     try {
-        const rows = await aspiranteHandler.getById(req.params.id)
+        const rows = await aspiranteHandler.getByColumn(
+            'num_doc',
+            req.params.id
+        )
         const response = {
             message: `Aspirante con id: ${req.params.id} obtenido correctamente`,
             data: rows
@@ -33,76 +36,100 @@ export async function getAspiranteById(req, res) {
     }
 }
 
-export function insertAspiranteToDB(req, res) {
-    const { correo } = req.body
-    // check if correo exists in Usuario and if its num_Doc is null
-    db.get(
-        'SELECT * FROM Usuario WHERE correo = ? AND num_doc IS NULL',
-        [correo],
-        (err, row) => {
-            if (err) {
-                res.status(400).json({
-                    error: `se produjo un error al obtener el usuario con correo: ${correo}`
-                })
-            }
-            if (row) {
-                const {
-                    num_doc,
-                    tipo_doc,
-                    nom_asp,
-                    apell_asp,
-                    sexo,
-                    fecha,
-                    periodo,
-                    id_pro
-                } = req.body.aspirante
+export async function insertAspiranteToDB(req, res) {
+    try {
+        const { correo, aspirante } = req.body
+        // check if correo exists in Usuario and if its num_Doc is null
+        const user = await db.get(
+            'SELECT * FROM Usuario WHERE correo = ? AND num_doc IS NULL',
+            [correo]
+        )
 
-                const columns = Object.keys(req.body.aspirante).join(', ')
-                const values = columns.map((column) => '?').join(', ')
-                const dataArray = [
-                    num_doc,
-                    tipo_doc,
-                    nom_asp,
-                    apell_asp,
-                    sexo,
-                    fecha,
-                    periodo,
-                    id_pro
-                ]
+        if (user) {
+            await aspiranteHandler.insert(aspirante)
 
-                const query = `INSERT INTO Aspirante (${columns}) VALUES (${values});`
+            // update the num_doc of the user with the given correo
+            await updateNumDoc(correo, aspirante.num_doc)
 
-                db.run(query, dataArray, (err, rows) => {
-                    if (err) {
-                        res.status(400).json({
-                            error: `Se produjo un error al insertar el aspirante: ${nom_asp}`
-                        })
-                    }
-
-                    // update the num_doc of the user with the given correo
-                    updateNumDoc(correo, num_doc)
-                    res.json({
-                        message: 'Aspirante insertado correctamente',
-                        data: req.body.aspirante
-                    })
-                })
-            } else {
-                res.status(400).json({
-                    error: `El usuario con correo: ${correo} no existe o ya tiene un número de documento asociado`
-                })
-            }
-        }
-    )
-}
-
-function updateNumDoc(correo, num_doc) {
-    const query = 'UPDATE Usuario SET num_doc = ? WHERE correo = ?;'
-    const dataArray = [num_doc, correo]
-    db.run(query, dataArray, (err, rows) => {
-        if (err) {
-            console.log({
-                error: `Se produjo un error al actualizar el usuario con correo: ${correo}`
+            res.json({
+                message: 'Aspirante insertado correctamente',
+                data: req.body.aspirante
+            })
+        } else {
+            res.status(400).json({
+                error: `El usuario con correo: ${correo} no existe o ya tiene un número de documento asociado`
             })
         }
-    })
+    } catch (error) {
+        console.log('Error:', error)
+        res.status(400).json({
+            error: `Se produjo un error al insertar el aspirante: ${error.message}`
+        })
+    }
+}
+
+export async function AspirantesCount(req, res) {
+    try {
+        const rows = await aspiranteHandler.count()
+        const response = {
+            message: 'Cantidad de aspirantes obtenida correctamente',
+            data: rows
+        }
+        res.json(response)
+    } catch (error) {
+        res.status(400).json({
+            message: 'Se produjo un error al obtener la cantidad de aspirantes',
+            error: true
+        })
+    }
+}
+
+async function updateNumDoc(correo, num_doc) {
+    try {
+        await db.run('UPDATE Usuario SET num_doc = ? WHERE correo = ?', [
+            num_doc,
+            correo
+        ])
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+export async function updateIdProg(req, res) {
+    const { num_Doc, id_pro } = req.body
+    try {
+        await db.run('UPDATE Aspirante SET id_pro = ? WHERE num_Doc = ?', [
+            id_pro,
+            num_Doc
+        ])
+
+        res.json({
+            message: 'Programa actualizado correctamente',
+            data: req.body.num_Doc
+        })
+    } catch (error) {
+        console.log(error)
+        res.status(400).json({
+            error: `Se produjo un error actualizar el programa: ${error.message}`
+        })
+    }
+}
+
+export async function updateStep(req, res) {
+    const { correo, paso } = req.body
+    try {
+        await db.run('UPDATE Usuario SET paso = ? WHERE correo = ?', [
+            paso,
+            correo
+        ])
+        res.json({
+            message: 'Paso modificado correctamente.',
+            data: req.body.num_Doc
+        })
+    } catch (error) {
+        console.log(error)
+        res.status(400).json({
+            error: `Se produjo un error actualizar el paso: ${error.message}`
+        })
+    }
 }
