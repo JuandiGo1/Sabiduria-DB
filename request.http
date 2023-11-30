@@ -42,3 +42,13 @@ GET http://localhost:3000/api/programa/slug/ciencia-de-la-computacion HTTP/1.1
 
 ### get area by id programa
 GET http://localhost:3000/api/programa/area/p/1 HTTP/1.1
+
+### get user count
+GET http://localhost:3000/api/usuario/count HTTP/1.1
+
+### get Aspirante count 
+GET http://localhost:3000/api/aspirante/count HTTP/1.1
+
+### ge logged user
+GET http://localhost:3000/api/usuario/user HTTP/1.1
+Cookie: session=j%3A%7B%22id%22%3A%22dcb282b5-d35b-44f9-b04a-611e4da055fc%22%2C%22user%22%3A%22emaile%22%7D; Max-Age=604800; Path=/; Expires=Sat, 25 Nov 2023 23:09:47 GMT
