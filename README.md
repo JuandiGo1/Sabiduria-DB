@@ -2,10 +2,10 @@
   <h1>
     Sabiduría Digital - Educational Information System
   </h1>
-  
-  <img src="src/public/Images/logo_sabiduria.png" alt="Logo de Sabiduría" width="250"/>
 
-  <h4>
+<img src="src/public/Images/logo_sabiduria.png" alt="Logo de Sabiduría" width="250"/>
+
+<h4>
     Transforming Aspirant Acquisition Through Innovative Technology
   </h4>
 
@@ -58,16 +58,15 @@ The Sabiduría Digital project transforms the applicant acquisition process thro
     ```
 
 4. Initialize the database:
+
     ```bash
     node seed.js
     ```
 
 ## Admin dashboard use
 
-1.
-
 ```bash
-	npm run start:admin
+npm run start:admin
 ```
 
 ## Usage
@@ -101,11 +100,11 @@ For more details on the database schema, please refer to the `schema.sql` file.
 
 ### Entity–Relationship Model
 
-<img src="Modelo de Entidad relacion.png">
+`<img src="Modelo de Entidad relacion.png">`
 
 ### Relational Model
 
-<img src="Modelo Relacional.jpeg">
+`<img src="Modelo Relacional.jpeg">`
 
 ## Team
 
