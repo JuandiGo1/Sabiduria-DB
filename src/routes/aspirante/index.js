@@ -4,12 +4,16 @@ import {
     getAspirantes,
     insertAspiranteToDB,
     updateIdProg,
-    updateStep
+    updateStep,
+    aspirantePorPeriodo,
+    AspirantesCount
 } from 'controllers/aspirante.js'
 
 const router = new Router()
 
 router.get('/', getAspirantes)
+router.get('/count', AspirantesCount)
+router.get('/periodo', aspirantePorPeriodo)
 router.get('/:id', getAspiranteById)
 router.post('/insert', insertAspiranteToDB)
 router.post('/updateProgram', updateIdProg)

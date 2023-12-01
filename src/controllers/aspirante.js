@@ -133,3 +133,38 @@ export async function updateStep(req, res) {
         })
     }
 }
+
+function groupby(arr, prop) {
+    return arr.reduce(function (groups, item) {
+        const val = item[prop]
+        groups[val] = groups[val] || []
+        groups[val].push(item)
+        return groups
+    }, {})
+}
+
+export async function aspirantePorPeriodo(req, res) {
+    try {
+        const rows = await db.all(`
+			SELECT Asp.periodo, COUNT(*) as Total_Inscritos, Usu.paso
+			FROM Aspirante Asp
+			JOIN Usuario Usu ON Asp.num_doc = Usu.num_doc
+			GROUP BY Asp.periodo, Usu.paso;
+		`)
+
+        // agrupar rows por periodo
+        // por cada periodo, agrupar por paso
+        // por cada paso, contar cuantos hay
+        const response = {
+            message: 'Cantidad de aspirantes obtenida correctamente',
+            data: groupby(rows, 'periodo')
+        }
+
+        res.status(200).json(response)
+    } catch (error) {
+        console.log(error)
+        res.status(400).json({
+            error: `Se produjo un error actualizar el paso: ${error.message}`
+        })
+    }
+}
