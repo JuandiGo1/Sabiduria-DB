@@ -100,11 +100,11 @@ For more details on the database schema, please refer to the `schema.sql` file.
 
 ### Entity–Relationship Model
 
-`<img src="Modelo de Entidad relacion.png">`
+<img src="Modelo de Entidad relacion.png">
 
 ### Relational Model
 
-`<img src="Modelo Relacional.jpeg">`
+<img src="Modelo Relacional.jpeg">
 
 ## Team
 
