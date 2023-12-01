@@ -232,4 +232,4 @@ export const init = async () => {
     await seed() // Call the seed function
 }
 
-init() // Call the init function
+// init() // Call the init function

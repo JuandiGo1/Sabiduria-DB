@@ -62,6 +62,14 @@ The Sabiduría Digital project transforms the applicant acquisition process thro
     node seed.js
     ```
 
+## Admin dashboard use
+
+1.
+
+```bash
+	npm run start:admin
+```
+
 ## Usage
 
 To start the server, run the following command:
