@@ -1,4 +1,4 @@
-var data_user = null
+let data_user = null
 
 async function reLoggin() {
     const response = await fetch('/api/auth/login/renew', {
@@ -12,7 +12,6 @@ async function reLoggin() {
 
     if (data.error) {
         alert(data.error)
-        return
     }
 }
 
@@ -25,7 +24,7 @@ async function main() {
                 'Content-Type': 'application/json'
             }
         })
-        
+
         const data = await response.json()
 
         if (data.error) {
@@ -36,16 +35,17 @@ async function main() {
         data_user = data.data.user
 
         const step = data_user.paso
-    
+
         const etq_step = document.getElementById('sp_step')
-        etq_step.innerText = step
+        etq_step.innerText = Math.min(step, 3)
         const sec1 = document.getElementById('sec_step1')
         const sec2 = document.getElementById('sec_step2')
         const sec3 = document.getElementById('sec_step3')
+        const sec4 = document.getElementById('sec_step4')
         const figure1 = document.getElementById('figure_step1')
         const figure2 = document.getElementById('figure_step2')
         const figure3 = document.getElementById('figure_step3')
-    
+
         switch (step) {
             case 1:
                 sec1.style.display = 'flex'
@@ -62,9 +62,9 @@ async function main() {
                         'Content-Type': 'application/json'
                     }
                 })
-        
+
                 const data = await response.json()
-        
+
                 if (data.error) {
                     alert(data.error)
                     return
@@ -96,6 +96,7 @@ async function main() {
                         idp = data.data[0].id_pro
 
                         let precio = null
+                        let nom = null
                         fetch(`/api/programa/${idp}`, {
                             method: 'GET',
                             headers: {
@@ -107,8 +108,11 @@ async function main() {
                                 precio = data.data[0].costo_pro
                                 nom = data.data[0].nom_pro
 
-                                document.getElementById('etq_programa').innerText = nom
-                                document.getElementById('sp_precio').innerText = precio
+                                document.getElementById(
+                                    'etq_programa'
+                                ).innerText = nom
+                                document.getElementById('sp_precio').innerText =
+                                    precio
                             })
                             .catch((error) => {
                                 alert('Error:', error)
@@ -117,8 +121,49 @@ async function main() {
                     .catch((error) => {
                         alert('Error:', error)
                     })
-                
+
                 break
+            case 4:
+                figure1.style.backgroundColor = '#2cccc4'
+                figure2.style.backgroundColor = '#2cccc4'
+                figure3.style.background = '#2cccc4'
+                sec4.style.display = 'flex'
+
+                const res = await fetch(`/api/aspirante/${data_user.num_doc}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                const data2 = await res.json()
+
+                if (data2.error) {
+                    alert(data2.error)
+                    return
+                }
+
+                const idp2 = data2.data[0].id_pro
+
+                const res2 = await fetch(`/api/programa/${idp2}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+
+                const data3 = await res2.json()
+
+                if (data3.error) {
+                    alert(data3.error)
+                    return
+                }
+
+                const nom2 = data3.data[0].nom_pro
+
+                document.getElementById('etq_program2').innerText = nom2
+
+                break
+
             default:
                 alert('Error paso no valido.')
                 break
@@ -126,7 +171,6 @@ async function main() {
     } catch (error) {
         console.error('Error:', error)
         alert(`Ocurrió un error al cargar el paso. ${error}`)
-        return
     }
 }
 
@@ -138,16 +182,15 @@ async function registrar() {
     const sexo = document.getElementById('slc_sexo').value
     const fecha = document.getElementById('input_fecha').value
     const periodo = document.getElementById('input_periodo').value
-    const programa = document.getElementById('slc_programa').value
 
     const dt = {
         num_doc: documento,
         tipo_doc: tipo_documento,
         nom_asp: nombre,
         apell_asp: apellido,
-        sexo: sexo,
-        fecha: fecha,
-        periodo: periodo,
+        sexo,
+        fecha,
+        periodo,
         id_pro: null
     }
 
@@ -166,9 +209,10 @@ async function registrar() {
 
     if (data.error) {
         console.error('Error:', data.error)
-        alert(`Ocurrió un error al intentar registrar el aspirante. ${data.error}`)
-        return
-    } else {    
+        alert(
+            `Ocurrió un error al intentar registrar el aspirante. ${data.error}`
+        )
+    } else {
         alert(`	${data.message}`)
         actualizarPaso()
     }
@@ -181,7 +225,7 @@ async function cargarArchivo(id) {
 
 async function actualizarPrograma() {
     const nom_prom = document.getElementById('slc_programa').value
-    
+
     const response = await fetch(programs_url, {
         method: 'GET',
         headers: {
@@ -200,7 +244,7 @@ async function actualizarPrograma() {
 
     let id_pro = null
     for (const program of programs) {
-        if (nom_prom == program.nom_pro) {
+        if (nom_prom === program.nom_pro) {
             id_pro = program.id_pro
             break
         }
@@ -213,7 +257,7 @@ async function actualizarPrograma() {
         },
         body: JSON.stringify({
             num_Doc: data_user.num_doc,
-            id_pro: id_pro
+            id_pro
         })
     })
         .then((response) => response.json())
@@ -221,7 +265,7 @@ async function actualizarPrograma() {
             actualizarPaso()
         })
         .catch((error) => {
-            alert('Error al actualizar el programa', data.error)
+            alert('Error al actualizar el programa', error)
         })
 }
 
@@ -233,7 +277,7 @@ async function actualizarPaso() {
         },
         body: JSON.stringify({
             correo: data_user.correo,
-            paso: data_user.paso+1
+            paso: data_user.paso + 1
         })
     })
 
@@ -242,7 +286,6 @@ async function actualizarPaso() {
     if (data.error) {
         console.error('Error:', data.error)
         alert(`Ocurrió un error al intentar actualizar el paso. ${data.error}`)
-        return
     } else {
         location.reload()
     }

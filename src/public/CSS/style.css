@@ -45,8 +45,7 @@
     display: inline;
 }
 
-.opc_menu,
-.opc_menu:visited {
+.opc_menu {
     display: flex;
     color: white;
     width: auto;
@@ -121,7 +120,10 @@ h1 {
     margin-left: 10px;
 }
 
+.opc_menu {
+    color: rgb(229, 192, 143);
+}
 .opc_menu.active {
-    color: #ff0000; /* Cambia este color al que desees para resaltar la ruta activa */
+    color: white; /* Cambia este color al que desees para resaltar la ruta activa */
     font-weight: bold; /* O cualquier otro estilo que desees aplicar */
 }

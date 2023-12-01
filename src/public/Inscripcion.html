@@ -7,8 +7,13 @@
         <link rel="stylesheet" href="CSS/Normalize.css" />
         <link rel="stylesheet" href="CSS/style.css" />
         <link rel="stylesheet" href="CSS/Inscripcion.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
-        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
+        />
+        <title>
+            Inscripcion | Universidad del Norte - Barranquilla, Colombia
+        </title>
         <script src="js/constanst.js"></script>
     </head>
     <body>
@@ -16,10 +21,18 @@
         <div id="cuerpo">
             <section class="sec_steps">
                 <div>
-                    <hr>
-                    <span id="figure_step1" class="figure_step"><img src="Images/icon_step1.png"></span>
-                    <span id="figure_step2" class="figure_step"><img src="Images/icon_step2.png"></span>
-                    <span id="figure_step3" class="figure_step"><img style="filter: invert(100%);" src="Images/icon_step3.png"></span>
+                    <hr />
+                    <span id="figure_step1" class="figure_step"
+                        ><img src="Images/icon_step1.png"
+                    /></span>
+                    <span id="figure_step2" class="figure_step"
+                        ><img src="Images/icon_step2.png"
+                    /></span>
+                    <span id="figure_step3" class="figure_step"
+                        ><img
+                            style="filter: invert(100%)"
+                            src="Images/icon_step3.png"
+                    /></span>
                 </div>
                 <p>Paso <span id="sp_step">-</span> de 3</p>
             </section>
@@ -31,18 +44,45 @@
                         <option value="Cedula">Cedula</option>
                         <option value="Tarjeta identidad">T.I.</option>
                     </select>
-                    <input id="input_documento" class="input_txt" type="text" placeholder="Numero de documento">
-                    <input id="input_nombre" class="input_txt" type="text" placeholder="Nombres">
-                    <input id="input_apellido" class="input_txt" type="text" placeholder="Apellidos">
+                    <input
+                        id="input_documento"
+                        class="input_txt"
+                        type="text"
+                        placeholder="Numero de documento"
+                    />
+                    <input
+                        id="input_nombre"
+                        class="input_txt"
+                        type="text"
+                        placeholder="Nombres"
+                    />
+                    <input
+                        id="input_apellido"
+                        class="input_txt"
+                        type="text"
+                        placeholder="Apellidos"
+                    />
                     <select name="sexo" id="slc_sexo">
                         <option disabled selected>Sexo</option>
                         <option value="Hombre">Hombre</option>
                         <option value="Mujer">Mujer</option>
                         <option value="Otro">Otro</option>
                     </select>
-                    <input id="input_fecha" class="input_txt" type="date" placeholder="Fecha">
-                    <input id="input_periodo" class="input_txt" type="text" placeholder="Periodo">
-                    <button id="bt_submit_1" onclick="registrar()">Submit</button>
+                    <input
+                        id="input_fecha"
+                        class="input_txt"
+                        type="date"
+                        placeholder="Fecha"
+                    />
+                    <input
+                        id="input_periodo"
+                        class="input_txt"
+                        type="text"
+                        placeholder="Periodo"
+                    />
+                    <button id="bt_submit_1" onclick="registrar()">
+                        Submit
+                    </button>
                 </div>
             </section>
             <section id="sec_step2">
@@ -50,9 +90,7 @@
                 <section>
                     <div class="cont_req">
                         <h4>Programa a Aspirar</h4>
-                        <p>
-                            Selecciona el programa que quieres inscribir.
-                        </p>
+                        <p>Selecciona el programa que quieres inscribir.</p>
                         <select name="Programa" id="slc_programa">
                             <option disabled selected>Programa</option>
                         </select>
@@ -60,25 +98,29 @@
                     <div class="cont_req">
                         <div>
                             <span id="icon_documento" class="icon">
-                                <img src="Images/usuario.png">
+                                <img src="Images/usuario.png" />
                             </span>
                         </div>
                         <h4>Documento de identidad</h4>
                         <p>Adjunte documento escaneado</p>
                         <div>
-                            <button onclick="cargarArchivo('icon_documento')">Cargar</button>
+                            <button onclick="cargarArchivo('icon_documento')">
+                                Cargar
+                            </button>
                         </div>
                     </div>
                     <div class="cont_req">
                         <div>
                             <span id="icon_notas" class="icon">
-                                <img src="Images/notas.png">
+                                <img src="Images/notas.png" />
                             </span>
                         </div>
                         <h4>Notas</h4>
                         <p>Adjunte certificado de notas del curso anterior</p>
                         <div>
-                            <button onclick="cargarArchivo('icon_notas')">Cargar</button>
+                            <button onclick="cargarArchivo('icon_notas')">
+                                Cargar
+                            </button>
                         </div>
                     </div>
                 </section>
@@ -86,42 +128,53 @@
                     <div class="cont_req">
                         <div>
                             <span id="icon_resultados" class="icon">
-                                <img src="Images/Carpeta.png">
+                                <img src="Images/Carpeta.png" />
                             </span>
                         </div>
                         <h4>Resultado ICFES</h4>
                         <p>Adjunte sus resultados de ICFES.</p>
                         <div>
-                            <button onclick="cargarArchivo('icon_resultados')">Cargar</button>
+                            <button onclick="cargarArchivo('icon_resultados')">
+                                Cargar
+                            </button>
                         </div>
                     </div>
                     <div class="cont_req">
                         <div>
                             <span id="icon_video" class="icon">
-                                <img src="Images/video.png">
+                                <img src="Images/video.png" />
                             </span>
                         </div>
                         <h4>Video</h4>
-                        <p>Adjunte video de medio cuerpo expresando su deseo de ingresar al programa.</p>
+                        <p>
+                            Adjunte video de medio cuerpo expresando su deseo de
+                            ingresar al programa.
+                        </p>
                         <div>
-                            <button onclick="cargarArchivo('icon_video')">Cargar</button>
+                            <button onclick="cargarArchivo('icon_video')">
+                                Cargar
+                            </button>
                         </div>
                     </div>
                     <div class="cont_req">
                         <div>
                             <span id="icon_ensayo" class="icon">
-                                <img src="Images/ensayo.png">
+                                <img src="Images/ensayo.png" />
                             </span>
                         </div>
                         <h4>ENSAYO</h4>
                         <p>Adjunte el ensayo de admision.</p>
                         <div>
-                            <button onclick="cargarArchivo('icon_ensayo')">Cargar</button>
+                            <button onclick="cargarArchivo('icon_ensayo')">
+                                Cargar
+                            </button>
                         </div>
                     </div>
                 </section>
                 <div class="div_center">
-                    <button id="bt_submit_2" onclick="actualizarPrograma()">SIGUIENTE</button>
+                    <button id="bt_submit_2" onclick="actualizarPrograma()">
+                        SIGUIENTE
+                    </button>
                 </div>
             </section>
             <section id="sec_step3">
@@ -130,12 +183,28 @@
                     <section class="sec sec2">
                         <div>
                             <h2 id="etq_programa">Arquitectura</h2>
-                            <p>Tarifa de inscripcion del programa <span id="sp_precio">$--</span></p>
+                            <p>
+                                Tarifa de inscripcion del programa
+                                <span id="sp_precio">$--</span>
+                            </p>
                             <div class="div_center">
-                                <button id="bt_pagar">Pagar</button>
+                                <button
+                                    onclick="actualizarPaso()"
+                                    id="bt_pagar"
+                                >
+                                    Pagar
+                                </button>
                             </div>
                         </div>
                     </section>
+                </div>
+            </section>
+            <section id="sec_step4">
+                <div class="div_center">
+                    <h2>
+                        Ya completaste el proceso de Inscipcion para el programa
+                        <span id="etq_program2"></span>
+                    </h2>
                 </div>
             </section>
         </div>

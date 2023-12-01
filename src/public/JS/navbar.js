@@ -29,13 +29,13 @@ ${logo}
     }" href="Register.html">Registrarse</a>
 </div>
 `
-
+console.log(active)
 const logged = `
 ${logo}
 <div id="menu">
-	<a class="opc_menu" ${
-        active === 'inscripcion' ? 'active' : ''
-    } href="Inscripcion.html">Inscripcion</a>
+	<a class="opc_menu ${
+        active === 'inscripcion' || active === 'Inscripcion' ? 'active' : ''
+    } "href="Inscripcion.html">Inscripcion</a>
 	<a class="opc_menu ${
         active === 'portal' ? 'active' : ''
     }" href="portal.html">Programas</a>

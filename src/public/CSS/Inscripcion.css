@@ -4,6 +4,7 @@
 
 #cuerpo {
     background-color: white;
+    height: 50vh;
 }
 
 .sec_steps {
@@ -178,7 +179,7 @@
     border-color: #aaa;
 }
 
-#slc_programa select:focus{
+#slc_programa select:focus {
     outline: none;
 }
 
@@ -274,4 +275,14 @@
 #sec_step3 {
     /* block */
     display: none;
+}
+
+#sec_step4 {
+    /* block */
+    display: none;
+
+    /* flex */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

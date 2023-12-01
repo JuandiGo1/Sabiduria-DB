@@ -82,7 +82,7 @@ function renderEntry({ nom_pro, descri_pro, slug }, container) {
     descripcion.textContent = descri_pro
     rdm.textContent = 'Registrarme'
 
-    rdm.setAttribute('href', `registro.html#${slug}`)
+    rdm.setAttribute('href', 'Inscripcion.html')
     container.innerHTML = ''
     container.appendChild(titulo)
     container.appendChild(descripcion)
