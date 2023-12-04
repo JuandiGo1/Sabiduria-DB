@@ -152,6 +152,8 @@ export async function aspirantePorPeriodo(req, res) {
 			GROUP BY Asp.periodo, Usu.paso;
 		`)
 
+        console.log(rows)
+
         // agrupar rows por periodo
         // por cada periodo, agrupar por paso
         // por cada paso, contar cuantos hay
