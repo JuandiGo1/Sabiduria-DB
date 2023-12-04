@@ -7,11 +7,6 @@ import AddProgramForm from './routes/ProgramForm'
 import ErrorPage from './routes/error-page'
 import Program from './routes/Program'
 
-// This code renders the main application component, which includes
-// the navigation bar and the main application content. The main
-// content is rendered using React Router, which matches the current
-// URL to a route and renders the corresponding component.
-
 function App() {
     return (
         <>
