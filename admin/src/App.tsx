@@ -16,6 +16,7 @@ function App() {
                 <Route path="/" element={<DashboardSummary />} />
                 <Route path="/register" element={<RegistrationForm />} />
                 <Route path="/programs" element={<Program />} />
+
                 <Route path="/programs/add" element={<AddProgramForm />} />
 
                 <Route path="/programs/edit" element={<AddProgramForm />} />
@@ -23,6 +24,7 @@ function App() {
                 {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
+
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
         </>
