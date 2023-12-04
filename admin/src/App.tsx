@@ -21,6 +21,7 @@ function App() {
                 <Route path="/" element={<DashboardSummary />} />
                 <Route path="/register" element={<RegistrationForm />} />
                 <Route path="/programs" element={<Program />} />
+                <Route path="/programs/add" element={<AddProgramForm />} />
 
                 <Route path="/programs/edit" element={<AddProgramForm />} />
 
