@@ -115,5 +115,6 @@ For more details on the database schema, please refer to the `schema.sql` file.
 -   Edinson Noriega (Frontend Lead)
 
 # Sabiduria-DB
+![Sabiduria](https://github.com/user-attachments/assets/5ee3d7f6-ea71-4b76-82e0-01752dd321e2)
 
 ![Visualization of the codebase](./diagram.svg)
